@@ -30,13 +30,6 @@ export default function Navbar() {
         </Link>
         
         <Link 
-          href="/planner" 
-          className={`flex items-center gap-1.5 hover:text-accent-primary transition-colors hover:scale-105 transform ${pathname === '/planner' ? 'text-accent-primary' : ''}`}
-        >
-          <Bot size={16} /> AI Planner
-        </Link>
-
-        <Link 
           href="/wishlist" 
           className={`flex items-center gap-1.5 hover:text-accent-primary transition-colors hover:scale-105 transform ${pathname === '/wishlist' ? 'text-accent-primary' : ''}`}
         >

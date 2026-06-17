@@ -108,8 +108,8 @@ export default function AITravelArchitect() {
                   <Bot className="text-accent-tertiary" size={20} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-sm tracking-wide">AI Trip Planner</h4>
-                  <p className="text-[10px] text-gray-300">Intelligent India Travel Architect</p>
+                  <h4 className="font-bold text-sm tracking-wide">AI Assistant</h4>
+                  <p className="text-[10px] text-gray-300">Your Intelligent India Travel Assistant</p>
                 </div>
               </div>
               <button 

@@ -9,7 +9,7 @@ import { MapPin, ArrowRight, TrendingUp, Compass, Palette } from 'lucide-react';
 import indiaMapData from '@svg-maps/india';
 import dynamic from 'next/dynamic';
 const AITravelArchitect = dynamic(() => import('./AITravelArchitect'), {
-  loading: () => <div className="animate-pulse bg-zinc-800/50 rounded-2xl h-96 w-full flex items-center justify-center border border-white/5"><div className="text-zinc-500">Loading AI Architect...</div></div>,
+  loading: () => <div className="animate-pulse bg-zinc-800/50 rounded-2xl h-96 w-full flex items-center justify-center border border-white/5"><div className="text-zinc-500">Loading AI Assistant...</div></div>,
   ssr: false
 });
 import HeroCollage from './HeroCollage';
@@ -149,7 +149,7 @@ export default function HomeClient({ hoverStatesData, trendingStates }: HomeClie
               Explore Map
             </button>
             <Link href="/planner" className="px-8 py-3 glass-panel hover:bg-white/50 text-[var(--text-primary)] font-semibold rounded-full shadow-sm transition-all flex items-center gap-2">
-              <Compass size={18} className="text-[var(--accent-primary)]"/> AI Planner
+              <Compass size={18} className="text-[var(--accent-primary)]"/> AI Assistant
             </Link>
           </motion.div>
         </div>
@@ -329,7 +329,7 @@ export default function HomeClient({ hoverStatesData, trendingStates }: HomeClie
             {[
               {
                 title: "AI-Powered Itineraries",
-                desc: "Our advanced AI Architect crafts personalized day-by-day travel plans, estimating costs, best times, and routes based on your preferences.",
+                desc: "Our advanced AI Assistant crafts personalized day-by-day travel plans, estimating costs, best times, and routes based on your preferences.",
                 icon: <Compass size={32} />,
                 color: "orange",
                 gradient: "from-orange-500 to-amber-400",
@@ -527,7 +527,7 @@ export default function HomeClient({ hoverStatesData, trendingStates }: HomeClie
               Don't just travel, experience. Ask our floating AI Travel Architect in the bottom right corner for a custom trip plan, or dive straight into the map to explore 700+ districts across India.
             </p>
             <Link href="/planner" className="inline-flex items-center gap-3 px-8 py-4 bg-gray-900 hover:bg-black text-white font-bold rounded-full shadow-xl transition-all transform hover:-translate-y-1">
-              Talk to AI Planner <ArrowRight size={20} />
+              Talk to AI Assistant <ArrowRight size={20} />
             </Link>
           </div>
           <div className="flex-1 relative w-full h-[350px] md:h-[450px] rounded-3xl overflow-hidden glass-panel border-4 border-white shadow-2xl group">

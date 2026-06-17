@@ -224,7 +224,7 @@ export default function PlaceModal({ place, onClose }: { place: any, onClose: ()
                     <h3 className="text-xl font-bold text-accent-primary mb-4">Gallery</h3>
                     <div className="grid grid-cols-2 gap-4">
                       {place.images.map((img: string, idx: number) => (
-                        <div key={idx} className="rounded-xl overflow-hidden h-40">
+                        <div key={idx} className="relative rounded-xl overflow-hidden h-40">
                           <Image src={img} alt={`${place.name} ${idx}`} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover hover:scale-110 transition-transform duration-500" />
                         </div>
                       ))}
