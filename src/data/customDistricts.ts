@@ -7230,4 +7230,1207 @@ export const customDistricts: Record<string, PlaceData[]> = {
         "zone": "Krishna Region"
     }
 ]
+,
+  kurnool: [
+    {
+        "id": "kurnool_1",
+        "name": "Belum Caves",
+        "type": "Limestone Cave System",
+        "whyFamous": "India's Second Longest Natural Cave System",
+        "story": "Belum Caves were formed thousands of years ago by the continuous flow of underground water through limestone rock. The caves remained hidden for centuries beneath the plains of Rayalaseema. Archaeological discoveries suggest that Buddhist and Jain monks once used these caves as meditation centers. Relics dating back thousands of years have been found inside the cave system. (belumcaves.com) In 1884, British geologist Robert Bruce Foote brought scientific attention to the caves. Later, German speleologist H. Daniel Gebauer explored and mapped the cave network during the 1980s. The Andhra Pradesh Government declared the caves protected and developed them into a tourist attraction with lighting, pathways, and ventilation systems. (Wikipedia) Today, Belum Caves stands as one of India's greatest geological treasures.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Entrance Staircase",
+            "Thousand Hoods Formation",
+            "Patalaganga",
+            "Cave Tunnels",
+            "Meditation Hall",
+            "Limestone Patterns"
+        ],
+        "travelTips": [
+            "Wear comfortable shoes.",
+            "Carry drinking water.",
+            "Walk carefully on slippery sections.",
+            "Keep a flashlight backup.",
+            "Follow designated pathways.",
+            "Visit during winter for the best experience."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_1_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_1_img_1.jpeg",
+            "/images/places/kurnool/kurnool_1_img_2.jpeg",
+            "/images/places/kurnool/kurnool_1_img_3.jpeg",
+            "/images/places/kurnool/kurnool_1_img_4.jpeg",
+            "/images/places/kurnool/kurnool_1_img_5.jpeg",
+            "/images/places/kurnool/kurnool_1_img_6.jpeg",
+            "/images/places/kurnool/kurnool_1_img_7.jpeg",
+            "/images/places/kurnool/kurnool_1_img_8.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_2",
+        "name": "Yaganti Temple (Sri Yaganti Uma Maheswara Swamy Temple)",
+        "type": "Hindu Temple",
+        "whyFamous": "Growing Nandi (Basavayya)",
+        "story": "According to local tradition, Sage Agastya wanted to establish a temple dedicated to Lord Venkateswara at Yaganti. However, while installing the idol, he noticed that one of its toes was damaged. Since a damaged idol could not be consecrated, Sage Agastya performed penance to Lord Shiva. Lord Shiva and Goddess Parvati then appeared and blessed the site. A temple dedicated to Uma Maheswara Swamy was later established here. The temple gained prominence during the rule of the Vijayanagara Empire, especially under kings like Harihara Bukka Raya. Over the centuries, Yaganti became one of the most important Shiva pilgrimage centers in the Rayalaseema region. The temple is also associated with the famous saint and prophet Sri Potuluri Veerabrahmendra Swamy, who is believed to have spent time meditating in the nearby caves.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Growing Nandi",
+            "Temple Architecture",
+            "Pushkarini",
+            "Cave Entrances",
+            "Hill Landscapes",
+            "Sunrise Over Rocks"
+        ],
+        "travelTips": [
+            "Visit early morning to avoid crowds.",
+            "Carry water while exploring caves.",
+            "Wear comfortable footwear.",
+            "Respect temple dress code.",
+            "Avoid visiting during peak summer afternoons.",
+            "Spend time exploring surrounding hills."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_2_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_2_img_1.jpeg",
+            "/images/places/kurnool/kurnool_2_img_2.jpeg",
+            "/images/places/kurnool/kurnool_2_img_3.jpeg",
+            "/images/places/kurnool/kurnool_2_img_4.jpeg",
+            "/images/places/kurnool/kurnool_2_img_5.jpeg",
+            "/images/places/kurnool/kurnool_2_img_6.jpeg",
+            "/images/places/kurnool/kurnool_2_img_7.jpeg",
+            "/images/places/kurnool/kurnool_2_img_8.jpeg",
+            "/images/places/kurnool/kurnool_2_img_9.jpeg",
+            "/images/places/kurnool/kurnool_2_img_10.jpeg",
+            "/images/places/kurnool/kurnool_2_img_11.jpeg",
+            "/images/places/kurnool/kurnool_2_img_12.jpeg",
+            "/images/places/kurnool/kurnool_2_img_13.jpeg",
+            "/images/places/kurnool/kurnool_2_img_14.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_3",
+        "name": "Ahobilam (Nava Narasimha Temples)",
+        "type": "Hindu Pilgrimage Site",
+        "whyFamous": "Nava Narasimha Temples",
+        "story": "According to Hindu mythology, the demon king Hiranyakashipu received a powerful boon that made him nearly impossible to kill. His son Prahlada, however, remained a devoted follower of Lord Vishnu. Enraged by Prahlada's devotion, Hiranyakashipu repeatedly tried to punish him. Finally, when Hiranyakashipu challenged Prahlada and struck a pillar, Lord Vishnu emerged from it in the fierce form of Narasimha \u2014 half man and half lion. Narasimha defeated Hiranyakashipu at twilight on a palace threshold, fulfilling every condition of the boon. Tradition holds that Ahobilam is the sacred place where this divine event occurred. Over centuries, temples dedicated to different forms of Narasimha were built across the surrounding hills and forests, creating the famous Nava Narasimha pilgrimage circuit. Today Ahobilam remains one of the most important Vaishnavite pilgrimage centers in South India.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Upper Ahobilam Hills",
+            "Ugra Stambham Trek",
+            "Ancient Temple Architecture",
+            "Forest Trails",
+            "Waterfalls",
+            "Sunrise Over Nallamala Hills"
+        ],
+        "travelTips": [
+            "Wear trekking shoes.",
+            "Carry drinking water.",
+            "Start hill treks early in the morning.",
+            "Hire local guides for remote temples.",
+            "Avoid monsoon trekking on slippery trails.",
+            "Allocate at least one full day for all temples."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_3_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_3_img_1.jpeg",
+            "/images/places/kurnool/kurnool_3_img_2.jpeg",
+            "/images/places/kurnool/kurnool_3_img_3.jpeg",
+            "/images/places/kurnool/kurnool_3_img_4.jpeg",
+            "/images/places/kurnool/kurnool_3_img_5.jpeg",
+            "/images/places/kurnool/kurnool_3_img_6.jpeg",
+            "/images/places/kurnool/kurnool_3_img_7.jpeg",
+            "/images/places/kurnool/kurnool_3_img_8.jpeg",
+            "/images/places/kurnool/kurnool_3_img_9.jpeg",
+            "/images/places/kurnool/kurnool_3_img_10.jpeg",
+            "/images/places/kurnool/kurnool_3_img_11.jpeg",
+            "/images/places/kurnool/kurnool_3_img_12.jpeg",
+            "/images/places/kurnool/kurnool_3_img_13.jpeg",
+            "/images/places/kurnool/kurnool_3_img_14.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_4",
+        "name": "Orvakal Rock Garden",
+        "type": "Geological Park & Natural Attraction",
+        "whyFamous": "Ancient Rock Formations",
+        "story": "Millions of years before human civilization appeared, powerful geological forces shaped the rocky landscapes of present-day Orvakal. Wind, rain, heat, and erosion slowly sculpted giant rock formations into unusual shapes visible today. These ancient rocks are believed to be among the oldest exposed geological formations in Andhra Pradesh. For centuries, local communities considered the area a natural wonder. Recognizing its geological significance and tourism potential, the Andhra Pradesh Tourism Department developed the area into a geological park. Today, visitors from across India come to witness these extraordinary rock formations that showcase Earth's ancient history.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Ancient Rock Formations",
+            "Sunset Landscapes",
+            "Orvakal Lake",
+            "Geological Patterns",
+            "Panoramic Views",
+            "Golden Hour Shadows"
+        ],
+        "travelTips": [
+            "Visit during sunrise or sunset.",
+            "Carry water and a hat.",
+            "Wear comfortable walking shoes.",
+            "Avoid peak summer afternoons.",
+            "Bring a wide-angle camera lens.",
+            "Spend time exploring hidden viewpoints."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_4_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_4_img_1.jpeg",
+            "/images/places/kurnool/kurnool_4_img_2.jpeg",
+            "/images/places/kurnool/kurnool_4_img_3.jpeg",
+            "/images/places/kurnool/kurnool_4_img_4.jpeg",
+            "/images/places/kurnool/kurnool_4_img_5.jpeg",
+            "/images/places/kurnool/kurnool_4_img_6.jpeg",
+            "/images/places/kurnool/kurnool_4_img_7.jpeg",
+            "/images/places/kurnool/kurnool_4_img_8.jpeg",
+            "/images/places/kurnool/kurnool_4_img_9.jpeg",
+            "/images/places/kurnool/kurnool_4_img_10.jpeg",
+            "/images/places/kurnool/kurnool_4_img_11.jpeg",
+            "/images/places/kurnool/kurnool_4_img_12.jpeg",
+            "/images/places/kurnool/kurnool_4_img_13.jpeg",
+            "/images/places/kurnool/kurnool_4_img_14.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_5",
+        "name": "Rollapadu Wildlife Sanctuary",
+        "type": "Wildlife Sanctuary",
+        "whyFamous": "Blackbucks and Grassland Birds",
+        "story": "For centuries, the vast grasslands of Rollapadu supported numerous species of birds and animals. As agriculture expanded across many regions, natural grasslands began disappearing rapidly. Conservationists realized that many species dependent on these habitats were facing serious threats. To protect the remaining grassland ecosystem and its wildlife, Rollapadu Wildlife Sanctuary was established in 1988. The sanctuary became particularly important because it provided habitat for the critically endangered Great Indian Bustard, one of the rarest birds in the world. Today, Rollapadu continues to play a vital role in wildlife conservation and ecological research in Andhra Pradesh.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Blackbuck Herds",
+            "Grassland Landscapes",
+            "Migratory Birds",
+            "Sunrise Over Plains",
+            "Watch Tower Views",
+            "Wildlife in Natural Habitat"
+        ],
+        "travelTips": [
+            "Carry binoculars.",
+            "Bring a zoom camera lens.",
+            "Visit during winter.",
+            "Wear earth-toned clothing.",
+            "Maintain silence while observing wildlife.",
+            "Start early for the best sightings."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "November\u2013February",
+        "image": "/images/places/kurnool/kurnool_5_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_5_img_1.jpeg",
+            "/images/places/kurnool/kurnool_5_img_2.jpeg",
+            "/images/places/kurnool/kurnool_5_img_3.jpeg",
+            "/images/places/kurnool/kurnool_5_img_4.jpeg",
+            "/images/places/kurnool/kurnool_5_img_5.jpeg",
+            "/images/places/kurnool/kurnool_5_img_6.jpeg",
+            "/images/places/kurnool/kurnool_5_img_7.jpeg",
+            "/images/places/kurnool/kurnool_5_img_8.jpeg",
+            "/images/places/kurnool/kurnool_5_img_9.jpeg",
+            "/images/places/kurnool/kurnool_5_img_10.jpeg",
+            "/images/places/kurnool/kurnool_5_img_11.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_6",
+        "name": "Mantralayam (Sri Raghavendra Swamy Mutt)",
+        "type": "Hindu Pilgrimage Center",
+        "whyFamous": "Brindavan of Sri Raghavendra Swamy",
+        "story": "Sri Raghavendra Swamy, one of the greatest saints and philosophers of the Madhwa tradition, lived during the 17th century. He became famous for his wisdom, teachings, miracles, and devotion to Lord Vishnu. In 1671 CE, Sri Raghavendra Swamy entered Jeeva Samadhi (Brindavan) at Mantralayam while still alive in deep meditation. According to tradition, he promised devotees that he would continue to bless and protect them for hundreds of years from his Brindavan. Since then, Mantralayam has become one of India's most revered pilgrimage destinations. Over centuries, kings, scholars, saints, and ordinary devotees have visited this sacred town seeking blessings and spiritual guidance. Today, the Sri Raghavendra Swamy Mutt remains the heart of Mantralayam's religious and cultural life.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Temple Entrance",
+            "Brindavan Area",
+            "Tungabhadra River",
+            "Temple Architecture",
+            "Evening Lighting",
+            "Religious Festivals"
+        ],
+        "travelTips": [
+            "Attend morning darshan.",
+            "Visit Panchamukhi Temple as well.",
+            "Dress modestly.",
+            "Carry water during summer.",
+            "Book accommodation in advance during festivals.",
+            "Experience evening aarti for the best spiritual atmosphere."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_6_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_6_img_1.jpeg",
+            "/images/places/kurnool/kurnool_6_img_2.jpeg",
+            "/images/places/kurnool/kurnool_6_img_3.jpeg",
+            "/images/places/kurnool/kurnool_6_img_4.jpeg",
+            "/images/places/kurnool/kurnool_6_img_5.jpeg",
+            "/images/places/kurnool/kurnool_6_img_6.jpeg",
+            "/images/places/kurnool/kurnool_6_img_7.jpeg",
+            "/images/places/kurnool/kurnool_6_img_8.jpeg",
+            "/images/places/kurnool/kurnool_6_img_9.jpeg",
+            "/images/places/kurnool/kurnool_6_img_10.jpeg",
+            "/images/places/kurnool/kurnool_6_img_11.jpeg",
+            "/images/places/kurnool/kurnool_6_img_12.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_7",
+        "name": "Konda Reddy Fort",
+        "type": "Historical Fort",
+        "whyFamous": "Konda Reddy Buruj (Watch Tower)",
+        "story": "The fort was originally constructed during the rule of the Vijayanagara Empire as a defensive structure. Due to Kurnool's strategic location, the region became an important center for administration and military operations. Over time, several rulers controlled the fort, including local chiefs and regional dynasties. The fort gained its present name from Konda Reddy, a local ruler who was reportedly imprisoned within the fort by rival forces. According to local legends, Konda Reddy escaped through a secret underground tunnel connected to the fort. Though much of the original fort no longer survives, the famous watchtower known as Konda Reddy Buruj remains one of Kurnool's most recognized historical structures. Today, the monument stands as a proud symbol of the city's past and attracts history enthusiasts from across the region.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Konda Reddy Buruj",
+            "Fort Entrance",
+            "Stone Architecture",
+            "Sunset Views",
+            "Illuminated Tower",
+            "Heritage Streets Nearby"
+        ],
+        "travelTips": [
+            "Visit during morning or evening hours.",
+            "Combine your visit with other Kurnool city attractions.",
+            "Carry a camera for architectural photography.",
+            "Learn about local history before visiting.",
+            "Avoid visiting during peak afternoon heat.",
+            "Explore nearby markets after your visit."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_7_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_7_img_1.jpeg",
+            "/images/places/kurnool/kurnool_7_img_2.jpeg",
+            "/images/places/kurnool/kurnool_7_img_3.jpeg",
+            "/images/places/kurnool/kurnool_7_img_4.jpeg",
+            "/images/places/kurnool/kurnool_7_img_5.jpeg",
+            "/images/places/kurnool/kurnool_7_img_6.jpeg",
+            "/images/places/kurnool/kurnool_7_img_7.jpeg",
+            "/images/places/kurnool/kurnool_7_img_8.jpeg",
+            "/images/places/kurnool/kurnool_7_img_9.jpeg",
+            "/images/places/kurnool/kurnool_7_img_10.jpeg",
+            "/images/places/kurnool/kurnool_7_img_11.jpeg",
+            "/images/places/kurnool/kurnool_7_img_12.jpeg",
+            "/images/places/kurnool/kurnool_7_img_13.jpeg",
+            "/images/places/kurnool/kurnool_7_img_14.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_8",
+        "name": "Mahanandi",
+        "type": "Hindu Temple",
+        "whyFamous": "Crystal-Clear Temple Tank",
+        "story": "The history of Mahanandi dates back more than 1,500 years. According to local legends, a cow regularly poured milk over a particular spot in the forest. Curious villagers investigated and discovered a self-manifested Shiva Lingam beneath the ground. A temple was later constructed at the site and gradually became an important center of Shaivite worship. Over centuries, rulers including the Chalukyas and Vijayanagara kings expanded and beautified the temple complex. The temple became famous for its sacred Pushkarini (temple tank), which is fed by natural underground springs. Today, Mahanandi remains one of the most revered Shiva temples in Andhra Pradesh and an important part of the Nava Nandi pilgrimage circuit.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Temple Tank",
+            "Temple Architecture",
+            "Sacred Water Reflections",
+            "Nallamala Hills",
+            "Festival Celebrations",
+            "Sunrise Around Temple Complex"
+        ],
+        "travelTips": [
+            "Visit early morning for peaceful darshan.",
+            "Carry extra clothes if planning to enter the sacred tank.",
+            "Explore nearby Nava Nandi temples.",
+            "Avoid weekends if you prefer smaller crowds.",
+            "Respect temple traditions.",
+            "Visit during Shivaratri for a grand experience."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_8_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_8_img_1.jpeg",
+            "/images/places/kurnool/kurnool_8_img_2.jpeg",
+            "/images/places/kurnool/kurnool_8_img_3.jpeg",
+            "/images/places/kurnool/kurnool_8_img_4.jpeg",
+            "/images/places/kurnool/kurnool_8_img_5.jpeg",
+            "/images/places/kurnool/kurnool_8_img_6.jpeg",
+            "/images/places/kurnool/kurnool_8_img_7.jpeg",
+            "/images/places/kurnool/kurnool_8_img_8.jpeg",
+            "/images/places/kurnool/kurnool_8_img_9.jpeg",
+            "/images/places/kurnool/kurnool_8_img_10.jpeg",
+            "/images/places/kurnool/kurnool_8_img_11.jpeg",
+            "/images/places/kurnool/kurnool_8_img_12.jpeg",
+            "/images/places/kurnool/kurnool_8_img_13.jpeg",
+            "/images/places/kurnool/kurnool_8_img_14.jpeg",
+            "/images/places/kurnool/kurnool_8_img_15.jpeg",
+            "/images/places/kurnool/kurnool_8_img_16.jpeg",
+            "/images/places/kurnool/kurnool_8_img_17.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_9",
+        "name": "Srisailam",
+        "type": "Pilgrimage Town",
+        "whyFamous": "Jyotirlinga & Shakti Peetha",
+        "story": "Srisailam has been a sacred center of worship for thousands of years. According to Hindu mythology, Lord Shiva and Goddess Parvati chose Srisailam as one of their divine abodes. The temple is associated with many legends involving Lord Shiva, Kartikeya, and Goddess Parvati. Ancient scriptures including the Skanda Purana mention Srisailam as one of the holiest places in India. The temple received patronage from several dynasties including the Satavahanas, Chalukyas, Kakatiyas, Vijayanagara rulers, and Reddy kings. Over centuries, Srisailam developed into one of India's most important pilgrimage centers. Today it remains one of the few places where both a Jyotirlinga and a Shakti Peetha are located together.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Mallikarjuna Temple",
+            "Pathala Ganga",
+            "Ropeway Views",
+            "Srisailam Dam",
+            "Nallamala Hills",
+            "Sunset Over Krishna River",
+            "Temple Festivals"
+        ],
+        "travelTips": [
+            "Allocate at least one full day.",
+            "Visit Pathala Ganga early morning.",
+            "Try the ropeway ride.",
+            "Carry comfortable walking shoes.",
+            "Book accommodation in advance during festivals.",
+            "Explore nearby viewpoints and forests."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_9_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_9_img_1.jpeg",
+            "/images/places/kurnool/kurnool_9_img_2.jpeg",
+            "/images/places/kurnool/kurnool_9_img_3.jpeg",
+            "/images/places/kurnool/kurnool_9_img_4.jpeg",
+            "/images/places/kurnool/kurnool_9_img_5.jpeg",
+            "/images/places/kurnool/kurnool_9_img_6.jpeg",
+            "/images/places/kurnool/kurnool_9_img_7.jpeg",
+            "/images/places/kurnool/kurnool_9_img_8.jpeg",
+            "/images/places/kurnool/kurnool_9_img_9.jpeg",
+            "/images/places/kurnool/kurnool_9_img_10.jpeg",
+            "/images/places/kurnool/kurnool_9_img_11.jpeg",
+            "/images/places/kurnool/kurnool_9_img_12.jpeg",
+            "/images/places/kurnool/kurnool_9_img_13.jpeg",
+            "/images/places/kurnool/kurnool_9_img_14.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_10",
+        "name": "Sakshi Ganapathi Temple",
+        "type": "Hindu Temple",
+        "whyFamous": "Divine Witness of Srisailam Pilgrimage",
+        "story": "According to local belief, Lord Ganesha sits at this location recording the names of devotees who visit Srisailam to worship Lord Mallikarjuna. The word \"Sakshi\" means witness. Devotees believe that Lord Ganapathi acts as a divine witness and confirms their pilgrimage before Lord Shiva. The temple has been an important spiritual stop for centuries and forms an integral part of the traditional Srisailam pilgrimage route. Pilgrims often offer prayers here seeking blessings for a successful and meaningful journey. Because of its close connection with the Mallikarjuna Temple, the shrine holds great religious significance despite its relatively small size.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Sakshi Ganapathi Idol",
+            "Temple Entrance",
+            "Nallamala Hills",
+            "Pilgrim Activities",
+            "Sunrise Landscapes",
+            "Roadside Valley Views"
+        ],
+        "travelTips": [
+            "Visit while traveling to or from Srisailam.",
+            "Spend at least 30\u201345 minutes exploring the temple.",
+            "Visit during morning hours for fewer crowds.",
+            "Carry water during summer.",
+            "Combine the visit with nearby Srisailam attractions.",
+            "Respect temple customs and traditions."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_10_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_10_img_1.jpeg",
+            "/images/places/kurnool/kurnool_10_img_2.jpeg",
+            "/images/places/kurnool/kurnool_10_img_3.jpeg",
+            "/images/places/kurnool/kurnool_10_img_4.jpeg",
+            "/images/places/kurnool/kurnool_10_img_5.jpeg",
+            "/images/places/kurnool/kurnool_10_img_6.jpeg",
+            "/images/places/kurnool/kurnool_10_img_7.jpeg",
+            "/images/places/kurnool/kurnool_10_img_8.jpeg",
+            "/images/places/kurnool/kurnool_10_img_9.jpeg",
+            "/images/places/kurnool/kurnool_10_img_10.jpeg",
+            "/images/places/kurnool/kurnool_10_img_11.jpeg",
+            "/images/places/kurnool/kurnool_10_img_12.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_11",
+        "name": "Alampur Jogulamba Temple",
+        "type": "Hindu Temple Complex",
+        "whyFamous": "Shakti Peetha & Navabrahma Temples",
+        "story": "Alampur has been a sacred center for more than 1,300 years. The region flourished during the rule of the Badami Chalukyas, who constructed the famous Navabrahma temples dedicated to Lord Shiva. According to Hindu tradition, Jogulamba is one of the eighteen Maha Shakti Peethas. It is believed that the upper teeth of Goddess Sati fell at this location, making it a highly revered Shakti shrine. The original temple faced destruction during medieval invasions, and the idol was protected by devotees for centuries. A new Jogulamba Temple was later constructed, restoring the site as a major pilgrimage destination. Today, Alampur stands as a rare place where ancient architecture, mythology, and spirituality coexist.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Jogulamba Temple",
+            "Navabrahma Temples",
+            "Ancient Stone Carvings",
+            "Temple Pillars",
+            "Sangam Area",
+            "Sunrise Around Temple Complex"
+        ],
+        "travelTips": [
+            "Visit both Jogulamba Temple and Navabrahma Temples.",
+            "Carry a camera for architectural photography.",
+            "Spend time in the museum.",
+            "Visit during winter for pleasant weather.",
+            "Respect temple dress codes.",
+            "Combine with nearby historical attractions."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_11_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_11_img_1.jpeg",
+            "/images/places/kurnool/kurnool_11_img_2.jpeg",
+            "/images/places/kurnool/kurnool_11_img_3.jpeg",
+            "/images/places/kurnool/kurnool_11_img_4.jpeg",
+            "/images/places/kurnool/kurnool_11_img_5.jpeg",
+            "/images/places/kurnool/kurnool_11_img_6.jpeg",
+            "/images/places/kurnool/kurnool_11_img_7.jpeg",
+            "/images/places/kurnool/kurnool_11_img_8.jpeg",
+            "/images/places/kurnool/kurnool_11_img_9.jpeg",
+            "/images/places/kurnool/kurnool_11_img_10.jpeg",
+            "/images/places/kurnool/kurnool_11_img_11.jpeg",
+            "/images/places/kurnool/kurnool_11_img_12.jpeg",
+            "/images/places/kurnool/kurnool_11_img_13.jpeg",
+            "/images/places/kurnool/kurnool_11_img_14.jpeg",
+            "/images/places/kurnool/kurnool_11_img_15.jpeg",
+            "/images/places/kurnool/kurnool_11_img_16.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_12",
+        "name": "Jagannatha Gattu",
+        "type": "Hilltop Temple Complex",
+        "whyFamous": "Hilltop Temple & Panoramic Views",
+        "story": "Jagannatha Gattu has long been regarded as a sacred hill in Kurnool. To promote devotion to Lord Jagannatha, a temple was established on the hilltop. Over time, the temple became an important religious center for local communities. Its elevated location made it not only a place of worship but also a natural viewpoint overlooking the city and surrounding landscapes. As Kurnool developed into a major urban center, Jagannatha Gattu remained a symbol of spirituality and peace above the busy city below. Today, it is visited by thousands of devotees and tourists throughout the year.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Jagannatha Temple",
+            "Kurnool City Skyline",
+            "Sunset Views",
+            "Sunrise Landscapes",
+            "Temple Architecture",
+            "Hilltop Panorama"
+        ],
+        "travelTips": [
+            "Visit during sunrise or sunset.",
+            "Carry a camera for panoramic shots.",
+            "Wear comfortable footwear.",
+            "Visit during pleasant winter months.",
+            "Explore nearby city attractions afterward.",
+            "Spend time enjoying the hilltop scenery."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_12_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_12_img_1.jpeg",
+            "/images/places/kurnool/kurnool_12_img_2.jpeg",
+            "/images/places/kurnool/kurnool_12_img_3.jpeg",
+            "/images/places/kurnool/kurnool_12_img_4.jpeg",
+            "/images/places/kurnool/kurnool_12_img_5.jpeg",
+            "/images/places/kurnool/kurnool_12_img_6.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_13",
+        "name": "Abdul Wahab Tomb",
+        "type": "Historical Tomb & Dargah",
+        "whyFamous": "Religious Importance & Historic Architecture",
+        "story": "Hazrat Abdul Wahab was a respected Sufi saint whose teachings emphasized spirituality, compassion, and service to humanity. During his lifetime, he gained a large following due to his wisdom and devotion. After his death, a tomb was constructed in his memory, which gradually evolved into an important religious and cultural landmark. Over the centuries, devotees from different communities have visited the shrine seeking blessings and spiritual guidance. The monument also reflects the historical influence of Islamic culture in the Rayalaseema region. Today, Abdul Wahab Tomb remains one of Kurnool's most significant heritage sites and an important symbol of communal harmony.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Main Dome",
+            "Tomb Architecture",
+            "Courtyard",
+            "Archways",
+            "Religious Gatherings",
+            "Evening Lighting"
+        ],
+        "travelTips": [
+            "Dress modestly.",
+            "Respect religious customs.",
+            "Remove footwear where required.",
+            "Visit during morning or evening hours.",
+            "Seek permission before photographing worshippers.",
+            "Combine with other Kurnool heritage attractions."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_13_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_13_img_1.jpeg",
+            "/images/places/kurnool/kurnool_13_img_2.jpeg",
+            "/images/places/kurnool/kurnool_13_img_3.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_14",
+        "name": "Nallamala Forest",
+        "type": "Forest & Mountain Range",
+        "whyFamous": "Dense Forests, Wildlife, Tiger Reserve",
+        "story": "The Nallamala Hills and forests have existed for millions of years as part of the ancient Eastern Ghats. For centuries, these forests served as natural habitats for wildlife and provided shelter to tribal communities. Ancient sages, pilgrims, and travelers passed through these forests while visiting sacred sites like Srisailam. Because of its ecological importance, large portions of the forest were later protected under wildlife conservation programs. The establishment of the Nagarjunasagar\u2013Srisailam Tiger Reserve helped safeguard endangered species and preserve the region's biodiversity. Today, Nallamala remains one of India's most significant forest ecosystems and a vital conservation landscape.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Forest Landscapes",
+            "Tiger Reserve Areas",
+            "Sunrise Through Trees",
+            "Wildlife",
+            "Valleys and Hills",
+            "Scenic Forest Roads"
+        ],
+        "travelTips": [
+            "Carry binoculars.",
+            "Wear earth-toned clothing.",
+            "Follow forest regulations.",
+            "Avoid making loud noises.",
+            "Travel with a guide in remote areas.",
+            "Start wildlife observation early in the morning."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_14_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_14_img_1.jpeg",
+            "/images/places/kurnool/kurnool_14_img_2.jpeg",
+            "/images/places/kurnool/kurnool_14_img_3.jpeg",
+            "/images/places/kurnool/kurnool_14_img_4.jpeg",
+            "/images/places/kurnool/kurnool_14_img_5.jpeg",
+            "/images/places/kurnool/kurnool_14_img_6.jpeg",
+            "/images/places/kurnool/kurnool_14_img_7.jpeg",
+            "/images/places/kurnool/kurnool_14_img_8.jpeg",
+            "/images/places/kurnool/kurnool_14_img_9.jpeg",
+            "/images/places/kurnool/kurnool_14_img_10.jpeg",
+            "/images/places/kurnool/kurnool_14_img_11.jpeg",
+            "/images/places/kurnool/kurnool_14_img_12.jpeg",
+            "/images/places/kurnool/kurnool_14_img_13.jpeg",
+            "/images/places/kurnool/kurnool_14_img_14.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "kurnool_15",
+        "name": "Yaganti Caves",
+        "type": "Natural & Religious Caves",
+        "whyFamous": "Sage Agastya and Veerabrahmendra Swamy Connections",
+        "story": "The caves of Yaganti have been revered for centuries as places of meditation and spiritual practice. According to local tradition, Sage Agastya, one of the most respected sages in Hindu mythology, performed penance in these caves. The caves later became associated with Sri Potuluri Veerabrahmendra Swamy, the famous saint and prophet of Andhra Pradesh. It is believed that Veerabrahmendra Swamy spent considerable time meditating here and composed portions of his prophetic teachings. Because of these spiritual associations, the caves became an important part of the Yaganti pilgrimage circuit. Today, visitors climb the rocky pathways to explore these ancient meditation sites while enjoying panoramic views of the surrounding hills.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Agastya Cave",
+            "Veerabrahmam Cave",
+            "Rock Formations",
+            "Sunrise Over Hills",
+            "Temple Valley Views",
+            "Stone Stairways"
+        ],
+        "travelTips": [
+            "Wear comfortable trekking shoes.",
+            "Carry drinking water.",
+            "Visit early morning for cooler temperatures.",
+            "Combine your trip with Yaganti Temple.",
+            "Be careful on rocky pathways.",
+            "Carry a camera for panoramic views."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October\u2013March",
+        "image": "/images/places/kurnool/kurnool_15_img_1.jpeg",
+        "images": [
+            "/images/places/kurnool/kurnool_15_img_1.jpeg",
+            "/images/places/kurnool/kurnool_15_img_2.jpeg",
+            "/images/places/kurnool/kurnool_15_img_3.jpeg",
+            "/images/places/kurnool/kurnool_15_img_4.jpeg",
+            "/images/places/kurnool/kurnool_15_img_5.jpeg",
+            "/images/places/kurnool/kurnool_15_img_6.jpeg",
+            "/images/places/kurnool/kurnool_15_img_7.jpeg",
+            "/images/places/kurnool/kurnool_15_img_8.jpeg",
+            "/images/places/kurnool/kurnool_15_img_9.jpeg",
+            "/images/places/kurnool/kurnool_15_img_10.jpeg",
+            "/images/places/kurnool/kurnool_15_img_11.jpeg"
+        ],
+        "zone": "Rayalaseema Region"
+    }
+]
+,
+    nandyal: [
+    {
+        "id": "nandyal_1",
+        "name": "Mahanandi Temple",
+        "type": "Landmark",
+        "whyFamous": "Mahanandi is one of the most sacred Shiva temples in South India.    It is famous because:      Crystal-clear perennial water springs flow throughout the year.      One of the famous Nava Nandi temples.      Located amidst the beautiful Nallamala Hills.      Ancient Swayambhu Shiva Lingam.      Sacred temple tanks where devotees can take holy baths.      More than 1,500 years of history. ([Nandyal District][1])",
+        "story": "According to local legends, a cow used to visit this place daily and pour its milk over a hidden  Shiva Lingam.    When villagers discovered the site, they found a self-manifested (Swayambhu) Shiva Lingam  beneath the ground.    The temple was later developed by the Badami Chalukyas during the 7th century and  expanded by later dynasties including the Vijayanagara rulers.    For centuries, pilgrims have visited Mahanandi seeking blessings, peace, and purification  through its sacred waters.    One of the most unique features of the temple is the natural spring water that continuously  flows into the temple tanks regardless of season. The water remains remarkably clean and  cool throughout the year. ([Nandyal District][1])",
+        "interestingFact": "",
+        "photographyTips": [
+            "Temple Gopuram",
+            "Sacred Water Tanks",
+            "Nallamala Hills",
+            "Temple Corridors",
+            "Sunrise Views",
+            "Evening Temple Lights"
+        ],
+        "travelTips": [
+            "Visit early morning.",
+            "Carry extra clothes if planning a holy bath.",
+            "Maintain temple decorum.",
+            "Avoid weekends if you prefer smaller crowds.",
+            "Wear comfortable footwear.",
+            "Keep drinking water with you."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 March",
+        "image": "/images/places/nandyal/mahanandi_temple_1.jpg",
+        "images": [
+            "/images/places/nandyal/mahanandi_temple_1.jpg",
+            "/images/places/nandyal/mahanandi_temple_3.jpg",
+            "/images/places/nandyal/mahanandi_temple_4.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_2",
+        "name": "Yaganti Uma Maheswara Swamy Temple",
+        "type": "Landmark",
+        "whyFamous": "Yaganti is one of the most unique Shiva temples in India.    It is famous because:      The giant Nandi statue is believed to be continuously growing.      The temple is surrounded by dramatic rocky hills.      Dedicated to Lord Shiva and Goddess Parvati.      Ancient caves associated with sages and saints.      Sacred Pushkarini with fresh natural water throughout the year.      One of Andhra Pradesh's most visited pilgrimage destinations.",
+        "story": "According to legend, Sage Agastya wanted to install an idol of Lord Venkateswara at Yaganti.  However, while carving the idol, one of its toenails broke, making it unsuitable for worship  according to temple traditions.    Disappointed, Agastya performed penance to Lord Shiva. Shiva appeared before him and  instructed him to establish a shrine dedicated to Uma Maheswara instead.    The temple later received royal patronage from the Vijayanagara rulers, especially during the  reign of King Harihara Bukka Raya, who expanded the complex and contributed to its  architecture.    Over centuries, Yaganti became a major pilgrimage center, attracting devotees, historians,  and travelers fascinated by its legends and natural beauty.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Growing Nandi",
+            "Temple Gopuram",
+            "Rocky Hills",
+            "Pushkarini",
+            "Cave Entrances",
+            "Sunrise Landscapes"
+        ],
+        "travelTips": [
+            "Wear comfortable footwear.",
+            "Carry water while climbing caves.",
+            "Visit caves during daylight hours.",
+            "Early morning offers the best photography.",
+            "Avoid peak festival crowds if seeking a peaceful visit.",
+            "Respect temple dress code."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 March",
+        "image": "/images/places/nandyal/yaganti_uma_maheswara_swamy_temple_1.jpg",
+        "images": [
+            "/images/places/nandyal/yaganti_uma_maheswara_swamy_temple_1.jpg",
+            "/images/places/nandyal/yaganti_uma_maheswara_swamy_temple_2.jpg",
+            "/images/places/nandyal/yaganti_uma_maheswara_swamy_temple_3.jpg",
+            "/images/places/nandyal/yaganti_uma_maheswara_swamy_temple_4.jpg",
+            "/images/places/nandyal/yaganti_uma_maheswara_swamy_temple_5.jpg",
+            "/images/places/nandyal/yaganti_uma_maheswara_swamy_temple_6.jpg",
+            "/images/places/nandyal/yaganti_uma_maheswara_swamy_temple_7.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_3",
+        "name": "Ahobilam (Nava Narasimha Temples)",
+        "type": "Landmark",
+        "whyFamous": "Ahobilam is one of the holiest Narasimha pilgrimage centers in India.    It is famous because:      It is believed to be the exact place where Lord Narasimha appeared.      Home to the sacred Nava Narasimha Temples.      Located deep inside the scenic Nallamala Hills.      Features beautiful streams, waterfalls, and forests.      Combines pilgrimage with adventure trekking.      Revered by Vaishnavite traditions for centuries.",
+        "story": "According to Hindu mythology, the demon king Hiranyakashipu obtained powerful boons  and declared himself invincible. His son Prahlada, however, remained a devoted follower of  Lord Vishnu.    Enraged by Prahlada's devotion, Hiranyakashipu repeatedly tried to kill him. Finally, when he  challenged Prahlada by asking whether Vishnu existed inside a palace pillar, Lord Vishnu  emerged from the pillar in the fierce form of Narasimha \u2014 half man and half lion.    Narasimha killed Hiranyakashipu at twilight, neither inside nor outside, neither on land nor  in the sky, thereby bypassing every condition of the demon's boon.    Devotees believe this divine event occurred in Ahobilam. Over time, temples representing  nine different forms of Narasimha were established across the hills and forests.    Today, Ahobilam remains one of the most sacred Narasimha pilgrimage destinations in India.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Ugra Narasimha Temple",
+            "Forest Trails",
+            "Nallamala Hills",
+            "Waterfalls",
+            "Ancient Temple Architecture",
+            "Sunrise Over Hills"
+        ],
+        "travelTips": [
+            "Wear trekking shoes.",
+            "Carry drinking water.",
+            "Start early for Upper Ahobilam temples.",
+            "Keep a flashlight during cave visits.",
+            "Follow marked forest routes.",
+            "Allocate a full day for Nava Narasimha Darshan."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 March",
+        "image": "/images/places/nandyal/ahobilam__nava_narasimha_temples__1.jpg",
+        "images": [
+            "/images/places/nandyal/ahobilam__nava_narasimha_temples__1.jpg",
+            "/images/places/nandyal/ahobilam__nava_narasimha_temples__2.jpg",
+            "/images/places/nandyal/ahobilam__nava_narasimha_temples__3.jpg",
+            "/images/places/nandyal/ahobilam__nava_narasimha_temples__4.jpg",
+            "/images/places/nandyal/ahobilam__nava_narasimha_temples__5.jpg",
+            "/images/places/nandyal/ahobilam__nava_narasimha_temples__6.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_4",
+        "name": "Belum Caves",
+        "type": "Natural Limestone Cave System",
+        "whyFamous": "Belum Caves is one of India's most spectacular underground wonders.    It is famous because:      It is the second-longest natural cave system open to visitors in the Indian subcontinent.      Features stunning limestone formations created over millions of years.      Contains ancient meditation chambers used by Buddhist and Jain monks.      Offers unique underground photography opportunities.      Formed by the underground flow of the Chitravathi River.      One of Andhra Pradesh's most important geological attractions.",
+        "story": "Millions of years ago, underground water flowing through limestone rock gradually carved a  vast network of tunnels, chambers, and passages beneath the earth.    The caves remained largely hidden for centuries until British geologist Robert Bruce Foote  documented them in 1884.    Extensive exploration and scientific studies later revealed a complex underground system  filled with naturally sculpted formations.    Archaeological discoveries inside the caves suggest that Buddhist and Jain monks once used  parts of the cave system for meditation and spiritual practices.    After conservation and tourism development efforts, Belum Caves was opened to visitors  and became one of Andhra Pradesh's most famous natural attractions.    Today, thousands of tourists visit every year to experience its mysterious underground  world.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Cave Passages",
+            "Thousand Hoods Formation",
+            "Meditation Hall",
+            "Underground Chambers",
+            "Rock Formations",
+            "Entrance Monument"
+        ],
+        "travelTips": [
+            "Wear comfortable walking shoes.",
+            "Carry drinking water.",
+            "Follow marked visitor routes.",
+            "Do not touch delicate rock formations.",
+            "Keep a flashlight for better viewing.",
+            "Visit during weekdays for fewer crowds."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 February",
+        "image": "/images/places/nandyal/belum_caves_1.jpg",
+        "images": [
+            "/images/places/nandyal/belum_caves_1.jpg",
+            "/images/places/nandyal/belum_caves_2.jpg",
+            "/images/places/nandyal/belum_caves_3.jpg",
+            "/images/places/nandyal/belum_caves_4.jpg",
+            "/images/places/nandyal/belum_caves_5.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_5",
+        "name": "Srisailam Temple (Mallikarjuna Jyotirlinga)",
+        "type": "Jyotirlinga & Shakti Peetha",
+        "whyFamous": "Srisailam is one of the most sacred pilgrimage destinations in India.    It is famous because:      One of the 12 Jyotirlingas of Lord Shiva.      Home to Goddess Bhramaramba, one of the 18 Maha Shakti Peethas.      Located amidst the scenic Nallamala Hills.      Mentioned in ancient Hindu scriptures and epics.      Surrounded by dense forests and wildlife.      Attracts millions of pilgrims every year.",
+        "story": "According to Hindu mythology, Lord Shiva and Goddess Parvati came to Srisailam to bless  their son Kartikeya, who had moved to the forests after a family dispute involving Lord  Ganesha.    To console Kartikeya, Shiva manifested here as Mallikarjuna, while Parvati appeared as  Bhramaramba.    The temple gained prominence through various dynasties including the Satavahanas,  Chalukyas, Kakatiyas, Vijayanagara rulers, and the Reddy Kings, all of whom contributed to  its expansion and preservation.    Over centuries, Srisailam evolved into one of India's most important Shaivite pilgrimage  centers.    Today, devotees from all over the country visit to seek blessings from both Mallikarjuna  Swamy and Goddess Bhramaramba.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Temple Gopurams",
+            "Pathala Ganga",
+            "Ropeway Views",
+            "Sikharam Viewpoint",
+            "Temple Corridors",
+            "Evening Illumination"
+        ],
+        "travelTips": [
+            "Start darshan early in the morning.",
+            "Book accommodation in advance during festivals.",
+            "Carry comfortable footwear.",
+            "Use the ropeway for Pathala Ganga.",
+            "Allocate a full day for exploring Srisailam.",
+            "Visit Sikharam for panoramic views."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 March",
+        "image": "/images/places/nandyal/srisailam_temple__mallikarjuna_jyotirlinga__1.jpg",
+        "images": [
+            "/images/places/nandyal/srisailam_temple__mallikarjuna_jyotirlinga__1.jpg",
+            "/images/places/nandyal/srisailam_temple__mallikarjuna_jyotirlinga__2.jpg",
+            "/images/places/nandyal/srisailam_temple__mallikarjuna_jyotirlinga__3.jpg",
+            "/images/places/nandyal/srisailam_temple__mallikarjuna_jyotirlinga__4.jpg",
+            "/images/places/nandyal/srisailam_temple__mallikarjuna_jyotirlinga__5.jpg",
+            "/images/places/nandyal/srisailam_temple__mallikarjuna_jyotirlinga__6.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_6",
+        "name": "Srisailam Dam",
+        "type": "Multipurpose Dam",
+        "whyFamous": "Srisailam Dam is one of India's largest and most important dams.    It is famous because:      Built across the mighty Krishna River.      One of the largest hydroelectric power projects in India.      Surrounded by the beautiful Nallamala Hills.      Spectacular views during monsoon when gates are opened.      Massive reservoir spread across a vast area.      Plays a crucial role in irrigation and electricity generation for Andhra Pradesh and  Telangana.",
+        "story": "After India's independence, the Krishna River was identified as a major source for irrigation  and hydroelectric power generation.    The Government of India launched the Srisailam Project to harness the river's potential and  support agricultural development across the region.    Construction began in 1960 and continued for over two decades due to the scale and  engineering complexity of the project.    The dam was finally completed in 1981 and became one of the largest hydroelectric projects  in South India.    Over time, the massive reservoir created by the dam transformed the surrounding landscape  and became a major tourist attraction.    Today, Srisailam Dam stands as both an engineering marvel and one of Andhra Pradesh's  most visited scenic destinations.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Dam Structure",
+            "Flood Gates",
+            "Reservoir Panorama",
+            "Nallamala Hills",
+            "Krishna River",
+            "Sunset Views"
+        ],
+        "travelTips": [
+            "Visit during monsoon for the most spectacular views.",
+            "Check gate-opening schedules before visiting.",
+            "Carry a camera with zoom lens.",
+            "Visit early morning or evening for pleasant weather.",
+            "Combine the trip with Srisailam Temple and Pathala Ganga.",
+            "Follow safety barriers near viewpoints."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "July \u2013 February",
+        "image": "/images/places/nandyal/srisailam_dam_1.jpg",
+        "images": [
+            "/images/places/nandyal/srisailam_dam_1.jpg",
+            "/images/places/nandyal/srisailam_dam_2.jpg",
+            "/images/places/nandyal/srisailam_dam_3.jpg",
+            "/images/places/nandyal/srisailam_dam_4.jpg",
+            "/images/places/nandyal/srisailam_dam_5.jpg",
+            "/images/places/nandyal/srisailam_dam_6.jpg",
+            "/images/places/nandyal/srisailam_dam_7.jpg",
+            "/images/places/nandyal/srisailam_dam_8.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_7",
+        "name": "Akkamahadevi Caves",
+        "type": "Natural Limestone Caves",
+        "whyFamous": "Akkamahadevi Caves is one of the most adventurous spiritual destinations in Andhra  Pradesh.    It is famous because:      Accessible mainly through a scenic boat ride on the Krishna River.      Contains impressive limestone cave formations.      Houses a naturally formed Shiva Lingam inside the cave.      Located amidst the beautiful Nallamala Hills.      Offers unique photography opportunities.      Associated with the famous saint-poet Akkamahadevi.",
+        "story": "Akkamahadevi was a renowned 12th-century Kannada saint, poet, and devotee of Lord  Shiva.    According to local traditions, she spent time meditating in these caves while pursuing a life  of spirituality and devotion.    Over centuries, the caves became associated with her name and attracted pilgrims seeking a  peaceful and sacred environment.    The caves are naturally formed limestone structures that extend deep into the hillside.  Inside, visitors can find a naturally formed Shiva Lingam worshipped by devotees.    Today, Akkamahadevi Caves is both a pilgrimage destination and an adventure tourism  attraction.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Boat Journey",
+            "Cave Entrance",
+            "Limestone Formations",
+            "Shiva Lingam",
+            "Krishna River",
+            "Nallamala Hills"
+        ],
+        "travelTips": [
+            "Carry a flashlight for cave exploration.",
+            "Wear non-slip footwear.",
+            "Book boat tickets early during peak season.",
+            "Carry drinking water.",
+            "Avoid touching cave formations.",
+            "Combine the trip with Srisailam Temple and Dam."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 March",
+        "image": "/images/places/nandyal/akkamahadevi_caves_1.jpg",
+        "images": [
+            "/images/places/nandyal/akkamahadevi_caves_1.jpg",
+            "/images/places/nandyal/akkamahadevi_caves_2.jpg",
+            "/images/places/nandyal/akkamahadevi_caves_3.jpg",
+            "/images/places/nandyal/akkamahadevi_caves_4.jpg",
+            "/images/places/nandyal/akkamahadevi_caves_5.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_8",
+        "name": "Rollapadu Wildlife Sanctuary",
+        "type": "Wildlife Sanctuary",
+        "whyFamous": "Rollapadu Wildlife Sanctuary is one of the most important grassland conservation areas in  South India.    It is famous because:      Home to large populations of Blackbucks.      Known for the conservation of the critically endangered Great Indian Bustard.      Protects rare grassland ecosystems.      Excellent destination for wildlife photography.      Popular among birdwatchers.      One of Andhra Pradesh's significant wildlife sanctuaries.",
+        "story": "The plains around Rollapadu were once part of a vast natural grassland ecosystem  supporting diverse wildlife.    As agriculture expanded, many grasslands disappeared across India. Conservationists  recognized the ecological importance of Rollapadu because it continued to support rare  wildlife species, especially Blackbucks and the Great Indian Bustard.    To protect these habitats, the government established Rollapadu Wildlife Sanctuary in 1988.    Over the years, the sanctuary became an important center for grassland conservation and  environmental education.    Today, visitors come to observe wildlife in open landscapes very different from the dense  forests found elsewhere in Andhra Pradesh.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Blackbucks",
+            "Grassland Landscapes",
+            "Migratory Birds",
+            "Watch Tower Views",
+            "Sunrise",
+            "Sunset"
+        ],
+        "travelTips": [
+            "Carry binoculars.",
+            "Bring a zoom camera lens.",
+            "Maintain silence near wildlife.",
+            "Wear earth-colored clothing.",
+            "Visit early morning for best sightings.",
+            "Carry water and sun protection."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "November \u2013 February",
+        "image": "/images/places/nandyal/rollapadu_wildlife_sanctuary_1.jpg",
+        "images": [
+            "/images/places/nandyal/rollapadu_wildlife_sanctuary_1.jpg",
+            "/images/places/nandyal/rollapadu_wildlife_sanctuary_2.jpg",
+            "/images/places/nandyal/rollapadu_wildlife_sanctuary_3.jpg",
+            "/images/places/nandyal/rollapadu_wildlife_sanctuary_4.jpg",
+            "/images/places/nandyal/rollapadu_wildlife_sanctuary_5.jpg",
+            "/images/places/nandyal/rollapadu_wildlife_sanctuary_6.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_9",
+        "name": "Owk Reservoir",
+        "type": "Reservoir",
+        "whyFamous": "Owk Reservoir is one of the most beautiful offbeat destinations in Nandyal district.    It is famous because:      Surrounded by rocky hills and scenic landscapes.      One of the best photography spots in the district.      Famous for sunrise and sunset views.      Popular for boating and leisure activities.      Offers a peaceful atmosphere away from crowded tourist sites.      Ideal destination for nature lovers.",
+        "story": "Owk Reservoir was developed as part of the Telugu Ganga irrigation project aimed at  improving water supply and agricultural development in the Rayalaseema region.    Over the years, the large water body transformed the landscape around Owk.    The surrounding rocky terrain, hills, and clear waters gradually attracted visitors seeking  natural beauty and peaceful surroundings.    As tourism infrastructure improved, Owk became a popular destination for weekend  travelers, photographers, and families.    Today, it is known as one of Nandyal district's hidden gems.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Reservoir Panorama",
+            "Rocky Hills",
+            "Sunrise Reflections",
+            "Sunset Colors",
+            "Boating Activities",
+            "Nature Landscapes"
+        ],
+        "travelTips": [
+            "Visit during sunrise or sunset.",
+            "Carry drinking water.",
+            "Wear comfortable walking shoes.",
+            "Bring a wide-angle camera lens.",
+            "Avoid visiting during extreme afternoon heat.",
+            "Combine the trip with Owk Rock Garden."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 February",
+        "image": "/images/places/nandyal/owk_reservoir_1.jpg",
+        "images": [
+            "/images/places/nandyal/owk_reservoir_1.jpg",
+            "/images/places/nandyal/owk_reservoir_2.jpg",
+            "/images/places/nandyal/owk_reservoir_3.jpg",
+            "/images/places/nandyal/owk_reservoir_4.jpg",
+            "/images/places/nandyal/owk_reservoir_5.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_10",
+        "name": "Owk Rock Garden",
+        "type": "Rock Garden & Adventure Tourism Destination",
+        "whyFamous": "Owk Rock Garden is one of the fastest-growing tourist attractions in Andhra Pradesh.    It is famous because:      Massive natural rock formations millions of years old.      Spectacular viewpoints overlooking valleys and hills.      One of the best photography destinations in Nandyal district.      Adventure activities and trekking opportunities.      Beautiful sunrise and sunset views.      Combination of nature, geology, and recreation.",
+        "story": "The rocky landscapes around Owk were formed over millions of years through geological  processes involving erosion, weathering, and tectonic activity.    For generations, these unusual rock formations remained largely unexplored by tourists.    Recognizing the area's tourism potential, local authorities developed pathways, viewpoints,  and visitor facilities while preserving the natural landscape.    As social media exposure increased, Owk Rock Garden became one of the most  photographed destinations in the Rayalaseema region.    Today, visitors come to enjoy its dramatic scenery, trekking trails, and unique geological  formations.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Giant Rock Formations",
+            "Hilltop Viewpoints",
+            "Sunrise Landscapes",
+            "Sunset Colors",
+            "Valley Views",
+            "Adventure Trails"
+        ],
+        "travelTips": [
+            "Wear trekking shoes.",
+            "Carry drinking water.",
+            "Visit during sunrise or sunset.",
+            "Avoid climbing dangerous rock edges.",
+            "Carry a camera with a wide-angle lens.",
+            "Combine your visit with Owk Reservoir."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 February",
+        "image": "/images/places/nandyal/owk_rock_garden_1.jpg",
+        "images": [
+            "/images/places/nandyal/owk_rock_garden_1.jpg",
+            "/images/places/nandyal/owk_rock_garden_2.jpg",
+            "/images/places/nandyal/owk_rock_garden_3.jpg",
+            "/images/places/nandyal/owk_rock_garden_4.jpg",
+            "/images/places/nandyal/owk_rock_garden_5.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_11",
+        "name": "Gundla Brahmeswaram Wildlife Sanctuary",
+        "type": "Wildlife Sanctuary",
+        "whyFamous": "Gundla Brahmeswaram Wildlife Sanctuary is one of the largest protected forest regions in  Andhra Pradesh.    It is famous because:      Important habitat for tigers.      Home to leopards and other predators.      Located in the heart of the Nallamala Forests.      Rich biodiversity and wildlife.      Excellent destination for nature and wildlife photography.      Features beautiful valleys, hills, and forest landscapes.",
+        "story": "The Nallamala Hills have supported wildlife and forest ecosystems for thousands of years.    As human settlements expanded and forests faced increasing pressure, conservationists  recognized the need to protect large portions of these valuable habitats.    To safeguard wildlife and biodiversity, Gundla Brahmeswaram Wildlife Sanctuary was  established in 1990.    The sanctuary became a crucial conservation zone connecting larger forest ecosystems  across Andhra Pradesh.    Today it forms an important part of the broader Nallamala landscape and supports  numerous animal and plant species.    The sanctuary remains one of the state's most significant wildlife conservation areas.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Forest Landscapes",
+            "Wildlife",
+            "Birdlife",
+            "Nallamala Hills",
+            "Sunrise Views",
+            "Nature Trails"
+        ],
+        "travelTips": [
+            "Carry binoculars.",
+            "Bring a zoom camera lens.",
+            "Wear comfortable trekking shoes.",
+            "Follow forest department guidelines.",
+            "Avoid disturbing wildlife.",
+            "Start your visit early in the morning."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 March",
+        "image": "/images/places/nandyal/gundla_brahmeswaram_wildlife_sanctuary_1.jpg",
+        "images": [
+            "/images/places/nandyal/gundla_brahmeswaram_wildlife_sanctuary_1.jpg",
+            "/images/places/nandyal/gundla_brahmeswaram_wildlife_sanctuary_2.jpg",
+            "/images/places/nandyal/gundla_brahmeswaram_wildlife_sanctuary_3.jpg",
+            "/images/places/nandyal/gundla_brahmeswaram_wildlife_sanctuary_4.jpg",
+            "/images/places/nandyal/gundla_brahmeswaram_wildlife_sanctuary_5.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_12",
+        "name": "Banaganapalle Fort",
+        "type": "Fort & Palace Complex",
+        "whyFamous": "Banaganapalle Fort is one of the most important historical monuments in Nandyal district.    It is famous because:      Historic residence of the Nawabs of Banaganapalle.      Rich Nawabi heritage and royal history.      Blend of Indo-Islamic architectural styles.      Associated with the former princely state of Banaganapalle.      Located in the region famous for Banaganapalle Mangoes, a GI-tagged variety.      Attractive destination for history lovers and photographers.",
+        "story": "Banaganapalle was once the capital of the former Princely State of Banaganapalle, ruled by  local Nawabs under various political arrangements during the medieval and colonial periods.    The fort and palace complex served as the administrative and residential center of the ruling  family.    Over time, Banaganapalle developed into an important cultural and commercial center in  the Rayalaseema region.    The rulers contributed to local development, architecture, and trade, leaving behind a legacy  reflected in the fort's structures.    Although parts of the complex have aged over time, the fort remains a significant reminder  of the region's royal past.    Today, visitors come to explore its history, architecture, and connection to the famous  Banaganapalle mango.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Fort Architecture",
+            "Nawab Palace",
+            "Heritage Buildings",
+            "Courtyards",
+            "Mango Orchards",
+            "Sunset Views"
+        ],
+        "travelTips": [
+            "Visit during the morning for comfortable weather.",
+            "Combine your trip with Belum Caves.",
+            "Carry a camera for architectural photography.",
+            "Visit during mango season for the best experience.",
+            "Wear comfortable walking shoes.",
+            "Respect heritage structures."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 March",
+        "image": "/images/places/nandyal/banaganapalle_fort_1.jpg",
+        "images": [
+            "/images/places/nandyal/banaganapalle_fort_1.jpg",
+            "/images/places/nandyal/banaganapalle_fort_2.jpg",
+            "/images/places/nandyal/banaganapalle_fort_3.jpg",
+            "/images/places/nandyal/banaganapalle_fort_4.jpg",
+            "/images/places/nandyal/banaganapalle_fort_5.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_13",
+        "name": "Ravvalakonda",
+        "type": "Hill & Pilgrimage Destination",
+        "whyFamous": "Ravvalakonda is one of the most scenic hill destinations in Nandyal district.  It is famous because:    Offers spectacular views of the surrounding countryside.    Home to ancient cave shrines.    Popular trekking destination.    Known for sunrise and sunset viewpoints.    Excellent landscape photography opportunities.    Surrounded by natural beauty and rocky terrain.",
+        "story": "For centuries, Ravvalakonda has been regarded as a sacred hill by local communities.  According to local traditions, sages and devotees once used the caves on the hill for  meditation and spiritual practices.  Over time, small shrines developed around these sacred spots, attracting pilgrims from  nearby villages.  The hill's strategic location also made it a natural lookout point, offering expansive views of  the surrounding plains.  Today, Ravvalakonda combines religious significance with adventure tourism, attracting both  devotees and trekkers.",
+        "interestingFact": "One of the Highest Hills in the Region  The hill provides panoramic views across large parts of the surrounding landscape.    Ancient Cave Shrines  Several caves on the hill are associated with religious traditions.    Famous Sunrise Spot  Early morning visitors enjoy spectacular sunrise views.    Popular Trekking Destination  The climb attracts adventure enthusiasts and nature lovers.    Landscape Photography Paradise  The hilltop offers excellent opportunities for wide-angle photography.    Rich Natural Surroundings  The area is covered with rocky terrain, shrubs, and seasonal greenery.",
+        "photographyTips": [
+            "Hilltop Views",
+            "Sunrise Landscapes",
+            "Sunset Colors",
+            "Cave Temple",
+            "Rocky Terrain",
+            "Trekking Trails"
+        ],
+        "travelTips": [
+            "Start trekking early in the morning.",
+            "Carry sufficient drinking water.",
+            "Wear trekking shoes.",
+            "Avoid climbing during peak afternoon heat.",
+            "Carry a camera for landscape photography.",
+            "Visit during winter for pleasant weather."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 February",
+        "image": "/images/places/nandyal/ravvalakonda_1.jpg",
+        "images": [
+            "/images/places/nandyal/ravvalakonda_1.jpg",
+            "/images/places/nandyal/ravvalakonda_2.jpg",
+            "/images/places/nandyal/ravvalakonda_3.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_14",
+        "name": "Nava Nandi Temples",
+        "type": "Group of Nine Ancient Shiva Temples",
+        "whyFamous": "",
+        "story": "According to local traditions, the Nandyal region was blessed by Lord Shiva and Nandi.    Over time, nine sacred Shiva temples were established around the area, each representing a  unique manifestation of Shiva.    The temples became collectively known as the Nava Nandis.    Pilgrims believe that visiting all nine temples in a single day brings spiritual merit and  blessings.    For centuries, devotees have undertaken this sacred circuit, especially during Maha  Shivaratri and Kartika Masam.    Today, the Nava Nandi Yatra remains one of Andhra Pradesh's most respected pilgrimage  traditions.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Temple Architecture",
+            "Sacred Tanks",
+            "Temple Gopurams",
+            "Pilgrimage Routes",
+            "Nallamala Landscapes",
+            "Festival Celebrations"
+        ],
+        "travelTips": [
+            "Start early in the morning.",
+            "Plan the route before starting the circuit.",
+            "Carry drinking water.",
+            "Wear traditional attire if participating in rituals.",
+            "Visit during Maha Shivaratri for a grand experience.",
+            "Keep a full day reserved for the pilgrimage."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 March",
+        "image": "/images/places/nandyal/nava_nandi_temples_1.jpg",
+        "images": [
+            "/images/places/nandyal/nava_nandi_temples_1.jpg",
+            "/images/places/nandyal/nava_nandi_temples_2.jpg",
+            "/images/places/nandyal/nava_nandi_temples_3.jpg",
+            "/images/places/nandyal/nava_nandi_temples_4.jpg",
+            "/images/places/nandyal/nava_nandi_temples_5.jpg",
+            "/images/places/nandyal/nava_nandi_temples_6.jpg",
+            "/images/places/nandyal/nava_nandi_temples_7.jpg",
+            "/images/places/nandyal/nava_nandi_temples_8.jpg",
+            "/images/places/nandyal/nava_nandi_temples_9.jpg",
+            "/images/places/nandyal/nava_nandi_temples_10.jpg",
+            "/images/places/nandyal/nava_nandi_temples_11.jpg",
+            "/images/places/nandyal/nava_nandi_temples_12.jpg",
+            "/images/places/nandyal/nava_nandi_temples_13.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    },
+    {
+        "id": "nandyal_15",
+        "name": "Velugodu Reservoir",
+        "type": "Reservoir",
+        "whyFamous": "Velugodu Reservoir is one of the most beautiful water bodies in the Rayalaseema region.    It is famous because:      Massive reservoir with picturesque surroundings.      Popular destination for birdwatching.      Stunning sunrise and sunset views.      Excellent location for landscape photography.      Peaceful atmosphere ideal for nature lovers.      Important part of the Telugu Ganga irrigation network.",
+        "story": "Velugodu Reservoir was developed as a major component of the Telugu Ganga Project, a  large-scale water management initiative designed to provide irrigation and drinking water to  drought-prone regions.    Before the reservoir was created, much of the surrounding area depended heavily on  seasonal rainfall.    The construction of the reservoir transformed agriculture and water availability in the  region.    Over the years, the large water body also became a natural habitat for birds and aquatic life.    Its scenic beauty gradually attracted tourists, photographers, and nature enthusiasts.    Today, Velugodu Reservoir is known both for its engineering significance and its peaceful  natural environment.",
+        "interestingFact": "",
+        "photographyTips": [
+            "Reservoir Panorama",
+            "Sunset Reflections",
+            "Water Birds",
+            "Countryside Landscapes",
+            "Sunrise Views",
+            "Embankment Roads"
+        ],
+        "travelTips": [
+            "Visit during sunrise or sunset.",
+            "Carry binoculars for bird watching.",
+            "Bring a camera with a zoom lens.",
+            "Carry drinking water.",
+            "Avoid peak afternoon heat.",
+            "Combine with nearby Owk attractions."
+        ],
+        "openingTime": "Daily 6:00 AM - 6:00 PM",
+        "entryFee": "Free",
+        "bestTimeToVisit": "October \u2013 February",
+        "image": "/images/places/nandyal/velugodu_reservoir_1.jpg",
+        "images": [
+            "/images/places/nandyal/velugodu_reservoir_1.jpg",
+            "/images/places/nandyal/velugodu_reservoir_2.jpg",
+            "/images/places/nandyal/velugodu_reservoir_3.jpg",
+            "/images/places/nandyal/velugodu_reservoir_4.jpg"
+        ],
+        "zone": "Rayalaseema Region"
+    }
+]
 };
