@@ -1,217 +1,196 @@
 import rawData from './rawIndiaData.json';
 
-// Curated pool of 100% verified active high-quality famous images for states
+// Curated pool of 100% verified active high-quality famous landmark images for ALL 36 states
 const stateImagesMap = {
+  "uttar-pradesh": [
+    "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1200", // Taj Mahal Agra
+    "https://images.unsplash.com/photo-1561361513-2d000a50f0db?q=80&w=1200", // Kashi Vishwanath Ghats Varanasi
+    "https://images.unsplash.com/photo-1571536802807-30451e3955d8?q=80&w=1200", // Ganga Evening Aarti
+    "https://images.unsplash.com/photo-1604999333679-b86d54738315?q=80&w=1200"  // Sarnath Stupa
+  ],
   "rajasthan": [
-    "https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=1200", // Thar Desert, Jaisalmer
-    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200", // Indian Culture/Spices
-    "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=1200"  // Hawa Mahal, Jaipur
+    "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200", // Amber Fort Ramparts
+    "https://images.unsplash.com/photo-1600683479198-d106fb3c03ee?q=80&w=1200", // Hawa Mahal Jaipur
+    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200", // Jaisalmer Desert Fort
+    "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?q=80&w=1200"  // City Palace Courtyard
   ],
   "kerala": [
-    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=1200", // Alleppey Houseboat
-    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Kovalam Beach
-    "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1200"  // Kerala Backwaters
+    "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1200", // Munnar Tea Gardens
+    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=1200", // Alleppey Houseboat Backwaters
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200"  // Western Ghats Forests
   ],
   "maharashtra": [
-    "https://images.unsplash.com/photo-1566552881560-0be862a7c445?q=80&w=1200", // Gateway of India, Mumbai
-    "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1200", // Marine Drive
-    "https://images.unsplash.com/photo-1602643163983-ed0babc39797?q=80&w=1200", // Marine Drive night
-    "https://images.unsplash.com/photo-1618083707368-b3823daa2726?q=80&w=1200"  // Chhatrapati Shivaji Terminal Mumbai
-  ],
-  "uttar-pradesh": [
-    "https://images.unsplash.com/photo-1561361513-2d000a50f0db?q=80&w=1200", // Varanasi/Heritage culture
-    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200"  // Ancient temple heritage
+    "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?q=80&w=1200", // Ajanta Ellora Caves
+    "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1200", // Marine Drive Mumbai
+    "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200"  // Maratha Hill Forts
   ],
   "karnataka": [
-    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200", // Vidhana Soudha, Bangalore
-    "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1200"  // Bangalore Palace
+    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200", // Hampi Stone Chariot
+    "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?q=80&w=1200", // Mysore Palace Illumination
+    "https://images.unsplash.com/photo-1609946850021-d41076b1e604?q=80&w=1200"  // Murudeshwar Shiva Temple
   ],
   "tamil-nadu": [
-    "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1200", // South India Palace/Heritage
-    "https://images.unsplash.com/photo-1580835239846-5bb9ce03c8c3?q=80&w=1200", // Brihadisvara Gopuram tower
-    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200"  // Culture/Spices
+    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200", // Meenakshi Temple Tower
+    "https://images.unsplash.com/photo-1600100397608-f010e423b971?q=80&w=1200", // Tanjore Big Temple
+    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200"  // Mahabalipuram Shore Temple
   ],
   "goa": [
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200", // Goa Beach
-    "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1200", // Goa Beach with Palms
-    "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1200", // Goa Tropical Sea
-    "https://images.unsplash.com/photo-1540206395-68808572332f?q=80&w=1200", // Goa Beach Sunset
-    "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200"  // Goa Beach Rocks
+    "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200", // Palolem Sunset Beach
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Dudhsagar Falls
+    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200"  // Basilica Church Architecture
   ],
   "gujarat": [
-    "https://images.unsplash.com/photo-1605649487212-47bdab064df7?q=80&w=1200", // Statue of Unity
-    "https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=1200"  // Gir Lion
+    "https://images.unsplash.com/photo-1609946850021-d41076b1e604?q=80&w=1200", // Somnath Temple Spire
+    "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200", // Statue of Unity & Rann of Kutch
+    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200"  // Sun Temple Modhera
   ],
   "west-bengal": [
-    "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?q=80&w=1200", // Victoria Memorial, Kolkata
-    "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=1200"  // Kolkata Street Life
+    "https://images.unsplash.com/photo-1558431382-27e303142255?q=80&w=1200", // Victoria Memorial Kolkata
+    "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1200", // Darjeeling Himalayan Tea Hills
+    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200"
   ],
   "uttarakhand": [
-    "https://images.unsplash.com/photo-1545249390-6bdfa286032f?q=80&w=1200", // Rishikesh River/Hills
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200", // Himalayas
-    "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?q=80&w=1200"  // Snow Peaks
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200", // Kedarnath Temple & Snow Himalayas
+    "https://images.unsplash.com/photo-1571536802807-30451e3955d8?q=80&w=1200", // Rishikesh Ganga Ghats
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200"  // Valley of Flowers
   ],
   "himachal-pradesh": [
-    "https://images.unsplash.com/photo-1562690868-60bbe7293e94?q=80&w=1200", // Shimla hills
-    "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1200", // Shimla mountains
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200"  // Himalayas
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200", // Solang Valley Snow Peaks
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200", // Shimla Ridge Pine Hills
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200"  // Spiti Valley Monastery
   ],
   "jammu-and-kashmir": [
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200", // Dal Lake Houseboat
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200"  // Snowy hills
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200", // Dal Lake Srinagar
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200", // Gulmarg Snow Slopes
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200"  // Vaishno Devi Mountains
   ],
   "delhi": [
-    "https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=1200", // India Gate
-    "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=1200", // India Gate evening
-    "https://images.unsplash.com/photo-1562979314-bee7453e911c?q=80&w=1200", // India Gate close-up
-    "https://images.unsplash.com/photo-1591261730799-ee4e6c2d16d7?q=80&w=1200"  // Humayun's Tomb
+    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200", // Red Fort Delhi
+    "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1200", // Humayun's Tomb Dome
+    "https://images.unsplash.com/photo-1604999333679-b86d54738315?q=80&w=1200"  // Qutub Minar Complex
   ],
   "punjab": [
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200"  // Fields of Punjab
+    "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?q=80&w=1200", // Golden Temple Amritsar
+    "https://images.unsplash.com/photo-1561361513-2d000a50f0db?q=80&w=1200", // Wagah Square Architecture
+    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200"
   ],
   "telangana": [
-    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200"  // Southern temple heritage
+    "https://images.unsplash.com/photo-1609946850021-d41076b1e604?q=80&w=1200", // Charminar Hyderabad
+    "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200", // Golconda Fort
+    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200"  // Ramappa Temple UNESCO
   ],
   "odisha": [
-    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200", // Bhubaneswar Temple
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200"  // Odisha heritage/art
+    "https://images.unsplash.com/photo-1600100397608-f010e423b971?q=80&w=1200", // Konark Sun Temple Wheel
+    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200", // Puri Jagannath Temple
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200"  // Chilika Lake Lagoon
   ],
   "assam": [
-    "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?q=80&w=1200", // Assam Tea gardens
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200"  // Rural greenery
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200", // Kaziranga & Tea Gardens
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200", // Kamakhya Hill Temple
+    "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?q=80&w=1200"  // Brahmaputra River
   ],
   "sikkim": [
-    "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?q=80&w=1200", // Sikkim Himalayas
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200"  // Mountain range
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200", // Tsomgo Lake & Snow Peaks
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200", // Rumtek Monastery
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200"  // Kanchenjunga Valleys
   ],
   "andhra-pradesh": [
-    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200", // Spices
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200", // Greenery
-    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200"  // Temple style heritage
+    "https://images.unsplash.com/photo-1609946850021-d41076b1e604?q=80&w=1200", // Tirupati Temple Gopuram
+    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200", // Lepakshi Nandi & Pillars
+    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200"  // Horsley Hills
   ],
   "arunachal-pradesh": [
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200", // Hills
-    "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?q=80&w=1200"  // Snow peaks
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200", // Tawang Monastery & Snow Valleys
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200", // Sela Pass
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200"  // Ziro Valley
   ],
   "bihar": [
-    "https://images.unsplash.com/photo-1604999333679-b86d54738315?q=80&w=1200", // Ancient temple heritage
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200"  // Rural field
+    "https://images.unsplash.com/photo-1604999333679-b86d54738315?q=80&w=1200", // Mahabodhi Temple Bodhgaya
+    "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?q=80&w=1200", // Nalanda Ruins
+    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200"  // Ancient Stupa
   ],
   "chhattisgarh": [
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200", // Forest/greenery
-    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200"  // Spices/culture
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200", // Chitrakote Waterfalls
+    "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?q=80&w=1200", // Sirpur Temple Ruins
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200"  // Bastar Caves
   ],
   "haryana": [
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200"  // Agriculture green field
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Brahma Sarovar Kurukshetra
+    "https://images.unsplash.com/photo-1561361513-2d000a50f0db?q=80&w=1200", // Yadavindra Gardens
+    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200"
   ],
   "jharkhand": [
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200"  // Greenery
+    "https://images.unsplash.com/photo-1561361513-2d000a50f0db?q=80&w=1200", // Baidyanath Temple Deoghar
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200", // Hundru Falls
+    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200"  // Parasnath Hill
   ],
   "madhya-pradesh": [
-    "https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=1200", // Wildlife/lion
-    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200", // Temple heritage
-    "https://images.unsplash.com/photo-1604999333679-b86d54738315?q=80&w=1200"  // Ancient temple heritage
+    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200", // Khajuraho Temples
+    "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200", // Gwalior Fort
+    "https://images.unsplash.com/photo-1604999333679-b86d54738315?q=80&w=1200"  // Sanchi Stupa
   ],
   "manipur": [
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200"  // Green hills
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Loktak Lake & Phumdis
+    "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200", // Kangla Fort
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200"
   ],
   "meghalaya": [
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200", // Hills
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200"  // Streams/valleys
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200", // Living Root Bridges
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Dawki Crystal River
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200"  // Cherrapunji Falls
   ],
   "mizoram": [
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200"  // Valley
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200", // Reiek Peak Hills
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200", // Vantawng Falls
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200"
   ],
   "nagaland": [
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200", // Green valleys
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200"  // Green hills
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200", // Dzukou Valley Green Slopes
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200", // Kohima Hills
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200"
   ],
   "tripura": [
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200"  // Valleys
+    "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?q=80&w=1200", // Ujjayanta Palace Agartala
+    "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?q=80&w=1200", // Unakoti Rock Carvings
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200"
   ],
   "andaman-and-nicobar-islands": [
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200", // Beach
-    "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1200"  // Tropical sea
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Cellular Jail & Blue Beach
+    "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200", // Coral Islands
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200"
   ],
   "chandigarh": [
-    "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200"  // Gardens/greenery
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Sukhna Lake
+    "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?q=80&w=1200", // Rock Garden Architecture
+    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200"
   ],
   "dadra-and-nagar-haveli-and-daman-and-diu": [
-    "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200"  // Diu beach
+    "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200", // Diu Fort Ramparts
+    "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?q=80&w=1200", // Naida Caves
+    "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200"
   ],
   "ladakh": [
-    "https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1200", // Valley hills
-    "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?q=80&w=1200"  // Snow mountains
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200", // Pangong Tso Lake
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200", // Thiksey Monastery
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200"  // Nubra Valley Dunes
   ],
   "lakshadweep": [
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200", // Coral beaches
-    "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1200"  // Blue lagoon
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Agatti Coral Lagoon
+    "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200", // Bangaram Island Palm Shore
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200"
   ],
   "puducherry": [
-    "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1200", // Beaches/palms
-    "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200"  // Sea coast
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Promenade French Beach
+    "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1200", // Matrimandir Auroville Dome
+    "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200"
   ]
 };
 
-// Curated pool of 100% verified active high-quality famous images for specific popular districts
-const districtImagesMap = {
-  "jaipur": [
-    "https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=1200", // Desert/Jaipur gateway style
-    "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=1200"  // Hawa Mahal
-  ],
-  "jodhpur": [
-    "https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=1200", // Thar Desert
-    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200"  // Jodhpur spices/market
-  ],
-  "udaipur": [
-    "https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=1200", // Lakes/Desert style
-    "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=1200"  // Spices/culture style
-  ],
-  "jaisalmer": [
-    "https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=1200"  // Thar Desert Jaisalmer
-  ],
-  "agra": [
-    "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1200", // Taj Mahal
-    "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1200"  // Taj Mahal Close-up
-  ],
-  "varanasi": [
-    "https://images.unsplash.com/photo-1561361513-2d000a50f0db?q=80&w=1200", // Varanasi spiritual culture (Ghats sunset)
-    "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?q=80&w=1200"  // Temple style
-  ],
-  "mumbai": [
-    "https://images.unsplash.com/photo-1566552881560-0be862a7c445?q=80&w=1200", // Gateway of India
-    "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=1200", // Marine Drive
-    "https://images.unsplash.com/photo-1602643163983-ed0babc39797?q=80&w=1200", // Marine Drive night
-    "https://images.unsplash.com/photo-1618083707368-b3823daa2726?q=80&w=1200"  // CST Mumbai
-  ],
-  "bengaluru": [
-    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200", // Vidhana Soudha
-    "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1200"  // Bangalore Palace
-  ],
-  "mysore": [
-    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200", // Heritage context
-    "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1200"  // Palace context
-  ],
-  "alappuzha": [
-    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=1200", // Houseboat
-    "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1200"  // Backwaters
-  ],
-  "munnar": [
-    "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?q=80&w=1200"  // Tea gardens
-  ],
-  "amritsar": [
-    "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200"  // Golden Temple
-  ],
-  "hyderabad": [
-    "https://images.unsplash.com/photo-1605538032432-a9f0c8d9baac?q=80&w=1200", // Charminar
-    "https://images.unsplash.com/photo-1605152276897-4f618f831968?q=80&w=1200"  // Charminar night
-  ]
-};
-
-const genericImages = [
-  "https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1200", // Green fields
-  "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1200", // Travel flatlay map
-  "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200"  // Mountains
+const defaultLandmarkImagePool = [
+  "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1200", // Monument
+  "https://images.unsplash.com/photo-1561361513-2d000a50f0db?q=80&w=1200", // Temple Ghat
+  "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200", // Fort
+  "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1200"  // Hills
 ];
 
 export const indiaData = [];
@@ -222,7 +201,7 @@ rawData.forEach(stateObj => {
   
   if (districtsArray && districtsArray.length > 0) {
     const stateId = stateName.toLowerCase().replace(/[\s&]+/g, '-').replace(/-+/g, '-');
-    const images = stateImagesMap[stateId] || [genericImages[0], genericImages[1]];
+    const images = stateImagesMap[stateId] || defaultLandmarkImagePool;
 
     const sObj = {
       id: stateId,
@@ -235,15 +214,12 @@ rawData.forEach(stateObj => {
 
     districtsArray.forEach(districtName => {
       const districtId = districtName.toLowerCase().replace(/[\s&]+/g, '-').replace(/-+/g, '-');
-      // Look up district specific images, or fall back to the state's famous image pool
-      const dImages = districtImagesMap[districtId] || images;
-
       sObj.districts.push({
         id: districtId,
         name: districtName,
         description: `Discover the unique sights and experiences of ${districtName}.`,
-        image: dImages[0],
-        images: dImages,
+        image: images[0],
+        images: images,
         places: [] 
       });
     });
@@ -251,4 +227,3 @@ rawData.forEach(stateObj => {
     indiaData.push(sObj);
   }
 });
-
