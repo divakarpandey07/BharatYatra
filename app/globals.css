@@ -50,6 +50,13 @@
   padding: 0;
 }
 
+/* GPU Hardware Acceleration & Smooth Rendering Hints */
+.glass-panel, img, svg {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}
+
 body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--bg-primary);

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -87,8 +87,16 @@ export default function HomeClient({ hoverStatesData, trendingStates }: HomeClie
     setHoveredState(info);
   };
 
+  const rafId = useRef<number | null>(null);
+
   const handleMouseMove = (e: React.MouseEvent) => {
-    setMousePos({ x: e.clientX, y: e.clientY });
+    if (rafId.current) return;
+    const x = e.clientX;
+    const y = e.clientY;
+    rafId.current = requestAnimationFrame(() => {
+      setMousePos({ x, y });
+      rafId.current = null;
+    });
   };
 
   const handleMouseLeave = () => {
