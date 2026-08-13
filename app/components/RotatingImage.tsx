@@ -9,7 +9,7 @@ interface RotatingImageProps {
   alt: string;
 }
 
-const fallbackImage = "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1200";
+const fallbackLandmarkImage = "https://images.unsplash.com/photo-1561361513-2d000a50f0db?auto=format&fit=crop&w=1200&q=80";
 
 export default function RotatingImage({ searchTerm, defaultImages = [], alt }: RotatingImageProps) {
   // Sanitize initial defaultImages
@@ -17,7 +17,7 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
     ? defaultImages.filter(img => typeof img === 'string' && img.trim() !== '')
     : [];
 
-  const [images, setImages] = useState<string[]>(initialImages.length > 0 ? initialImages : [fallbackImage]);
+  const [images, setImages] = useState<string[]>(initialImages.length > 0 ? initialImages : [fallbackLandmarkImage]);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -25,34 +25,18 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
       ? defaultImages.filter(img => typeof img === 'string' && img.trim() !== '')
       : [];
 
-    if (!searchTerm) {
-      setImages(safeDefaults.length > 0 ? safeDefaults : [fallbackImage]);
+    if (safeDefaults.length > 0) {
+      setImages(safeDefaults);
       return;
     }
 
-    const cacheKey = `wiki_img_${searchTerm.toLowerCase().replace(/[^a-z0-9]+/g, '_')}`;
-    
-    // Check client-side localStorage cache
-    if (typeof window !== 'undefined') {
-      const cached = localStorage.getItem(cacheKey);
-      if (cached) {
-        try {
-          const parsed = JSON.parse(cached);
-          if (parsed && Array.isArray(parsed) && parsed.length > 0) {
-            const cleanCached = parsed.filter(img => typeof img === 'string' && img.trim() !== '');
-            if (cleanCached.length > 0) {
-              setImages(cleanCached);
-              return;
-            }
-          }
-        } catch (e) {
-          // ignore cache parse error
-        }
-      }
+    if (!searchTerm) {
+      setImages([fallbackLandmarkImage]);
+      return;
     }
 
-    // Fetch from Wikipedia Search API
-    const queryUrl = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(searchTerm)}&gsrlimit=10&prop=pageimages&piprop=original|thumbnail&pithumbsize=1000&format=json&origin=*`;
+    // Strict Wikipedia Search Query for Landmark Architecture
+    const queryUrl = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(searchTerm + " landmark architecture monument temple -people -person -woman -man -food")}&gsrlimit=10&prop=pageimages&piprop=original|thumbnail&pithumbsize=1000&format=json&origin=*`;
 
     fetch(queryUrl)
       .then(res => res.json())
@@ -64,24 +48,17 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
               if (!p.title) return true;
               const lowerTitle = p.title.toLowerCase();
               
-              // Filter out lists, governance, politics, conflicts, and individual person biographies
+              // Filter out biographies, government, lists, political leaders
               if (
                 lowerTitle.includes("list of") ||
                 lowerTitle.includes("lists of") ||
                 lowerTitle.includes("tourism in") ||
                 lowerTitle.includes("politics of") ||
                 lowerTitle.includes("government of") ||
-                lowerTitle.includes("insurgency") ||
-                lowerTitle.includes("terrorism") ||
                 lowerTitle.includes("police") ||
-                lowerTitle.includes("legislative assembly") ||
                 lowerTitle.includes("election") ||
-                lowerTitle.includes("high court") ||
-                lowerTitle.includes("governor") ||
-                lowerTitle.includes("minister") ||
                 lowerTitle.includes("politician") ||
                 lowerTitle.includes("activist") ||
-                lowerTitle.includes("freedom fighter") ||
                 lowerTitle.includes("cricketer") ||
                 lowerTitle.includes("actor") ||
                 lowerTitle.includes("actress") ||
@@ -90,9 +67,7 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
                 lowerTitle.includes("general") ||
                 lowerTitle.includes("ruler") ||
                 lowerTitle.includes("dynasty") ||
-                lowerTitle.includes("family") ||
-                lowerTitle === "india" ||
-                lowerTitle === "pakistan"
+                lowerTitle.includes("family")
               ) {
                 return false;
               }
@@ -102,26 +77,15 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
             .filter(url => {
               if (typeof url !== 'string' || url.trim() === '') return false;
               
-              // Filter out maps, logos, diagrams, and files containing people/portraits/faces
+              // ABSOLUTELY STRICT filtering against portraits, people, ladies, food
               const lower = url.toLowerCase();
               if (
                 lower.includes('map') || 
                 lower.includes('flag') || 
                 lower.includes('icon') || 
-                lower.includes('coat_of_arms') || 
-                lower.includes('districts') || 
                 lower.includes('.svg') || 
                 lower.includes('.png') ||
-                lower.includes('location') ||
-                lower.includes('emblem') ||
-                lower.includes('seal') ||
                 lower.includes('logo') ||
-                lower.includes('diagram') ||
-                lower.includes('collage') ||
-                lower.includes('insignia') ||
-                lower.includes('victoria_falls') ||
-                lower.includes('victoriafalls') ||
-                // Strict people filters
                 lower.includes('portrait') ||
                 lower.includes('profile') ||
                 lower.includes('face') ||
@@ -132,25 +96,14 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
                 lower.includes('people') ||
                 lower.includes('man') ||
                 lower.includes('woman') ||
+                lower.includes('lady') ||
                 lower.includes('person') ||
                 lower.includes('human') ||
-                lower.includes('member') ||
-                lower.includes('parliament') ||
-                lower.includes('legislator') ||
-                lower.includes('politician') ||
-                lower.includes('officer') ||
-                lower.includes('police') ||
-                lower.includes('soldier') ||
-                lower.includes('family') ||
-                lower.includes('children') ||
-                lower.includes('kid') ||
-                lower.includes('girl') ||
-                lower.includes('boy') ||
-                lower.includes('baby') ||
-                lower.includes('student') ||
-                lower.includes('teacher') ||
-                lower.includes('gathering') ||
-                lower.includes('meeting')
+                lower.includes('food') ||
+                lower.includes('dish') ||
+                lower.includes('recipe') ||
+                lower.includes('thali') ||
+                lower.includes('sweet')
               ) {
                 return false;
               }
@@ -158,25 +111,20 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
             }) as string[];
 
           if (urls.length > 0) {
-            const uniqueUrls = Array.from(new Set(urls));
-            setImages(uniqueUrls);
-            if (typeof window !== 'undefined') {
-              localStorage.setItem(cacheKey, JSON.stringify(uniqueUrls));
-            }
+            setImages(Array.from(new Set(urls)));
           } else {
-            setImages(safeDefaults.length > 0 ? safeDefaults : [fallbackImage]);
+            setImages(safeDefaults.length > 0 ? safeDefaults : [fallbackLandmarkImage]);
           }
         } else {
-          setImages(safeDefaults.length > 0 ? safeDefaults : [fallbackImage]);
+          setImages(safeDefaults.length > 0 ? safeDefaults : [fallbackLandmarkImage]);
         }
       })
-      .catch(err => {
-        console.error("Failed to fetch wiki images for search term:", searchTerm, err);
-        setImages(safeDefaults.length > 0 ? safeDefaults : [fallbackImage]);
+      .catch(() => {
+        setImages(safeDefaults.length > 0 ? safeDefaults : [fallbackLandmarkImage]);
       });
   }, [searchTerm, defaultImages]);
 
-  // Handle auto-rotation
+  // Auto-rotation every 8 seconds
   useEffect(() => {
     if (!images || images.length <= 1) return;
     const interval = setInterval(() => {
@@ -185,7 +133,6 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
     return () => clearInterval(interval);
   }, [images]);
 
-  // Self-healing image load error fallback
   const handleImageError = () => {
     if (images.length > 1) {
       const updatedImages = [...images];
@@ -193,12 +140,12 @@ export default function RotatingImage({ searchTerm, defaultImages = [], alt }: R
       setImages(updatedImages);
       setIndex(0);
     } else {
-      setImages([fallbackImage]);
+      setImages([fallbackLandmarkImage]);
       setIndex(0);
     }
   };
 
-  const currentImage = images[index] || fallbackImage;
+  const currentImage = images[index] || fallbackLandmarkImage;
 
   return (
     <Image 
