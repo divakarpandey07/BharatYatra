@@ -10,7 +10,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous War Memorials in Delhi. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?India%20Gate,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -22,7 +22,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Tombs in Delhi. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Humayun's%20Tomb,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80's%20Tomb,delhi",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -34,7 +34,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹60",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Temples in Delhi. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Akshardham%20Temple,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -46,7 +46,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Theme Parks in Delhi. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Waste%20to%20Wonder%20Park,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -58,7 +58,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹15",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Observatorys in Delhi. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Jantar%20Mantar,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -70,7 +70,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Markets in Delhi. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Chandni%20Chowk,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -82,7 +82,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Temples in Delhi. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Lotus%20Temple,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -94,7 +94,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹35",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Forts in Delhi. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Red%20Fort,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -106,7 +106,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Stepwells in Delhi. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Agrasen%20ki%20Baoli,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -118,7 +118,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Parks in Delhi. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Sunder%20Nursery,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -130,7 +130,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹35",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Parks in Delhi. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Garden%20of%20Five%20Senses,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -142,7 +142,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Parks in Delhi. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Lodhi%20Garden,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -154,7 +154,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Museums in Delhi. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?National%20Gallery%20of%20Modern%20Art,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -166,7 +166,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹80",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Zoos in Delhi. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?National%20Zoological%20Park,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -178,7 +178,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹35",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Monuments in Delhi. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Qutub%20Minar,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -190,7 +190,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹70",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Sciences in Delhi. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?National%20Science%20Centre,delhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,delhi",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -204,7 +204,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Promenades in Mumbai. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Marine%20Drive,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -216,7 +216,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Monuments in Mumbai. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Gateway%20of%20India,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -228,7 +228,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹500",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Museums in Mumbai. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Chhatrapati%20Shivaji%20Maharaj%20Vastu%20Sangrahalaya,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -240,7 +240,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous National Parks in Mumbai. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Sanjay%20Gandhi%20National%20Park,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -252,7 +252,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Mumbai. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Siddhivinayak%20Temple,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -264,7 +264,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Mumbai. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Mahalaxmi%20Temple,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -276,7 +276,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Religious Shrines in Mumbai. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Haji%20Ali%20Dargah,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -288,7 +288,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Mumbai. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Chowpatty%20Beach,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -300,7 +300,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹1149",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Amusement Parks in Mumbai. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Essel%20World,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -312,7 +312,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹550",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Monuments in Mumbai. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Elephanta%20Caves,mumbai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mumbai",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -326,7 +326,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹1149",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Amusement Parks in Lonavala. Highly rated (1.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Imagicaa,lonavala",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,lonavala",
       popularity: 1.4,
       zone: "Kaggle Dataset"
     },
@@ -338,7 +338,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹25",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Caves in Lonavala. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Karla%20Caves,lonavala",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,lonavala",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -352,7 +352,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹500",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Palaces in Bangalore. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Bangalore%20Palace,bangalore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bangalore",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -364,7 +364,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Botanical Gardens in Bangalore. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Lalbagh%20Botanical%20Garden,bangalore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bangalore",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -376,7 +376,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Parks in Bangalore. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Cubbon%20Park,bangalore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bangalore",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -388,7 +388,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Government Buildings in Bangalore. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Vidhana%20Soudha,bangalore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bangalore",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -400,7 +400,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Temples in Bangalore. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?ISKCON%20Temple%20Bangalore,bangalore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bangalore",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -414,7 +414,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹25",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Landmarks in Hyderabad. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Charminar,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -426,7 +426,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Forts in Hyderabad. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Golconda%20Fort,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -438,7 +438,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Lakes in Hyderabad. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Hussain%20Sagar%20Lake,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -450,7 +450,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹1150",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Film Studios in Hyderabad. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Ramoji%20Film%20City,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -462,7 +462,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Museums in Hyderabad. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Salar%20Jung%20Museum,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -474,7 +474,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹25",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Tombss in Hyderabad. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Qutb%20Shahi%20Tombs,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -486,7 +486,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Hyderabad. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Birla%20Mandir,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -498,7 +498,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹80",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Palaces in Hyderabad. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Chowmahalla%20Palace,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -510,7 +510,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Zoos in Hyderabad. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Nehru%20Zoological%20Park,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -522,7 +522,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Parks in Hyderabad. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Lumbini%20Park,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -534,7 +534,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Malls in Hyderabad. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Inorbit%20Mall%20Cyberabad,hyderabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hyderabad",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -548,7 +548,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Museums in Kolkata. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Victoria%20Memorial,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -560,7 +560,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Anytime",
       whyFamous: `One of the most famous Bridges in Kolkata. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Howrah%20Bridge,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -572,7 +572,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Museums in Kolkata. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Indian%20Museum,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -584,7 +584,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Temples in Kolkata. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Dakshineswar%20Kali%20Temple,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -596,7 +596,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Temples in Kolkata. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Kalighat%20Kali%20Temple,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -608,7 +608,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹2500",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Cricket Grounds in Kolkata. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Eden%20Gardens,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -620,7 +620,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹25",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Zoos in Kolkata. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Alipore%20Zoological%20Gardens,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -632,7 +632,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹60",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Sciences in Kolkata. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Science%20City%20Kolkata,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -644,7 +644,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Sites in Kolkata. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Belur%20Math,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -656,7 +656,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Palaces in Kolkata. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Marble%20Palace,kolkata",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolkata",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -670,7 +670,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Goa. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Calangute%20Beach,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -682,7 +682,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Churchs in Goa. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Basilica%20of%20Bom%20Jesus,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -694,7 +694,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Forts in Goa. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Fort%20Aguada,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -706,7 +706,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹500",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Waterfalls in Goa. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Dudhsagar%20Falls,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -718,7 +718,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Goa. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Anjuna%20Beach,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -730,7 +730,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Forts in Goa. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Chapora%20Fort,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -742,7 +742,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Churchs in Goa. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Se%20Cathedral,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -754,7 +754,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Goa. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Baga%20Beach,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -766,7 +766,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Goa. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Arambol%20Beach,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -778,7 +778,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Goa. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Palolem%20Beach,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -790,7 +790,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Goa. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Colva%20Beach,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -802,7 +802,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Goa. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Miramar%20Beach,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -814,7 +814,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Goa. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Aguada%20Beach,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -826,7 +826,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Bird Sanctuarys in Goa. Highly rated (3.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Dr.%20Salim%20Ali%20Bird%20Santuary,goa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,goa",
       popularity: 3.9,
       zone: "Kaggle Dataset"
     },
@@ -840,7 +840,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Historicals in Ahmedabad. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Sabarmati%20Ashram,ahmedabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ahmedabad",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -852,7 +852,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Urban Development Projects in Ahmedabad. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Sabarmati%20Riverfront,ahmedabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ahmedabad",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -864,7 +864,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Night",
       whyFamous: `One of the most famous Markets in Ahmedabad. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Manek%20Chowk,ahmedabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ahmedabad",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -876,7 +876,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Lakes in Ahmedabad. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Kankaria%20Lake,ahmedabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ahmedabad",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -888,7 +888,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹500",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Sciences in Ahmedabad. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Science%20City,ahmedabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ahmedabad",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -902,7 +902,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Temples in Dwarka. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Dwarkadhish%20Temple,dwarka",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,dwarka",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -916,7 +916,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹3500",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous National Parks in Junagadh. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Gir%20National%20Park,junagadh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,junagadh",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -930,7 +930,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Sites in Bhuj. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?White%20Desert,bhuj",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bhuj",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -944,7 +944,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹200",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Palaces in Vadodara. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Laxmi%20Vilas%20Palace,vadodara",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,vadodara",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -958,7 +958,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Temples in Somnath. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Somnath%20Temple,somnath",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,somnath",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -972,7 +972,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹7500",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Culturals in Rann of Kutch. Highly rated (4.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Rann%20Utsav,rannofkutch",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,rannofkutch",
       popularity: 4.9,
       zone: "Kaggle Dataset"
     },
@@ -986,7 +986,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹350",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Monuments in Kevadia. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Statue%20of%20Unity,kevadia",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kevadia",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1000,7 +1000,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Museums in Gandhinagar. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Dandi%20Kutir,gandhinagar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gandhinagar",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1012,7 +1012,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Gandhinagar. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Akshardham,gandhinagar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gandhinagar",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1026,7 +1026,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Palaces in Jaipur. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Hawa%20Mahal,jaipur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jaipur",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1038,7 +1038,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹100",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Jaipur. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Amber%20Fort,jaipur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jaipur",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1050,7 +1050,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹35",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Jaipur. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Jaigarh%20Fort,jaipur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jaipur",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1062,7 +1062,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹200",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Palaces in Jaipur. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?City%20Palace,jaipur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jaipur",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1074,7 +1074,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹200",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Museums in Jaipur. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Albert%20Hall%20Museum,jaipur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jaipur",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1088,7 +1088,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹300",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Palaces in Udaipur. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?City%20Palace,udaipur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,udaipur",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1100,7 +1100,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Lakes in Udaipur. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Lake%20Pichola,udaipur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,udaipur",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1114,7 +1114,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Jaisalmer. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Jaisalmer%20Fort,jaisalmer",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jaisalmer",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1128,7 +1128,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹500",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Wildlife Sanctuarys in Sawai Madhopur. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Ranthambore%20National%20Park,sawaimadhopur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,sawaimadhopur",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1142,7 +1142,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Pushkar. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Pushkar%20Lake,pushkar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,pushkar",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1156,7 +1156,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Shrines in Ajmer. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Ajmer%20Sharif%20Dargah,ajmer",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ajmer",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1170,7 +1170,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹100",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Jodhpur. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Mehrangarh%20Fort,jodhpur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jodhpur",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1184,7 +1184,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹40",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Chittorgarh. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Chittorgarh%20Fort,chittorgarh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chittorgarh",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1198,7 +1198,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Mount Abu. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Dilwara%20Temples,mountabu",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mountabu",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1212,7 +1212,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Bikaner. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Junagarh%20Fort,bikaner",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bikaner",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1226,7 +1226,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Religious Sites in Amritsar. Highly rated (4.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Golden%20Temple%20(Harmandir%20Sahib),amritsar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,amritsar",
       popularity: 4.9,
       zone: "Kaggle Dataset"
     },
@@ -1238,7 +1238,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Memorials in Amritsar. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Jallianwala%20Bagh,amritsar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,amritsar",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -1250,7 +1250,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Border Crossings in Amritsar. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Wagah%20Border,amritsar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,amritsar",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -1262,7 +1262,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its religious vibes. Accessibility: Easy.`,
-      image: "https://source.unsplash.com/800x600/?Golden%20Temple",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1276,7 +1276,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Sculpture Gardens in Chandigarh. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Rock%20Garden,chandigarh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chandigarh",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1290,7 +1290,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Beachs in Alappuzha. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Alappuzha%20Beach,alappuzha",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,alappuzha",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1304,7 +1304,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Scenic Areas in Munnar. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Munnar%20Tea%20Gardens,munnar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,munnar",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -1316,7 +1316,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its nature vibes. Accessibility: Moderate.`,
-      image: "https://source.unsplash.com/800x600/?Tea%20Gardens",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1330,7 +1330,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Sites in Kochi. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Fort%20Kochi,kochi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kochi",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1342,7 +1342,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹100",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Culturals in Kochi. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Kerala%20Folklore%20Museum,kochi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kochi",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1354,7 +1354,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹750",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Amusement Parks in Kochi. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Wonderla%20Amusement%20Park,kochi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kochi",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1366,7 +1366,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Malls in Kochi. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?LuLu%20International%20Shopping%20Mall,kochi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kochi",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1380,7 +1380,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Thiruvananthapuram. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Padmanabhaswamy%20Temple,thiruvananthapuram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,thiruvananthapuram",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1394,7 +1394,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Beachs in Kozhikode. Highly rated (3.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Kozhikode%20Beach,kozhikode",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kozhikode",
       popularity: 3.9,
       zone: "Kaggle Dataset"
     },
@@ -1408,7 +1408,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹300",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Wildlife Sanctuarys in Wayanad. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Wayanad%20Wildlife%20Sanctuary,wayanad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,wayanad",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1422,7 +1422,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous National Parks in Thekkady. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Periyar%20National%20Park,thekkady",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,thekkady",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -1436,7 +1436,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Bird Sanctuarys in Kumarakom. Highly rated (3.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Kumarakom%20Bird%20Sanctuary,kumarakom",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kumarakom",
       popularity: 3.8,
       zone: "Kaggle Dataset"
     },
@@ -1450,7 +1450,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Beachs in Varkala. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Varkala%20Beach,varkala",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,varkala",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1464,7 +1464,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Bekal. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Bekal%20Fort,bekal",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bekal",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1478,7 +1478,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Beachs in Kovalam. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Kovalam%20Beach,kovalam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kovalam",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1492,7 +1492,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Kannur. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?St.%20Angelo%20Fort,kannur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kannur",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1506,7 +1506,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Viewpoints in Nelliyampathy. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Seethargundu%20Viewpoint,nelliyampathy",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,nelliyampathy",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1520,7 +1520,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Palaces in Mysore. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Mysore%20Palace,mysore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mysore",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1534,7 +1534,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Sites in Hampi. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Hampi%20Archaeological%20Ruins,hampi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hampi",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1548,7 +1548,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Waterfalls in Coorg. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Abbey%20Falls,coorg",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,coorg",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -1562,7 +1562,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Beachs in Gokarna. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Om%20Beach,gokarna",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gokarna",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1576,7 +1576,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Mountain Peaks in Chikmagalur. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Mullayanagiri,chikmagalur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chikmagalur",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1590,7 +1590,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Caves in Badami. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Badami%20Cave%20Temples,badami",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,badami",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1604,7 +1604,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Waterfalls in Shivamogga. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Jog%20Falls,shivamogga",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,shivamogga",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1618,7 +1618,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Beachs in Mangalore. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Panambur%20Beach,mangalore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mangalore",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1632,7 +1632,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Murudeshwar. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Murudeshwar%20Temple,murudeshwar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,murudeshwar",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1646,7 +1646,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Mausoleums in Bijapur. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Gol%20Gumbaz,bijapur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bijapur",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1660,7 +1660,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹300",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous National Parks in Bandipur. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Bandipur%20National%20Park,bandipur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bandipur",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1674,7 +1674,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹15",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Halebidu. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Halebidu%20Hoysaleswara%20Temple,halebidu",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,halebidu",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1688,7 +1688,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Pune. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Shaniwar%20Wada,pune",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,pune",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1702,7 +1702,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Caves in Aurangabad. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Ajanta%20Caves,aurangabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,aurangabad",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1716,7 +1716,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹300",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Vineyards in Nashik. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Sula%20Vineyards,nashik",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,nashik",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -1730,7 +1730,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Shirdi. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Sai%20Baba%20Temple,shirdi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,shirdi",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1744,7 +1744,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Alibaug. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Alibaug%20Beach,alibaug",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,alibaug",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -1758,7 +1758,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Ratnagiri. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Ganapatipule%20Temple,ratnagiri",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ratnagiri",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1772,7 +1772,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Monuments in Nagpur. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Deekshabhoomi,nagpur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,nagpur",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1786,7 +1786,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Kolhapur. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Mahalakshmi%20Temple,kolhapur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kolhapur",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -1800,7 +1800,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Beachs in Tarkarli. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Tarkarli%20Beach,tarkarli",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,tarkarli",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1814,7 +1814,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹300",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Valleys in Satara. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Kaas%20Plateau,satara",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,satara",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1828,7 +1828,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Viewpoints in Matheran. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Echo%20Point,matheran",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,matheran",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1842,7 +1842,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Caves in Ajanta. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Ellora%20Caves,ajanta",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ajanta",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1856,7 +1856,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹40",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Templess in Khajuraho. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Khajuraho%20Group%20of%20Monuments,khajuraho",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,khajuraho",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1870,7 +1870,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Monuments in Bhopal. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Sanchi%20Stupa,bhopal",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bhopal",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1882,7 +1882,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Museums in Bhopal. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Madhya%20Pradesh%20Tribal%20Museum,bhopal",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bhopal",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -1896,7 +1896,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Palaces in Indore. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Rajwada%20Palace,indore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,indore",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -1910,7 +1910,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹75",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Forts in Gwalior. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Gwalior%20Fort,gwalior",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gwalior",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1924,7 +1924,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Ujjain. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Mahakaleshwar%20Jyotirlinga,ujjain",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ujjain",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -1938,7 +1938,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Waterfalls in Jabalpur. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Dhuandhar%20Falls,jabalpur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jabalpur",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1952,7 +1952,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹15",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Waterfalls in Pachmarhi. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Bee%20Falls,pachmarhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,pachmarhi",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -1966,7 +1966,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹100",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Wildlife Sanctuarys in Kanha. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Kanha%20National%20Park,kanha",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kanha",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1980,7 +1980,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous National Parks in Bandhavgarh. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Bandhavgarh%20National%20Park,bandhavgarh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bandhavgarh",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -1994,7 +1994,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Forts in Orchha. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Orchha%20Fort,orchha",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,orchha",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2008,7 +2008,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Sites in Mandu. Highly rated (3.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Jahaz%20Mahal,mandu",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mandu",
       popularity: 3.9,
       zone: "Kaggle Dataset"
     },
@@ -2022,7 +2022,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹25",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Prehistoric Sites in Bhimbetka. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Bhimbetka%20Rock%20Shelters,bhimbetka",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bhimbetka",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2036,7 +2036,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Amarkantak. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Narmada%20Udgam%20Temple,amarkantak",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,amarkantak",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2050,7 +2050,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Waterfalls in Chitrakoot. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Chitrakoot%20Falls,chitrakoot",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chitrakoot",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2064,7 +2064,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Scenic Points in Shimla. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?The%20Ridge,shimla",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,shimla",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2076,7 +2076,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its nature vibes. Accessibility: Easy.`,
-      image: "https://source.unsplash.com/800x600/?Mall%20Road",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2090,7 +2090,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Valleys in Manali. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Solang%20Valley,manali",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,manali",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -2104,7 +2104,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in dalhousie. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Dalai%20Lama%20Temple,dalhousie",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,dalhousie",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2116,7 +2116,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Dalhousie. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Khajjiar%20Lake,dalhousie",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,dalhousie",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2130,7 +2130,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Monasterys in Spiti Valley. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Key%20Monastery,spitivalley",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,spitivalley",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2144,7 +2144,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous National Parks in Kullu. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Great%20Himalayan%20National%20Park,kullu",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kullu",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2158,7 +2158,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Chamba. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Chamera%20Lake,chamba",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chamba",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2172,7 +2172,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Valleys in Kinnaur. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Sangla%20Valley,kinnaur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kinnaur",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2186,7 +2186,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹150",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Kangra. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Kangra%20Fort,kangra",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kangra",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2200,7 +2200,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Tea Plantations in Palampur. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Tea%20Gardens,palampur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,palampur",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2214,7 +2214,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Mandi. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Prashar%20Lake,mandi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mandi",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2228,7 +2228,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹2500",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Adventure Sports in Bir Billing. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Paragliding%20Site,birbilling",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,birbilling",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2242,7 +2242,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Trekkings in McLeod Ganj. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Triund%20Trek,mcleodganj",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mcleodganj",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2256,7 +2256,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Gurudwaras in Manikaran. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Manikaran%20Sahib,manikaran",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,manikaran",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2270,7 +2270,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Viewpoints in Narkanda. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Hatu%20Peak,narkanda",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,narkanda",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2284,7 +2284,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Valleys in Barot. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Barot%20Valley,barot",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,barot",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2298,7 +2298,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Shoja. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Serolsar%20Lake,shoja",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,shoja",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2312,7 +2312,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹1500",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Ski Resorts in Kufri. Highly rated (3.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Kufri%20Fun%20World,kufri",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kufri",
       popularity: 3.8,
       zone: "Kaggle Dataset"
     },
@@ -2326,7 +2326,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Nainital. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Naini%20Lake,nainital",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,nainital",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -2340,7 +2340,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Suspension Bridges in Rishikesh. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Laxman%20Jhula,rishikesh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,rishikesh",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2352,7 +2352,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its adventure vibes. Accessibility: Difficult.`,
-      image: "https://source.unsplash.com/800x600/?Lakshman%20Jhula",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2366,7 +2366,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Ghats in Haridwar. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Har%20Ki%20Pauri,haridwar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,haridwar",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2380,7 +2380,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹25",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Caves in Dehradun. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Robber's%20Cave,dehradun",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80's%20Cave,dehradun",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2394,7 +2394,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹15",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Waterfalls in Mussoorie. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Kempty%20Falls,mussoorie",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mussoorie",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -2408,7 +2408,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Ski Resorts in Auli. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Auli%20Ski%20Resort,auli",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,auli",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2422,7 +2422,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Badrinath. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Badrinath%20Temple,badrinath",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,badrinath",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2436,7 +2436,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹150",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Wildlife Sanctuarys in Almora. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Binsar%20Wildlife%20Sanctuary,almora",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,almora",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -2450,7 +2450,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Orchards in Ranikhet. Highly rated (4/5).`,
-      image: "https://source.unsplash.com/800x600/?Chaubatia%20Gardens,ranikhet",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ranikhet",
       popularity: 4,
       zone: "Kaggle Dataset"
     },
@@ -2464,7 +2464,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹100",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous National Parks in Jim Corbett. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Jim%20Corbett%20National%20Park,jimcorbett",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jimcorbett",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2478,7 +2478,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Uttarkashi. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Gangotri%20Temple,uttarkashi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,uttarkashi",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2492,7 +2492,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Chopta. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Tungnath%20Temple,chopta",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chopta",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2506,7 +2506,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹150",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous National Parks in Joshimath. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Valley%20of%20Flowers,joshimath",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,joshimath",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2520,7 +2520,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Mausoleums in Agra. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Taj%20Mahal,agra",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,agra",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2532,7 +2532,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹40",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Forts in Agra. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Agra%20Fort,agra",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,agra",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2546,7 +2546,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Varanasi. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Kashi%20Vishwanath%20Temple,varanasi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,varanasi",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2558,7 +2558,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its religious vibes. Accessibility: Moderate.`,
-      image: "https://source.unsplash.com/800x600/?Ghats%20of%20Varanasi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2572,7 +2572,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Monuments in Lucknow. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Bara%20Imambara,lucknow",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,lucknow",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2584,7 +2584,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Malls in Lucknow. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Phoenix%20Palassio,lucknow",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,lucknow",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2598,7 +2598,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Mathura. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Krishna%20Janmabhoomi,mathura",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mathura",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2610,7 +2610,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Villages in Mathura. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Nand%20Gaon,mathura",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mathura",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -2622,7 +2622,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Temples in Mathura. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Barsana%20Mandir,mathura",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mathura",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2636,7 +2636,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Religious Sites in Ayodhya. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Ram%20Janmabhoomi,ayodhya",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ayodhya",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2650,7 +2650,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Vrindavan. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Banke%20Bihari%20Temple,vrindavan",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,vrindavan",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2662,7 +2662,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Evening",
       whyFamous: `One of the most famous Temples in Vrindavan. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Prem%20Mandir,vrindavan",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,vrindavan",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2676,7 +2676,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Confluences in Allahabad. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Triveni%20Sangam,allahabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,allahabad",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2690,7 +2690,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹15",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Jhansi. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Jhansi%20Fort,jhansi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jhansi",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2704,7 +2704,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹5",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Monuments in Sarnath. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Dhamek%20Stupa,sarnath",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,sarnath",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2718,7 +2718,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹40",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Monuments in Fatehpur Sikri. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Buland%20Darwaza,fatehpursikri",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,fatehpursikri",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -2732,7 +2732,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Bird Sanctuarys in Noida. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Okhla%20Bird%20Sanctuary,noida",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,noida",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -2744,7 +2744,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Malls in Noida. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?DLF%20Mall%20of%20India,noida",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,noida",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2758,7 +2758,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Forts in Aligarh. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Aligarh%20Fort,aligarh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,aligarh",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -2772,7 +2772,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Meerut. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Augarnath%20Temple,meerut",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,meerut",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2786,7 +2786,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹150",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Zoos in Kanpur. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Allen%20Forest%20Zoo,kanpur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kanpur",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -2800,7 +2800,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Srinagar. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Dal%20Lake,srinagar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,srinagar",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2814,7 +2814,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Leh. Highly rated (4.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Pangong%20Tso,leh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,leh",
       popularity: 4.9,
       zone: "Kaggle Dataset"
     },
@@ -2826,7 +2826,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Monasterys in Leh. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Thiksey%20Monastery,leh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,leh",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2838,7 +2838,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Gravity Hills in Leh. Highly rated (3.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Magnetic%20Hill,leh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,leh",
       popularity: 3.7,
       zone: "Kaggle Dataset"
     },
@@ -2850,7 +2850,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Hills in Leh. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Khardung%20La%20Pass,leh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,leh",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2862,7 +2862,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Monasterys in Leh. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Thiksey%20Monastery,leh",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,leh",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2876,7 +2876,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹100",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Valleys in Pahalgam. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Betaab%20Valley,pahalgam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,pahalgam",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -2890,7 +2890,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Jammu. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Vaishno%20Devi,jammu",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jammu",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2904,7 +2904,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Hills in Udhampur. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Patnitop%20Height,udhampur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,udhampur",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -2918,7 +2918,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Anantnag. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Amarnath%20Cave,anantnag",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,anantnag",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2932,7 +2932,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Valleys in Nubra Valley. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Nubra%20Valley,nubravalley",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,nubravalley",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -2946,7 +2946,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous War Memorials in Kargil. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Kargil%20War%20Memorial,kargil",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kargil",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -2960,7 +2960,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Monasterys in Diskit. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Diskit%20Monastery,diskit",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,diskit",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -2974,7 +2974,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹100",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous National Parks in Kishtwar. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Kishtwar%20National%20Park,kishtwar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kishtwar",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -2988,7 +2988,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous National Parks in Hemis. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Hemis%20National%20Park,hemis",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hemis",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3002,7 +3002,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous War Memorials in Dras. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Dras%20War%20Memorial,dras",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,dras",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -3016,7 +3016,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Memorials in Porbandar. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Kirti%20Mandir,porbandar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,porbandar",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -3030,7 +3030,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Sunrise Points in Darjeeling. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Tiger%20Hill,darjeeling",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,darjeeling",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3044,7 +3044,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹250",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Wildlife Sanctuarys in Siliguri. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Jaldapara%20National%20Park,siliguri",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,siliguri",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3058,7 +3058,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹60",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous National Parks in Sundarbans. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Sundarbans%20National%20Park,sundarbans",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,sundarbans",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3072,7 +3072,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Beachs in Digha. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Digha%20Beach,digha",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,digha",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3086,7 +3086,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Palaces in Murshidabad. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Hazarduari%20Palace,murshidabad",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,murshidabad",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3100,7 +3100,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Bolpur. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Kankalitala%20Temple,bolpur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bolpur",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3114,7 +3114,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Hooghly. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Hangseswari%20Temple,hooghly",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hooghly",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3128,7 +3128,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹100",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous National Parks in Jalpaiguri. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Gorumara%20National%20Park,jalpaiguri",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,jalpaiguri",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3142,7 +3142,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Palaces in Cooch Behar. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Cooch%20Behar%20Palace,coochbehar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,coochbehar",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3156,7 +3156,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Hills in Purulia. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Ayodhya%20Hills,purulia",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,purulia",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3170,7 +3170,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Puri. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Jagannath%20Temple,puri",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,puri",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3184,7 +3184,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹40",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Konark. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Sun%20Temple,konark",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,konark",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3198,7 +3198,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Bhubaneswar. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Lingaraj%20Temple,bhubaneswar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bhubaneswar",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3210,7 +3210,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Zoos in Bhubaneswar. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Nandankanan%20Zoological%20Park,bhubaneswar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bhubaneswar",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3224,7 +3224,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Waterfalls in Rourkela. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Khandadhar%20Waterfall,rourkela",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,rourkela",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3238,7 +3238,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Forts in Cuttack. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Barabati%20Fort,cuttack",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,cuttack",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3252,7 +3252,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Dams in Sambalpur. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Hirakud%20Dam,sambalpur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,sambalpur",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3266,7 +3266,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Chilika. Highly rated (3.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Chilika%20Lake,chilika",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chilika",
       popularity: 3.9,
       zone: "Kaggle Dataset"
     },
@@ -3280,7 +3280,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Berhampur. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Tara%20Tarini%20Temple,berhampur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,berhampur",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3294,7 +3294,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Waterfalls in Keonjhar. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Badaghagara%20Waterfall,keonjhar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,keonjhar",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -3308,7 +3308,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Beachs in Balasore. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Chandipur%20Beach,balasore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,balasore",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -3322,7 +3322,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Waterfalls in Kendujhar. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Sanaghagara%20Waterfall,kendujhar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kendujhar",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3336,7 +3336,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Beachs in Chennai. Highly rated (3.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Marina%20Beach,chennai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chennai",
       popularity: 3.9,
       zone: "Kaggle Dataset"
     },
@@ -3350,7 +3350,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Madurai. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Meenakshi%20Amman%20Temple,madurai",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,madurai",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3364,7 +3364,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Rameswaram. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Ramanathaswamy%20Temple,rameswaram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,rameswaram",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3376,7 +3376,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Rameswaram. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Ramanathaswamy%20Temple,rameswaram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,rameswaram",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3390,7 +3390,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Memorials in Kanyakumari. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Vivekananda%20Rock%20Memorial,kanyakumari",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kanyakumari",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3404,7 +3404,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Ooty. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Ooty%20Lake,ooty",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ooty",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -3418,7 +3418,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Coimbatore. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Marudamalai%20Temple,coimbatore",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,coimbatore",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3432,7 +3432,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Kodaikanal. Highly rated (3.9/5).`,
-      image: "https://source.unsplash.com/800x600/?Kodaikanal%20Lake,kodaikanal",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kodaikanal",
       popularity: 3.9,
       zone: "Kaggle Dataset"
     },
@@ -3446,7 +3446,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Thanjavur. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Brihadeeswarar%20Temple,thanjavur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,thanjavur",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -3460,7 +3460,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹40",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Mahabalipuram. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Shore%20Temple,mahabalipuram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,mahabalipuram",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3474,7 +3474,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Yercaud. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?Yercaud%20Lake,yercaud",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,yercaud",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -3488,7 +3488,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Tirunelveli. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Nellaiappar%20Temple,tirunelveli",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,tirunelveli",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3502,7 +3502,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Chidambaram. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Nataraja%20Temple,chidambaram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,chidambaram",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3516,7 +3516,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Vijayawada. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Kanaka%20Durga%20Temple,vijayawada",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,vijayawada",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3530,7 +3530,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Beachs in Visakhapatnam. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Rishikonda%20Beach,visakhapatnam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,visakhapatnam",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3542,7 +3542,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Hills in Visakhapatnam. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Kailasagiri,visakhapatnam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,visakhapatnam",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3554,7 +3554,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹40",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Museums in Visakhapatnam. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Submarine%20Museum,visakhapatnam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,visakhapatnam",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3566,7 +3566,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹60",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Caves in Visakhapatnam. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Borra%20Caves,visakhapatnam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,visakhapatnam",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3578,7 +3578,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous War Memorials in Visakhapatnam. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?War%20Memorial,visakhapatnam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,visakhapatnam",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3590,7 +3590,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Zoos in Visakhapatnam. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Indira%20Gandhi%20Zoological%20Park,visakhapatnam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,visakhapatnam",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -3602,7 +3602,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Aquariums in Visakhapatnam. Highly rated (3.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Matsyadarshini%20Aquarium,visakhapatnam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,visakhapatnam",
       popularity: 3.8,
       zone: "Kaggle Dataset"
     },
@@ -3614,7 +3614,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Museums in Visakhapatnam. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Visakha%20Museum,visakhapatnam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,visakhapatnam",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -3628,7 +3628,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Srisailam. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Mallikarjuna%20Swamy%20Temple,srisailam",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,srisailam",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3642,7 +3642,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Hills in Rajahmundry. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Papikondalu,rajahmundry",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,rajahmundry",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -3656,7 +3656,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Sites in Anantapur. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Lepakshi,anantapur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,anantapur",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3670,7 +3670,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹65",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Caves in Kurnool. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Belum%20Caves,kurnool",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kurnool",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3684,7 +3684,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Amravati. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Amaravathi%20Temple,amravati",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,amravati",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3698,7 +3698,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Bird Sanctuarys in Guntur. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Uppalapadu%20Bird%20Sanctuary,guntur",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,guntur",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3712,7 +3712,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Forts in Kadapa. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Gandikota%20Fort,kadapa",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kadapa",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3726,7 +3726,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Spiritual Centers in Puttaparthi. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Prasanthi%20Nilayam,puttaparthi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,puttaparthi",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3740,7 +3740,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Vizianagaram. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Simhachalam%20Temple,vizianagaram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,vizianagaram",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3754,7 +3754,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Hills in Gangtok. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Nathula%20Pass,gangtok",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gangtok",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -3766,7 +3766,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Monasterys in Gangtok. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Rumtek%20Monastery,gangtok",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gangtok",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3778,7 +3778,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Gangtok. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Baba%20Harbhajan%20Singh%20Temple,gangtok",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gangtok",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3790,7 +3790,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Gangtok. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Tsomgo%20Lake,gangtok",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gangtok",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3804,7 +3804,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Monasterys in Pelling. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Pemayangtse%20Monastery,pelling",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,pelling",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3818,7 +3818,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Religious Complexs in Namchi. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Char%20Dham,namchi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,namchi",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3832,7 +3832,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Parks in Ravangla. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Buddha%20Park,ravangla",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ravangla",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -3846,7 +3846,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Guwahati. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Kamakhya%20Temple,guwahati",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,guwahati",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3858,7 +3858,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Islands in Guwahati. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Umananda%20Island,guwahati",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,guwahati",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -3870,7 +3870,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹500",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Wildlife Sanctuarys in Guwahati. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Pobitora%20Wildlife%20Sanctuary,guwahati",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,guwahati",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -3884,7 +3884,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹650",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous National Parks in Kaziranga. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Kaziranga%20National%20Park,kaziranga",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kaziranga",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3898,7 +3898,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Sivasagar. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Sivasagar%20Sivadol,sivasagar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,sivasagar",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3912,7 +3912,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous River Islands in Majuli. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Majuli%20Island,majuli",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,majuli",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3926,7 +3926,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹500",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous National Parks in Manas. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Manas%20National%20Park,manas",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,manas",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -3940,7 +3940,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Hajo. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Hayagriva%20Madhava%20Temple,hajo",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,hajo",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3954,7 +3954,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Monasterys in Tawang. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Tawang%20Monastery,tawang",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,tawang",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -3968,7 +3968,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Palaces in Agartala. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Ujjayanta%20Palace,agartala",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,agartala",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3982,7 +3982,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Lakes in Dumboor. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Dumboor%20Lake,dumboor",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,dumboor",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -3996,7 +3996,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹20",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Rock Carvingss in Unakoti. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Unakoti%20Rock%20Carvings,unakoti",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,unakoti",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4010,7 +4010,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Waterfalls in Bastar. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Chitrakote%20Falls,bastar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bastar",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -4024,7 +4024,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Valleys in Dzükou Valley. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Dz%C3%BCkou%20Valley,dzkouvalley",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,dzkouvalley",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -4038,7 +4038,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Beachs in Puducherry. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Promenade%20Beach,puducherry",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,puducherry",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4050,7 +4050,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹200",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Beachs in Puducherry. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Paradise%20Beach,puducherry",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,puducherry",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4064,7 +4064,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Townships in Auroville. Highly rated (4.1/5).`,
-      image: "https://source.unsplash.com/800x600/?Auroville,auroville",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,auroville",
       popularity: 4.1,
       zone: "Kaggle Dataset"
     },
@@ -4078,7 +4078,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Landmarks in Port Blair. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Cellular%20Jail,portblair",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,portblair",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -4092,7 +4092,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Beachs in Havelock Island. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Radhanagar%20Beach,havelockisland",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,havelockisland",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -4106,7 +4106,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Beachs in Neil Island. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Bharatpur%20Beach,neilisland",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,neilisland",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4120,7 +4120,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹250",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Natural Features in Baratang Island. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Limestone%20Caves,baratangisland",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,baratangisland",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -4134,7 +4134,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Caves in Diu. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Naida%20Caves,diu",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,diu",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4146,7 +4146,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Forts in Diu. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Diu%20Fort,diu",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,diu",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -4160,7 +4160,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Deoghar. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Baba%20Baidyanath%20Temple,deoghar",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,deoghar",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -4174,7 +4174,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Ranchi. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Pahari%20Mandir,ranchi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,ranchi",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -4188,7 +4188,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Bodh Gaya. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Mahabodhi%20Temple,bodhgaya",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bodhgaya",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -4202,7 +4202,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹30",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Zoos in Patna. Highly rated (4.3/5).`,
-      image: "https://source.unsplash.com/800x600/?Sanjay%20Gandhi%20Biological%20Park,patna",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,patna",
       popularity: 4.3,
       zone: "Kaggle Dataset"
     },
@@ -4214,7 +4214,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Gurudwaras in Patna. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?Takhat%20Shri%20Harimandir%20Ji%20Patna%20Sahib,patna",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,patna",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -4226,7 +4226,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹10",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Parks in Patna. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Budhha%20Smriti%20Park,patna",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,patna",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -4240,7 +4240,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹1100",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Entertainments in Gurugram. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Kingdom%20of%20Dreams,gurugram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gurugram",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -4252,7 +4252,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Malls in Gurugram. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Ambience%20Mall,gurugram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gurugram",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -4264,7 +4264,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Afternoon",
       whyFamous: `One of the most famous Commercial Complexs in Gurugram. Highly rated (4.7/5).`,
-      image: "https://source.unsplash.com/800x600/?DLF%20CyberHub,gurugram",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,gurugram",
       popularity: 4.7,
       zone: "Kaggle Dataset"
     },
@@ -4278,7 +4278,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Gurudwaras in New Delhi. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Gurudwara%20Bangla%20Sahib,newdelhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,newdelhi",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -4290,7 +4290,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Mosques in New Delhi. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Jama%20Masjid,newdelhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,newdelhi",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4302,7 +4302,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹50",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Museums in New Delhi. Highly rated (4.4/5).`,
-      image: "https://source.unsplash.com/800x600/?Rail%20Museum,newdelhi",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,newdelhi",
       popularity: 4.4,
       zone: "Kaggle Dataset"
     },
@@ -4316,7 +4316,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Temples in Kedarnath. Highly rated (4.8/5).`,
-      image: "https://source.unsplash.com/800x600/?Kedarnath,kedarnath",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,kedarnath",
       popularity: 4.8,
       zone: "Kaggle Dataset"
     },
@@ -4330,7 +4330,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Malls in Greater Noida. Highly rated (4.2/5).`,
-      image: "https://source.unsplash.com/800x600/?The%20Grand%20Venice%20Mall,greaternoida",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,greaternoida",
       popularity: 4.2,
       zone: "Kaggle Dataset"
     },
@@ -4342,7 +4342,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹1500",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Race Tracks in Greater Noida. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Buddh%20International%20Circuit,greaternoida",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,greaternoida",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -4356,7 +4356,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "₹890",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Amusement Parks in Bengaluru. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Wonderla%20Amusement%20Park,bengaluru",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bengaluru",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4368,7 +4368,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All",
       whyFamous: `One of the most famous Malls in Bengaluru. Highly rated (4.5/5).`,
-      image: "https://source.unsplash.com/800x600/?Orion%20Mall,bengaluru",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,bengaluru",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4382,7 +4382,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "Morning",
       whyFamous: `One of the most famous Natural Features in Cherrapunji. Highly rated (4.6/5).`,
-      image: "https://source.unsplash.com/800x600/?Living%20Root%20Bridge,cherrapunji",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80,cherrapunji",
       popularity: 4.6,
       zone: "Kaggle Dataset"
     },
@@ -4394,7 +4394,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its nature vibes. Accessibility: Difficult.`,
-      image: "https://source.unsplash.com/800x600/?Nohkalikai%20Falls",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4408,7 +4408,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its heritage vibes. Accessibility: Easy.`,
-      image: "https://source.unsplash.com/800x600/?Taj%20Mahal",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4422,7 +4422,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its nature vibes. Accessibility: Moderate.`,
-      image: "https://source.unsplash.com/800x600/?Vembanad%20Lake",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4436,7 +4436,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its beach vibes. Accessibility: Moderate.`,
-      image: "https://source.unsplash.com/800x600/?Radhanagar%20Beach",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4450,7 +4450,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its nature vibes. Accessibility: Moderate.`,
-      image: "https://source.unsplash.com/800x600/?Kaziranga%20National%20Park",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
@@ -4464,7 +4464,7 @@ export const kaggleDistricts: Record<string, PlaceData[]> = {
       entryFee: "Free",
       bestTimeToVisit: "All day",
       whyFamous: `Known for its heritage vibes. Accessibility: Moderate.`,
-      image: "https://source.unsplash.com/800x600/?Ajanta%20Caves",
+      image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80",
       popularity: 4.5,
       zone: "Kaggle Dataset"
     },
