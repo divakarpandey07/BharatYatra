@@ -45,6 +45,109 @@ export const districtMetaData: Record<string, DistrictMeta> = {
 };
 
 export const customDistricts: Record<string, PlaceData[]> = {
+  "chandauli": [
+    {
+      "id": "chandauli_1",
+      "name": "Rajdari & Devdari Waterfalls (Chandraprabha)",
+      "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1561361513-2d000a50f0db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80"
+      ],
+      "type": "Cascading Natural Waterfalls & Picnic Park",
+      "distance": "Chandraprabha Sanctuary, Chandauli District (60 km from Varanasi)",
+      "timeRequired": "3–4 Hours",
+      "bestSeason": "July to March (Peak post-monsoon greenery)",
+      "whyFamous": "Rajdari and Devdari Waterfalls are the crown jewels of Chandauli district, situated inside the lush Chandraprabha Wildlife Sanctuary. Rajdari features a step-like rock cascading waterfall set amidst dense Vindhyan forest cover, making it the most famous monsoon and winter weekend getaway in eastern Uttar Pradesh.",
+      "story": "The origins of Rajdari and Devdari date back centuries when the dense forests of Chandauli were royal hunting reserves of the Kashi Naresh (Rulers of Varanasi). The waterfalls were created by the Chandraprabha River cutting through the rocky Vindhyan plateau, forming deep gorges and cascading pools. Local legends say hermits and rishis meditated around these pristine falls in ancient times.",
+      "openingTime": "08:00 AM - 05:00 PM",
+      "entryFee": "₹50 per person (Sanctuary entry ticket)",
+      "bestTimeToVisit: ": "Morning 9:00 AM to 3:00 PM for photography and family picnics",
+      "photographyTips": ["Cascading Rock Steps of Rajdari", "Panoramic Viewpoint of Devdari Gorge", "Lush Forest Canopy"],
+      "hotels": {
+        "budget": ["Forest Rest House Rajdari", "Chandauli Tourist Lodge"],
+        "midRange": ["Hotel Rajdari Inn Chandauli", "Highway Retreat Chakia"],
+        "premium": ["BrijRama Palace Varanasi", "Taj Nadesar Palace (1 hour drive)"]
+      },
+      "food": ["Local Chandauli Dehati Baati Chokha", "Fresh Sugarcane Juice", "Traditional Banarasi Sweets"],
+      "travelTips": ["Wear shoes with good grip near wet rocks.", "Carry drinking water and snacks."],
+      "interestingFact": "Rajdari is a stepped waterfall where water cascades down natural rock tiers resembling a giant royal staircase.",
+      "ratings": { "Natural Beauty": 4.9, "Picnic Vibe": 4.8, "Overall": 4.9 }
+    },
+    {
+      "id": "chandauli_2",
+      "name": "Chandraprabha Wildlife Sanctuary",
+      "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "type": "Wildlife Sanctuary & Forest Safari Reserve",
+      "distance": "Chakia-Naugarh Region, Chandauli District",
+      "timeRequired": "Half Day (4–5 Hours)",
+      "bestSeason": "October to March",
+      "whyFamous": "Spread across 78 square kilometers on the scenic Vindhyan plateau, Chandraprabha Wildlife Sanctuary is famous for its rich biodiversity, leopard habitat, blackbucks, chinkara, sloth bears, and medicinal plants.",
+      "story": "Established in 1957, Chandraprabha was chosen as an experimental habitat for Asiatic Lions in the late 1950s. Today, it remains one of the most vital ecological reserves in Uttar Pradesh, preserving ancient cave paintings, waterfalls, and Vindhyan flora.",
+      "openingTime": "06:00 AM - 05:00 PM",
+      "entryFee": "₹50 (Indians), ₹300 (Foreigners)",
+      "bestTimeToVisit": "Early morning safari at 7:00 AM",
+      "photographyTips": ["Blackbuck Herds", "Forest Canopy", "Vindhyan Rock Gorges"],
+      "hotels": { "budget": ["Forest Lodge Naugarh"], "midRange": ["Chandauli Highway Hotel"], "premium": ["Hotel Clarks Varanasi"] },
+      "food": ["Local Sattu Paratha", "Desi Ghee Kachori", "Kulhad Chai"],
+      "travelTips": ["Maintain silence inside forest zones.", "Do not litter plastics."],
+      "interestingFact": "Asian Lions were successfully reintroduced to Chandraprabha in 1957.",
+      "ratings": { "Wildlife Experience": 4.7, "Ecological Value": 4.8, "Overall": 4.7 }
+    },
+    {
+      "id": "chandauli_3",
+      "name": "Naugarh Fort & Royal Citadel",
+      "image": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "type": "Historic Sandstone Citadel & Viewpoint",
+      "distance": "Naugarh Block, Southern Chandauli",
+      "timeRequired": "2 Hours",
+      "bestSeason": "October to March",
+      "whyFamous": "Naugarh Fort is a historic hill fort built on a high ridge overlooking dense Vindhyan forests. It is famous for its panoramic valley views and historical connection to regional kings.",
+      "story": "Built by local rulers to guard the trade routes passing through the Vindhyan hills into Bihar, Naugarh Fort served as a strategic military outpost and hunting lodge for centuries.",
+      "openingTime": "08:00 AM - 05:30 PM",
+      "entryFee": "Free Entry",
+      "bestTimeToVisit": "Sunset hour for hilltop views",
+      "photographyTips": ["Ancient Fort Bastions", "Sunset Over Naugarh Dam"],
+      "hotels": { "budget": ["Naugarh Rest House"], "midRange": ["Hotel Rajdari Inn"], "premium": ["Taj Ganges Varanasi"] },
+      "food": ["Local Chaat", "Fresh Guava & Mangoes", "Desi Sweets"],
+      "travelTips": ["Wear walking shoes for uphill fort steps."],
+      "interestingFact": "The fort offers a 360-degree view of the Chandraprabha forest range.",
+      "ratings": { "Historical Value": 4.6, "Viewpoint": 4.7, "Overall": 4.6 }
+    },
+    {
+      "id": "chandauli_4",
+      "name": "Latif Shah Dam & Sacred Shrine",
+      "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0db?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1561361513-2d000a50f0db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+      ],
+      "type": "Historic Masonry Dam & Sufi Shrine",
+      "distance": "Near Chakia Town, Chandauli District",
+      "timeRequired": "2 Hours",
+      "bestSeason": "August to February",
+      "whyFamous": "Latif Shah Dam is one of India's oldest stone masonry dams, constructed on the Karmanasa River. It is famous for its cascading reservoir spillway and the adjacent revered tomb of Sufi saint Hazrat Latif Shah.",
+      "story": "Constructed in 1921 during British rule to provide irrigation to the drought-prone regions of Chandauli, the dam was named after the saint Hazrat Latif Shah who lived on the hillock centuries earlier.",
+      "openingTime": "06:00 AM - 06:00 PM",
+      "entryFee": "Free Entry",
+      "bestTimeToVisit": "Post-monsoon when the spillway overflows",
+      "photographyTips": ["Water Overflow Spillway", "River Reflections"],
+      "hotels": { "budget": ["Chakia Guest House"], "midRange": ["Chandauli Plaza"], "premium": ["BrijRama Palace"] },
+      "food": ["Local Samosa Chai", "Traditional Sweets"],
+      "travelTips": ["Do not swim in high-water zones during monsoons."],
+      "interestingFact": "It is one of the oldest operating masonry dams built on the Karmanasa River.",
+      "ratings": { "Engineering Heritage": 4.7, "Spiritual Vibe": 4.6, "Overall": 4.7 }
+    }
+  ],
   "chittoor": [
     {
       "id": "chittoor_1",

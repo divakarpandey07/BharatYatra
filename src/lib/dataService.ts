@@ -918,14 +918,29 @@ export function getDistrictPlaces(districtId: string) {
   } else {
     places = [...rawPlaces];
     
-    // Check if we have real state spot names for this state
-    const famousPool = realStateSpotNames[sid] || realStateSpotNames["andhra-pradesh"];
+    const districtSpotTemplates = [
+      "Central Heritage Temple & Sacred Shrine",
+      "Royal Hill Fort & Citadel Ramparts",
+      "Scenic Waterfalls & Nature Trail",
+      "Wildlife Sanctuary & Forest Reserve",
+      "Riverfront Ghats & Peaceful Promenade",
+      "Ancient Monolithic Rock-Cut Caves",
+      "Lake Reservoir & Boating Park",
+      "Heritage Stepwell & Ancient Tank",
+      "Panoramic Sunrise Mountain Viewpoint",
+      "Traditional Artisan Craft Market & Bazaars",
+      "Historic Clock Tower Square",
+      "Botanical Nature Park & Gardens",
+      "Sacred Confluence River Bank",
+      "Heritage Sun Temple Shrine",
+      "Golden Hour Sunset Viewpoint"
+    ];
 
     if (places.length < 15) {
       const missing = 15 - places.length;
       for (let i = 0; i < missing; i++) {
-        // Pick real, authentic famous spot names instead of "Landmark #1"
-        const spotName = famousPool[(places.length + i) % famousPool.length] || `${distName} Heritage Shrine`;
+        const template = districtSpotTemplates[(places.length + i) % districtSpotTemplates.length];
+        const spotName = `${distName} ${template}`;
         const photos = getRelevantLandmarkPhotos(spotName, distName, sid || sName, 7);
         places.push({
           id: `${did}_auto_${i + 1}`,
@@ -957,9 +972,9 @@ export function getDistrictPlaces(districtId: string) {
 
     // Sanitize all place names and images
     places = places.map((p: any, idx: number) => {
-      // If place name contains "Landmark #" or generic placeholder, replace with real famous spot name!
       if (!p.name || p.name.includes('Landmark #') || p.name.includes('Heritage Site #')) {
-        p.name = famousPool[idx % famousPool.length] || `${distName} Heritage Monument`;
+        const template = districtSpotTemplates[idx % districtSpotTemplates.length];
+        p.name = `${distName} ${template}`;
       }
 
       p.whyFamous = expandWhyFamous(p.name, distName, p.whyFamous);
