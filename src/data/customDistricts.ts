@@ -63,7 +63,7 @@ export const customDistricts: Record<string, PlaceData[]> = {
       "story": "The origins of Rajdari and Devdari date back centuries when the dense forests of Chandauli were royal hunting reserves of the Kashi Naresh (Rulers of Varanasi). The waterfalls were created by the Chandraprabha River cutting through the rocky Vindhyan plateau, forming deep gorges and cascading pools. Local legends say hermits and rishis meditated around these pristine falls in ancient times.",
       "openingTime": "08:00 AM - 05:00 PM",
       "entryFee": "₹50 per person (Sanctuary entry ticket)",
-      "bestTimeToVisit: ": "Morning 9:00 AM to 3:00 PM for photography and family picnics",
+      "bestTimeToVisit": "Morning 9:00 AM to 3:00 PM for photography and family picnics",
       "photographyTips": ["Cascading Rock Steps of Rajdari", "Panoramic Viewpoint of Devdari Gorge", "Lush Forest Canopy"],
       "hotels": {
         "budget": ["Forest Rest House Rajdari", "Chandauli Tourist Lodge"],
