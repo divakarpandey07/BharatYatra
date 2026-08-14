@@ -2,68 +2,68 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion';
-import dynamic from 'next/dynamic';
 import Image from 'next/image';
-const PlaceModal = dynamic(() => import('./PlaceModal'), {
-  ssr: false
-});
-import ImageCarousel from './ImageCarousel';
+import { motion } from 'framer-motion';
 import { 
   ArrowLeft, 
-  Clock, 
-  Calendar, 
-  Star, 
+  MapPin, 
   Search, 
+  Calendar, 
+  Clock, 
+  DollarSign, 
   CloudRain, 
-  Heart, 
-  Layers, 
-  Volume2, 
-  VolumeX, 
-  Eye, 
+  Info, 
+  Compass, 
   Utensils, 
   ShoppingBag, 
-  Info,
-  MapPin,
-  Compass,
-  AlertTriangle,
-  Play,
-  RotateCcw
+  AlertTriangle, 
+  Volume2, 
+  VolumeX, 
+  Heart, 
+  Layers, 
+  Eye 
 } from 'lucide-react';
+import PlaceModal from './PlaceModal';
 import RotatingImage from './RotatingImage';
+import ImageCarousel from './ImageCarousel';
+import { customDistricts } from '../../src/data/customDistricts';
 
 interface DistrictClientProps {
   stateData: any;
   districtData: any;
-  specificCustomDistricts: any[];
+  specificCustomDistricts?: any[];
 }
 
+const fallbackLocalImage = "https://images.unsplash.com/photo-1561361513-2d000a50f0db?auto=format&fit=crop&w=800&q=80";
+
 export default function DistrictClient({ stateData, districtData, specificCustomDistricts }: DistrictClientProps) {
-  const [wikiPlaces, setWikiPlaces] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+  const params = { stateId: stateData?.id || '', districtId: districtData?.id || '' };
+  
+  // Use passed data directly with 0 delay and 0 Wikipedia querying
+  const initialPlaces = specificCustomDistricts && specificCustomDistricts.length > 0 
+    ? specificCustomDistricts 
+    : (customDistricts[params.districtId] || []);
+
+  const [wikiPlaces, setWikiPlaces] = useState<any[]>(initialPlaces);
+  const [loading, setLoading] = useState<boolean>(false);
   const [weatherData, setWeatherData] = useState<any>(null);
-  
-  // Audio Narrator states
-  const [playingId, setPlayingId] = useState<string | null>(null);
-  
-  // 360 Virtual Tour states
+  const [selectedPlace, setSelectedPlace] = useState<any>(null);
   const [activeTourImage, setActiveTourImage] = useState<string | null>(null);
   const [activeTourName, setActiveTourName] = useState<string | null>(null);
-
-  // Tab State
-  const [activeSubTab, setActiveSubTab] = useState<'attractions' | 'food' | 'shopping' | 'guide'>('attractions');
-
-  // Wishlist & Compare local states
+  const [playingId, setPlayingId] = useState<string | null>(null);
   const [wishlistIds, setWishlistIds] = useState<string[]>([]);
   const [compareIds, setCompareIds] = useState<string[]>([]);
-  const [selectedPlace, setSelectedPlace] = useState<any | null>(null);
-  const fallbackLocalImage = districtData?.image || stateData?.image || "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1200";
+  const [activeSubTab, setActiveSubTab] = useState<'attractions' | 'food' | 'shopping' | 'guide'>('attractions');
 
-  const params = { stateId: stateData?.id, districtId: districtData?.id };
-  const customDistricts: Record<string, any[]> = { [districtData?.id]: specificCustomDistricts };
+  useEffect(() => {
+    if (specificCustomDistricts && specificCustomDistricts.length > 0) {
+      setWikiPlaces(specificCustomDistricts);
+    } else if (customDistricts[params.districtId]) {
+      setWikiPlaces(customDistricts[params.districtId]);
+    }
+  }, [specificCustomDistricts, params.districtId]);
 
-
-  // Fetch local wishlist/compare on mount
+  // Load Saved Wishlist & Compare Items on Mount
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const savedWishlist = JSON.parse(localStorage.getItem('bharatyatra_wishlist') || '[]');
@@ -74,260 +74,35 @@ export default function DistrictClient({ stateData, districtData, specificCustom
     }
   }, []);
 
-  // Fetch Wikipedia places & weather
+  // Fetch Live Weather silently in background without blocking UI or showing Wikipedia loading screen
   useEffect(() => {
-    if (!districtData) return;
+    if (!districtData || !stateData) return;
 
-    const isExcludedTitle = (title: string) => {
-      const lowerTitle = title.toLowerCase();
-      return (
-        lowerTitle.includes("list of") ||
-        lowerTitle.includes("lists of") ||
-        lowerTitle.includes("tourism in") ||
-        lowerTitle.includes("politics of") ||
-        lowerTitle.includes("government of") ||
-        lowerTitle.includes("insurgency") ||
-        lowerTitle.includes("terrorism") ||
-        lowerTitle.includes("police") ||
-        lowerTitle.includes("legislative assembly") ||
-        lowerTitle.includes("election") ||
-        lowerTitle.includes("high court") ||
-        lowerTitle.includes("governor") ||
-        lowerTitle.includes("minister") ||
-        lowerTitle.includes("politician") ||
-        lowerTitle.includes("activist") ||
-        lowerTitle.includes("freedom fighter") ||
-        lowerTitle.includes("cricketer") ||
-        lowerTitle.includes("actor") ||
-        lowerTitle.includes("actress") ||
-        lowerTitle.includes("singer") ||
-        lowerTitle.includes("officer") ||
-        lowerTitle.includes("general") ||
-        lowerTitle.includes("ruler") ||
-        lowerTitle.includes("dynasty") ||
-        lowerTitle.includes("family")
-      );
-    };
-
-    const isExcludedUrl = (url: string) => {
-      const lower = url.toLowerCase();
-      return (
-        lower.includes('map') || 
-        lower.includes('flag') || 
-        lower.includes('icon') || 
-        lower.includes('coat_of_arms') || 
-        lower.includes('districts') || 
-        lower.includes('.svg') || 
-        lower.includes('.png') ||
-        lower.includes('location') ||
-        lower.includes('emblem') ||
-        lower.includes('seal') ||
-        lower.includes('logo') ||
-        lower.includes('diagram') ||
-        lower.includes('collage') ||
-        lower.includes('insignia') ||
-        lower.includes('victoria_falls') ||
-        lower.includes('victoriafalls') ||
-        lower.includes('portrait') ||
-        lower.includes('profile') ||
-        lower.includes('face') ||
-        lower.includes('headshot') ||
-        lower.includes('posing') ||
-        lower.includes('group') ||
-        lower.includes('crowd') ||
-        lower.includes('people') ||
-        lower.includes('man') ||
-        lower.includes('woman') ||
-        lower.includes('person') ||
-        lower.includes('human') ||
-        lower.includes('member') ||
-        lower.includes('parliament') ||
-        lower.includes('legislator') ||
-        lower.includes('politician') ||
-        lower.includes('officer') ||
-        lower.includes('police') ||
-        lower.includes('soldier') ||
-        lower.includes('family') ||
-        lower.includes('children') ||
-        lower.includes('kid') ||
-        lower.includes('girl') ||
-        lower.includes('boy') ||
-        lower.includes('baby') ||
-        lower.includes('student') ||
-        lower.includes('teacher') ||
-        lower.includes('gathering') ||
-        lower.includes('meeting')
-      );
-    };
-
-    const fetchData = async () => {
+    const fetchWeather = async () => {
       try {
-        setLoading(true);
-
-        // Step 1: Get GPS Coordinates
         const geoUrl = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(districtData.name + " " + stateData.name)}&count=1&language=en&format=json`;
         const geoRes = await fetch(geoUrl);
         const geoData = await geoRes.json();
-        
-        // Check if Custom Data exists (Highest Priority)
-        if (customDistricts[params.districtId] && customDistricts[params.districtId].length > 0) {
-          setWikiPlaces(customDistricts[params.districtId]);
-          
-          // Still try to fetch weather if coordinates found
-          if (geoData.results && geoData.results.length > 0) {
-            const { latitude, longitude } = geoData.results[0];
-            try {
-              const weatherRes = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true`);
-              const wData = await weatherRes.json();
-              setWeatherData(wData.current_weather);
-            } catch (e) {
-              console.error("Weather fetch failed");
-            }
-          }
-          
-          setLoading(false);
-          return;
-        }
-        
+
         if (geoData.results && geoData.results.length > 0) {
           const { latitude, longitude } = geoData.results[0];
-          
-          // Fetch Real-time Weather
           const weatherRes = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true`);
           const wData = await weatherRes.json();
           setWeatherData(wData.current_weather);
-
-          // Step 2: Strict Geosearch to prevent mapping wrong locations
-          const wikiUrl = `https://en.wikipedia.org/w/api.php?action=query&generator=geosearch&ggscoord=${latitude}|${longitude}&ggsradius=15000&ggslimit=12&prop=pageimages|extracts&exintro=1&explaintext=1&piprop=original|thumbnail&pithumbsize=800&format=json&origin=*`;
-          const wikiRes = await fetch(wikiUrl);
-          const wikiData = await wikiRes.json();
-          
-          let validPlaces: any[] = [];
-          
-          if (wikiData.query && wikiData.query.pages) {
-            const pages = Object.values(wikiData.query.pages) as any[];
-            
-            // Filter pages first to exclude biography/list titles
-            const filteredPages = pages.filter(page => {
-              if (!page.title) return false;
-              return !isExcludedTitle(page.title);
-            });
-
-            const formattedPlaces = filteredPages.map((page) => {
-              const rawImg = page.thumbnail ? page.thumbnail.source : page.original ? page.original.source : null;
-              const finalImage = (rawImg && !isExcludedUrl(rawImg)) ? rawImg : fallbackLocalImage;
-
-              return {
-                id: page.pageid.toString(),
-                name: page.title,
-                description: page.extract ? page.extract : "An authentic heritage site and popular tourist place of this region.",
-                image: finalImage,
-                timing: "09:00 AM - 06:00 PM (Sunset)",
-                bestTime: "October to March",
-                fee: "INR 20 (Indians), INR 250 (Foreigners)"
-              };
-            });
-
-            // Filter out state or district-wide general page descriptions
-            validPlaces = formattedPlaces.filter(p => 
-              !p.name.includes("District") && 
-              !p.name.includes("district") &&
-              p.name !== stateData.name
-            );
-          }
-
-          // Step 3: Text Search Fallback restricted to district and state name
-          if (validPlaces.length === 0) {
-            const fallbackQuery = encodeURIComponent(`${districtData.name} tourist spots`);
-            const fallbackUrl = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${fallbackQuery}&gsrlimit=10&prop=pageimages|extracts&exintro=1&explaintext=1&piprop=original|thumbnail&pithumbsize=800&format=json&origin=*`;
-            const fbRes = await fetch(fallbackUrl);
-            const fbData = await fbRes.json();
-            
-            if (fbData.query && fbData.query.pages) {
-              const pages = Object.values(fbData.query.pages) as any[];
-              
-              const filteredPages = pages.filter(page => {
-                if (!page.title) return false;
-                return !isExcludedTitle(page.title);
-              });
-
-              const formattedPlaces = filteredPages.map((page) => {
-                const rawImg = page.thumbnail ? page.thumbnail.source : page.original ? page.original.source : null;
-                const finalImage = (rawImg && !isExcludedUrl(rawImg)) ? rawImg : fallbackLocalImage;
-
-                return {
-                  id: page.pageid.toString(),
-                  name: page.title,
-                  description: page.extract ? page.extract : "An authentic tourist landmark in this district.",
-                  image: finalImage,
-                  timing: "09:00 AM - 05:00 PM",
-                  bestTime: "October to March",
-                  fee: "Varies (Usually Nominal)"
-                };
-              });
-              
-              // Text validation check: title or description must contain district name
-              const distNameLower = districtData.name.toLowerCase();
-              validPlaces = formattedPlaces.filter(p => 
-                !p.name.includes("District") && 
-                !p.name.includes("district") && 
-                (p.name.toLowerCase().includes(distNameLower) || p.description.toLowerCase().includes(distNameLower))
-              );
-            }
-          }
-
-          // Step 4: Final General Fallback
-          if (validPlaces.length === 0) {
-            const finalQuery = encodeURIComponent(`${districtData.name} ${stateData.name}`);
-            const finalUrl = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${finalQuery}&gsrlimit=1&prop=pageimages|extracts&exintro=1&explaintext=1&piprop=original|thumbnail&pithumbsize=800&format=json&origin=*`;
-            const finalRes = await fetch(finalUrl);
-            const finalData = await finalRes.json();
-            
-            if (finalData.query && finalData.query.pages) {
-              const pages = Object.values(finalData.query.pages) as any[];
-              const filteredPages = pages.filter(page => {
-                if (!page.title) return false;
-                return !isExcludedTitle(page.title);
-              });
-
-              if (filteredPages.length > 0) {
-                const page = filteredPages[0];
-                if (page && page.pageid && page.title) {
-                  const rawImg = page.thumbnail ? page.thumbnail.source : page.original ? page.original.source : null;
-                  const finalImage = (rawImg && !isExcludedUrl(rawImg)) ? rawImg : fallbackLocalImage;
-
-                  validPlaces = [{
-                    id: page.pageid.toString(),
-                    name: `${page.title}`,
-                    description: page.extract ? page.extract : "Explore this beautiful heritage city of India.",
-                    image: finalImage,
-                    timing: "Open Daily",
-                    bestTime: "Year Round",
-                    fee: "Free Entry"
-                  }];
-                }
-              }
-            }
-          }
-          
-          setWikiPlaces(validPlaces.slice(0, 8)); // Top 8 authentic sights
         }
-      } catch (error) {
-        console.error("Data Fetch Error:", error);
-        setWikiPlaces([]);
-      } finally {
-        setLoading(false);
+      } catch (e) {
+        // Silent catch weather error
       }
     };
 
-    fetchData();
+    fetchWeather();
   }, [districtData, stateData]);
 
   if (!districtData) {
     return <div className="page-container p-10 text-center text-red-500 font-bold bg-white">District not found.</div>;
   }
 
-  // AI Voice Narrator: Reads out using standard SpeechSynthesis API
+  // AI Voice Narrator
   const handlePlayAudio = (id: string, text: string) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       alert("Speech synthesis is not supported in this browser.");
@@ -338,9 +113,9 @@ export default function DistrictClient({ stateData, districtData, specificCustom
       window.speechSynthesis.cancel();
       setPlayingId(null);
     } else {
-      window.speechSynthesis.cancel(); // Stop any current audio
-      const cleanText = text.replace(/\[\d+\]/g, ""); // Remove wikipedia citation bracket indices [1], [2], etc.
-      const utterance = new SpeechSynthesisUtterance(cleanText.substring(0, 300)); // Read out first 300 chars
+      window.speechSynthesis.cancel();
+      const cleanText = text.replace(/\[\d+\]/g, "");
+      const utterance = new SpeechSynthesisUtterance(cleanText.substring(0, 300));
       
       utterance.rate = 0.9;
       utterance.onend = () => setPlayingId(null);
@@ -363,7 +138,7 @@ export default function DistrictClient({ stateData, districtData, specificCustom
       const wishItem = {
         id: place.id,
         name: place.name,
-        description: place.description.substring(0, 150) + "...",
+        description: place.description?.substring(0, 150) + "...",
         image: place.image,
         stateId: params.stateId,
         districtId: params.districtId,
@@ -387,21 +162,21 @@ export default function DistrictClient({ stateData, districtData, specificCustom
       setCompareIds(prev => prev.filter(id => id !== place.id));
     } else {
       if (list.length >= 3) {
-        alert("You can compare up to 3 destinations at a time. Clear items from the Compare Dashboard first.");
+        alert("You can compare up to 3 destinations at a time.");
         return;
       }
       const compItem = {
         id: place.id,
         name: place.name,
-        description: place.description.substring(0, 150) + "...",
+        description: place.description?.substring(0, 150) + "...",
         image: place.image,
         stateId: params.stateId,
         districtId: params.districtId,
         stateName: stateData.name,
         districtName: districtData.name,
-        fee: place.fee,
-        timing: place.timing,
-        bestTime: place.bestTime
+        fee: place.fee || place.entryFee,
+        timing: place.timing || place.openingTime,
+        bestTime: place.bestTime || place.bestSeason
       };
       newList = [...list, compItem];
       setCompareIds(prev => [...prev, place.id]);
@@ -417,7 +192,6 @@ export default function DistrictClient({ stateData, districtData, specificCustom
     return { text: "Cold temperatures. Bring warm shawls or layers for outdoor walks.", color: "text-blue-600 bg-blue-50 border-blue-100" };
   };
 
-  // Localized Cuisines Mock database by State ID to prevent location mixups
   const getLocalCuisineData = (stateId: string, districtId: string) => {
     const defaultCuisine = {
       description: "Savor the local traditional meals, fresh farm products, and delicious local street foods.",
@@ -428,7 +202,6 @@ export default function DistrictClient({ stateData, districtData, specificCustom
       ]
     };
 
-    // Check custom data first
     if (customDistricts[districtId]) {
        const foods = new Set<string>();
        customDistricts[districtId].forEach(p => {
@@ -480,7 +253,6 @@ export default function DistrictClient({ stateData, districtData, specificCustom
     return databases[stateId] || defaultCuisine;
   };
 
-  // Localized Shopping Bazaars Mock database by State ID
   const getLocalShoppingData = (stateId: string, districtId: string) => {
     const defaultShopping = {
       description: "Support local artisans by buying traditional handlooms, regional handicrafts, and organic spices.",
@@ -491,7 +263,6 @@ export default function DistrictClient({ stateData, districtData, specificCustom
       ]
     };
 
-    // Check custom data first
     if (customDistricts[districtId]) {
        const crafts = new Set<string>();
        customDistricts[districtId].forEach(p => {
@@ -576,7 +347,7 @@ export default function DistrictClient({ stateData, districtData, specificCustom
         </Link>
         
         {weatherData && (
-          <div className="glass-panel px-5 py-2.5 bg-white flex items-center gap-3 text-accent-secondary border-accent-secondary/20 shadow-sm">
+          <div className="glass-panel px-5 py-2.5 bg-white flex items-center gap-3 text-accent-secondary border-accent-secondary/20 shadow-sm rounded-xl">
             <CloudRain className="text-accent-secondary" size={22} />
             <div>
               <span className="text-[10px] text-gray-400 block font-bold uppercase tracking-wider">Live Weather</span>
@@ -601,10 +372,8 @@ export default function DistrictClient({ stateData, districtData, specificCustom
             <MapPin size={11} /> {stateData.name}
           </div>
           <h1 className="text-3xl md:text-5xl font-extrabold mb-2 drop-shadow-md">Explore {districtData.name}</h1>
-          <p className="text-gray-200 text-xs md:text-sm max-w-2xl font-medium drop-shadow-sm">
-            {customDistricts[params.districtId] 
-              ? "Discover beautifully detailed history, local foods, hotel guides, and travel tips verified from custom archives."
-              : (districtData.description || `Discover authentic heritage sights, monuments, food, and culture of ${districtData.name}.`)}
+          <p className="text-gray-200 text-xs md:text-sm max-w-2xl font-medium drop-shadow-sm leading-relaxed">
+            Discover authentic heritage sights, famous monuments, hotels, local cuisine, and culture of {districtData.name}.
           </p>
         </div>
       </div>
@@ -628,7 +397,7 @@ export default function DistrictClient({ stateData, districtData, specificCustom
             activeSubTab === 'attractions' ? 'border-accent-primary text-accent-primary' : 'border-transparent text-gray-400 hover:text-gray-600'
           }`}
         >
-          <Compass size={16} /> Tourist Attractions
+          <Compass size={16} /> Tourist Attractions ({wikiPlaces.length})
         </button>
 
         <button
@@ -665,38 +434,28 @@ export default function DistrictClient({ stateData, districtData, specificCustom
         {/* Attractions Tab */}
         {activeSubTab === 'attractions' && (
           <div>
-            {loading ? (
-              <div className="text-center p-20 text-xl font-semibold flex flex-col justify-center items-center gap-3">
-                <Search className="spin text-accent-primary" size={36} /> 
-                <span className="text-gray-600 font-bold">Querying Wikipedia & Wikimedia Commons...</span>
-                <span className="text-xs text-gray-400">Verifying geographical points to ensure accuracy</span>
-              </div>
-            ) : wikiPlaces.length === 0 ? (
-              <div className="text-center p-16 text-lg text-gray-500 glass-panel bg-white">
-                No verified tourist locations found on Wikipedia for {districtData.name} district.
+            {wikiPlaces.length === 0 ? (
+              <div className="text-center p-16 text-lg text-gray-500 glass-panel bg-white rounded-3xl">
+                No tourist locations found for {districtData.name} district.
               </div>
             ) : (
               <div className="flex flex-col gap-10">
                 {wikiPlaces.map((place, index) => (
                   <motion.div
-                    key={place.id}
+                    key={place.id || index}
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.05 }}
-                    className="glass-panel flex flex-col md:flex-row overflow-hidden bg-white cursor-pointer hover:border-accent-primary transition-all"
-                    onClick={() => {
-                      if (customDistricts[params.districtId]) {
-                        setSelectedPlace(place);
-                      }
-                    }}
+                    className="glass-panel flex flex-col md:flex-row overflow-hidden bg-white cursor-pointer hover:border-accent-primary transition-all rounded-3xl border border-gray-100 shadow-sm"
+                    onClick={() => setSelectedPlace(place)}
                   >
                     {/* Place Image */}
-                    <div className="w-full md:w-2/5 h-[280px] md:h-auto overflow-hidden relative">
+                    <div className="w-full md:w-2/5 h-[280px] md:h-auto overflow-hidden relative min-h-[240px]">
                       {place.images && place.images.length > 0 ? (
                         <ImageCarousel images={place.images} alt={place.name} />
                       ) : (
                         <Image 
-                          src={place.image || (place.thumbnail ? place.thumbnail.source : fallbackLocalImage)} 
+                          src={place.image || fallbackLocalImage} 
                           alt={place.name}
                           fill
                           sizes="(max-width: 768px) 100vw, 40vw"
@@ -706,11 +465,12 @@ export default function DistrictClient({ stateData, districtData, specificCustom
                       
                       {/* Virtual Tour Floating Badge */}
                       <button 
-                        onClick={() => {
-                          setActiveTourImage(place.image);
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setActiveTourImage(place.image || fallbackLocalImage);
                           setActiveTourName(place.name);
                         }}
-                        className="absolute bottom-4 left-4 bg-black/75 hover:bg-accent-primary text-white text-xs font-bold px-3 py-2 rounded-xl flex items-center gap-1.5 transition-all shadow-md"
+                        className="absolute bottom-4 left-4 bg-black/75 hover:bg-accent-primary text-white text-xs font-bold px-3 py-2 rounded-xl flex items-center gap-1.5 transition-all shadow-md z-10"
                       >
                         <Eye size={14} /> 360° Virtual Tour
                       </button>
@@ -727,7 +487,10 @@ export default function DistrictClient({ stateData, districtData, specificCustom
                           <div className="flex gap-2 shrink-0">
                             {/* Wishlist Button */}
                             <button
-                              onClick={() => handleWishlistToggle(place)}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleWishlistToggle(place);
+                              }}
                               className={`p-2 rounded-xl border transition-all ${
                                 wishlistIds.includes(place.id)
                                   ? 'bg-red-50 border-red-200 text-red-500'
@@ -740,7 +503,10 @@ export default function DistrictClient({ stateData, districtData, specificCustom
 
                             {/* Compare Button */}
                             <button
-                              onClick={() => handleCompareToggle(place)}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleCompareToggle(place);
+                              }}
                               className={`p-2 rounded-xl border transition-all ${
                                 compareIds.includes(place.id)
                                   ? 'bg-accent-tertiary/20 border-accent-tertiary text-accent-tertiary'
@@ -754,7 +520,7 @@ export default function DistrictClient({ stateData, districtData, specificCustom
                         </div>
 
                         {/* History Description */}
-                        <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6 font-medium">
+                        <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6 font-medium line-clamp-4">
                           {place.whyFamous || place.description}
                         </p>
                       </div>
@@ -764,7 +530,10 @@ export default function DistrictClient({ stateData, districtData, specificCustom
                         <div className="flex flex-wrap gap-2.5 mb-6">
                           {/* Audio Guide Play Button */}
                           <button
-                            onClick={() => handlePlayAudio(place.id, place.description)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handlePlayAudio(place.id, place.whyFamous || place.description);
+                            }}
                             className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all ${
                               playingId === place.id 
                                 ? 'bg-red-500 text-white shadow-md' 
@@ -779,6 +548,7 @@ export default function DistrictClient({ stateData, districtData, specificCustom
                             href={`https://maps.google.com/?q=${encodeURIComponent(place.name + " " + districtData.name)}`}
                             target="_blank" 
                             rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
                             className="bg-gray-100 hover:bg-gray-200 text-gray-600 px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-1"
                           >
                             <MapPin size={12} /> View Location Map
@@ -791,7 +561,7 @@ export default function DistrictClient({ stateData, districtData, specificCustom
                             <Clock className="text-accent-primary shrink-0" size={20} />
                             <div>
                               <span className="text-[9px] text-gray-400 font-bold block uppercase tracking-wider">Timings</span>
-                              <span className="font-extrabold text-xs text-gray-700">{place.timing || place.openingTime || 'Varies'}</span>
+                              <span className="font-extrabold text-xs text-gray-700">{place.timing || place.openingTime || '06:00 AM - 06:00 PM'}</span>
                             </div>
                           </div>
 
@@ -799,25 +569,19 @@ export default function DistrictClient({ stateData, districtData, specificCustom
                             <Calendar className="text-accent-secondary shrink-0" size={20} />
                             <div>
                               <span className="text-[9px] text-gray-400 font-bold block uppercase tracking-wider">Best Season</span>
-                              <span className="font-extrabold text-xs text-gray-700">{place.bestTime || place.bestSeason || place.bestTimeToVisit || 'Year Round'}</span>
+                              <span className="font-extrabold text-xs text-gray-700">{place.bestTime || place.bestSeason || 'October to March'}</span>
                             </div>
                           </div>
 
                           <div className="flex items-center gap-3">
-                            <Star className="text-accent-tertiary shrink-0" size={20} />
+                            <DollarSign className="text-accent-tertiary shrink-0" size={20} />
                             <div>
-                              <span className="text-[9px] text-gray-400 font-bold block uppercase tracking-wider">Tickets / Fee</span>
-                              <span className="font-extrabold text-xs text-gray-700">{place.entryFee || place.fee || 'Varies'}</span>
+                              <span className="text-[9px] text-gray-400 font-bold block uppercase tracking-wider">Entry Fee</span>
+                              <span className="font-extrabold text-xs text-gray-700">{place.fee || place.entryFee || 'Free Entry'}</span>
                             </div>
                           </div>
                         </div>
                       </div>
-                      
-                      {customDistricts[params.districtId] && (
-                        <div className="mt-4 pt-4 border-t border-gray-100 flex justify-between items-center">
-                          <span className="text-sm font-bold text-accent-primary">View Full Details & History →</span>
-                        </div>
-                      )}
                     </div>
                   </motion.div>
                 ))}
@@ -826,179 +590,113 @@ export default function DistrictClient({ stateData, districtData, specificCustom
           </div>
         )}
 
-        {/* Food Tab */}
+        {/* Local Cuisine Tab */}
         {activeSubTab === 'food' && (
-          <div className="glass-panel p-6 md:p-8 bg-white border-l-4 border-l-accent-primary">
-            <div className="flex gap-4 items-center mb-6">
-              <div className="p-3 bg-accent-primary/10 text-accent-primary rounded-2xl shrink-0">
-                <Utensils size={24} />
-              </div>
-              <div>
-                <h3 className="text-2xl font-extrabold text-gray-800">Famous Food of {districtData.name}</h3>
-                <p className="text-sm text-gray-500">Discover regional heritage dishes and famous street food specialties.</p>
-              </div>
-            </div>
-            
-            <p className="text-gray-600 font-medium text-base mb-8 leading-relaxed">
-              {cuisineInfo.description}
-            </p>
+          <div className="glass-panel p-8 bg-white rounded-3xl border border-gray-100 shadow-sm">
+            <h2 className="text-3xl font-extrabold text-accent-primary mb-3">Authentic Regional Flavors</h2>
+            <p className="text-gray-600 mb-8 font-medium text-base">{cuisineInfo.description}</p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {cuisineInfo.dishes.map((dish, idx) => (
-                <div key={idx} className="p-5 bg-gray-50 rounded-2xl border border-gray-100 flex flex-col justify-between hover:bg-white hover:shadow-md transition-all">
+                <div key={idx} className="bg-orange-50/70 border border-orange-100 p-6 rounded-2xl flex flex-col justify-between">
                   <div>
-                    <h4 className="font-extrabold text-gray-800 text-lg mb-2 text-gradient">{dish.name}</h4>
-                    <p className="text-sm text-gray-500 leading-normal font-medium">{dish.desc}</p>
+                    <span className="text-3xl mb-3 block">🍲</span>
+                    <h3 className="font-extrabold text-gray-800 text-lg mb-2">{dish.name}</h3>
+                    <p className="text-xs text-gray-600 font-medium leading-relaxed">{dish.desc}</p>
                   </div>
-                  <span className="text-[10px] uppercase font-bold text-accent-secondary mt-4 block">Recommended Dish</span>
+                  <div className="mt-4 pt-3 border-t border-orange-200/50 text-[11px] font-bold text-orange-600">
+                    Authentic Specialty
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         )}
 
-        {/* Shopping Tab */}
+        {/* Shopping & Handicrafts Tab */}
         {activeSubTab === 'shopping' && (
-          <div className="glass-panel p-6 md:p-8 bg-white border-l-4 border-l-accent-tertiary">
-            <div className="flex gap-4 items-center mb-6">
-              <div className="p-3 bg-accent-tertiary/10 text-accent-tertiary rounded-2xl shrink-0">
-                <ShoppingBag size={24} />
-              </div>
-              <div>
-                <h3 className="text-2xl font-extrabold text-gray-800">Handicrafts & Local Bazaars</h3>
-                <p className="text-sm text-gray-500">Support local craft communities by purchasing authentic specialties.</p>
-              </div>
-            </div>
-            
-            <p className="text-gray-600 font-medium text-base mb-8 leading-relaxed">
-              {shoppingInfo.description}
-            </p>
+          <div className="glass-panel p-8 bg-white rounded-3xl border border-gray-100 shadow-sm">
+            <h2 className="text-3xl font-extrabold text-accent-secondary mb-3">Famous Bazaars & Handicrafts</h2>
+            <p className="text-gray-600 mb-8 font-medium text-base">{shoppingInfo.description}</p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {shoppingInfo.items.map((item, idx) => (
-                <div key={idx} className="p-5 bg-gray-50 rounded-2xl border border-gray-100 flex flex-col justify-between hover:bg-white hover:shadow-md transition-all">
+                <div key={idx} className="bg-emerald-50/70 border border-emerald-100 p-6 rounded-2xl flex flex-col justify-between">
                   <div>
-                    <h4 className="font-extrabold text-gray-800 text-lg mb-2 text-gradient">{item.name}</h4>
-                    <p className="text-sm text-gray-500 leading-normal font-medium">{item.desc}</p>
+                    <span className="text-3xl mb-3 block">🛍️</span>
+                    <h3 className="font-extrabold text-gray-800 text-lg mb-2">{item.name}</h3>
+                    <p className="text-xs text-gray-600 font-medium leading-relaxed">{item.desc}</p>
                   </div>
-                  <span className="text-[10px] uppercase font-bold text-accent-tertiary mt-4 block">Heritage Craft</span>
+                  <div className="mt-4 pt-3 border-t border-emerald-200/50 text-[11px] font-bold text-emerald-600">
+                    Handmade Regional Artisan Product
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         )}
 
-        {/* Travel Guide Tab */}
+        {/* Travel Tips & Safety Guide Tab */}
         {activeSubTab === 'guide' && (
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
-            <div className="md:col-span-8 space-y-6">
-              <div className="glass-panel p-6 md:p-8 bg-white">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Smart Travel Tips</h3>
-                <ul className="space-y-4 text-sm font-medium text-gray-600">
-                  {travelTipsArray.map((tip, idx) => (
-                    <li key={idx} className="flex gap-3 items-start">
-                      <span className="w-5 h-5 rounded-full bg-accent-primary/10 text-accent-primary flex items-center justify-center shrink-0 font-bold text-xs mt-0.5">{idx + 1}</span>
-                      <div>
-                        <strong className="text-gray-800 block">{tip.title}:</strong>
-                        {tip.desc}
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+          <div className="glass-panel p-8 bg-white rounded-3xl border border-gray-100 shadow-sm">
+            <h2 className="text-3xl font-extrabold text-accent-tertiary mb-3">Essential Travel Guidelines</h2>
+            <p className="text-gray-600 mb-8 font-medium text-base">Key advisories for a smooth, safe, and respectful journey in {districtData.name}.</p>
 
-            <div className="md:col-span-4 glass-panel p-6 bg-gradient-to-br from-white to-[#FAF9F5] border-l-4 border-l-red-500">
-              <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-                <AlertTriangle className="text-red-500" size={20} /> Safety Advisories
-              </h3>
-              <div className="space-y-4 text-xs font-semibold text-gray-600">
-                <div className="p-3 bg-red-50/50 rounded-xl border border-red-100">
-                  <strong className="text-red-600 block mb-1">Peak Crowd Safety</strong>
-                  <span>Keep track of personal belongings in crowded bazaars or ghats. Avoid carrying excess physical cash.</span>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {travelTipsArray.map((tip, idx) => (
+                <div key={idx} className="bg-blue-50/70 border border-blue-100 p-6 rounded-2xl">
+                  <span className="text-3xl mb-3 block">💡</span>
+                  <h3 className="font-extrabold text-gray-800 text-base mb-2">{tip.title}</h3>
+                  <p className="text-xs text-gray-600 font-medium leading-relaxed">{tip.desc}</p>
                 </div>
-                
-                <div className="p-3 bg-red-50/50 rounded-xl border border-red-100">
-                  <strong className="text-red-600 block mb-1">Emergency Numbers</strong>
-                  <span>Police Helpline: 112 | Medical Ambulance: 108 | Tourism Support: 1363 (24x7 Multi-lingual toll-free helpline).</span>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         )}
-
       </div>
 
-      {/* 360° Simulated Panoramic Tour Modal */}
-      <AnimatePresence>
-        {activeTourImage && (
-          <div className="fixed inset-0 bg-black/90 backdrop-blur-md z-50 flex flex-col items-center justify-center p-4">
-            
-            <div className="w-full max-w-5xl flex justify-between items-center text-white mb-4">
-              <div>
-                <span className="text-xs uppercase font-bold text-accent-tertiary">Panoramic Virtual Tour Simulator</span>
-                <h3 className="text-2xl font-bold">{activeTourName}</h3>
-              </div>
-              <button 
-                onClick={() => {
-                  setActiveTourImage(null);
-                  setActiveTourName(null);
-                }}
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white font-bold flex items-center justify-center text-xl transition-all"
-              >
-                ✕
-              </button>
-            </div>
-
-            {/* Panoramic container */}
-            <div className="w-full max-w-5xl h-[60vh] rounded-3xl overflow-hidden relative border border-white/10 bg-black shadow-2xl flex items-center">
-              
-              {/* Spinning compass loader overlay */}
-              <div className="absolute inset-0 z-0 pointer-events-none flex flex-col items-center justify-center text-white/20 gap-2">
-                <Compass className="spin" size={64} />
-                <span className="text-xs tracking-widest font-bold uppercase">Rendering 360 Environment</span>
-              </div>
-
-              {/* Scrolling Panning Panoramic Image (Simulating VR scroll) */}
-              <div className="absolute inset-y-0 w-[200%] h-full left-0 animate-pan-left z-10 pointer-events-none">
-                <Image 
-                  src={activeTourImage} 
-                  alt="Panoramic View" 
-                  fill
-                  className="object-cover filter brightness-95 contrast-105"
-                />
-              </div>
-
-              {/* VR Controls UI Overlay */}
-              <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-black/60 backdrop-blur-md border border-white/10 px-5 py-3 rounded-full text-white text-xs font-bold flex items-center gap-4 z-20 shadow-lg">
-                <div className="flex items-center gap-1.5 text-accent-tertiary">
-                  <div className="w-2.5 h-2.5 rounded-full bg-accent-tertiary animate-pulse"></div>
-                  Simulating Gyroscope Auto-Pan
-                </div>
-                <div className="h-4 w-px bg-white/20"></div>
-                <span className="text-white/60">Tap ✕ to exit virtual view</span>
-              </div>
-
-            </div>
-
-            {/* CSS Animation details */}
-            <style jsx global>{`
-              @keyframes panLeft {
-                0% { transform: translateX(0); }
-                50% { transform: translateX(-50%); }
-                100% { transform: translateX(0); }
-              }
-              .animate-pan-left {
-                animation: panLeft 40s linear infinite;
-              }
-            `}</style>
-
-          </div>
-        )}
-      </AnimatePresence>
-      
+      {/* Place Modal */}
       {selectedPlace && (
-        <PlaceModal place={selectedPlace} onClose={() => setSelectedPlace(null)} />
+        <PlaceModal 
+          place={selectedPlace} 
+          onClose={() => setSelectedPlace(null)} 
+        />
+      )}
+
+      {/* 360° Virtual Tour Lightbox Modal */}
+      {activeTourImage && (
+        <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4">
+          <div className="relative w-full max-w-4xl bg-gray-900 rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+            <button 
+              onClick={() => {
+                setActiveTourImage(null);
+                setActiveTourName(null);
+              }}
+              className="absolute top-4 right-4 bg-white/20 hover:bg-white/40 text-white p-2 rounded-full z-10 transition-colors"
+            >
+              ✕
+            </button>
+            <div className="p-4 bg-gray-800 text-white flex justify-between items-center border-b border-gray-700">
+              <span className="font-extrabold text-sm flex items-center gap-2">
+                <Eye size={16} className="text-accent-tertiary" /> 360° Interactive Panoramic View: {activeTourName}
+              </span>
+            </div>
+            <div className="h-[450px] relative overflow-hidden">
+              <Image 
+                src={activeTourImage} 
+                alt={activeTourName || "Virtual Tour"} 
+                fill 
+                sizes="(max-width: 1200px) 100vw, 1200px"
+                className="object-cover animate-pulse"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black/30 text-white font-bold text-sm pointer-events-none">
+                <span className="bg-black/70 px-4 py-2 rounded-full border border-white/20">
+                  ↔ Pan or click photos to explore
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       )}
     </motion.div>
   );
