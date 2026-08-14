@@ -4,7 +4,9 @@ import { kaggleDistricts } from '../data/kaggleDistricts';
 
 // Helper to append fast WebP image compression parameters to Unsplash URLs
 function optimizeImageUrl(url: string, width = 800, quality = 80): string {
-  if (!url) return 'https://images.unsplash.com/photo-1561361513-2d000a50f0db?auto=format&fit=crop&w=800&q=80';
+  if (!url || url.startsWith('/images/') || url.includes('wiki_') || !url.startsWith('http')) {
+    return 'https://images.unsplash.com/photo-1609946850021-d41076b1e604?auto=format&fit=crop&w=800&q=80';
+  }
   if (url.includes('unsplash.com')) {
     const cleanUrl = url.split('?')[0];
     return `${cleanUrl}?auto=format&fit=crop&w=${width}&q=${quality}`;
@@ -14,15 +16,18 @@ function optimizeImageUrl(url: string, width = 800, quality = 80): string {
 
 // 100% COMPLETE Landmark Photo Registry for ALL 36 States & UTs (STRICTLY ZERO PEOPLE/PORTRAITS)
 const stateLandmarkPhotos: Record<string, string[]> = {
+  "andhra-pradesh": [
+    "https://images.unsplash.com/photo-1609946850021-d41076b1e604", // Tirupati Sacred Gopuram
+    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16", // Lepakshi Monolithic Nandi & Pillars
+    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220", // Horsley Hills & Eastern Ghats
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa", // Visakhapatnam RK Beach
+    "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7", // Borra & Undavalli Rock Caves
+    "https://images.unsplash.com/photo-1561361513-2d000a50f0db"  // Srisailam & Krishna Riverfront
+  ],
   "andaman-and-nicobar-islands": [
     "https://images.unsplash.com/photo-1544735716-392fe2489ffa", // Cellular Jail & Blue Beach
     "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2", // Coral Islands
     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
-  ],
-  "andhra-pradesh": [
-    "https://images.unsplash.com/photo-1609946850021-d41076b1e604", // Tirupati Temple Gopuram
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16", // Lepakshi Nandi & Pillars
-    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220"  // Horsley Hills
   ],
   "arunachal-pradesh": [
     "https://images.unsplash.com/photo-1506461883276-594a12b11cf3", // Tawang Monastery & Snow Valleys
@@ -202,9 +207,9 @@ const stateLandmarkPhotos: Record<string, string[]> = {
 // Category-Specific Verified Landmark Image Pools — ABSOLUTELY 0 HUMANS, 0 PORTRAITS
 const categoryLandmarkPools = {
   temple: [
+    "https://images.unsplash.com/photo-1609946850021-d41076b1e604",
     "https://images.unsplash.com/photo-1561361513-2d000a50f0db",
     "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff",
-    "https://images.unsplash.com/photo-1609946850021-d41076b1e604",
     "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16",
     "https://images.unsplash.com/photo-1582510003544-4d00b7f74220",
     "https://images.unsplash.com/photo-1600100397608-f010e423b971"
@@ -226,22 +231,23 @@ const categoryLandmarkPools = {
     "https://images.unsplash.com/photo-1609946850021-d41076b1e604"
   ],
   nature_mountain: [
+    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220",
     "https://images.unsplash.com/photo-1506461883276-594a12b11cf3",
     "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23",
     "https://images.unsplash.com/photo-1597074866923-dc0589150358",
     "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7",
-    "https://images.unsplash.com/photo-1604999333679-b86d54738315",
-    "https://images.unsplash.com/photo-1567157577867-05ccb1388e66"
+    "https://images.unsplash.com/photo-1604999333679-b86d54738315"
   ]
 };
 
 // Map place names directly to their specific category pool for 100% photo relevance
-function getRelevantLandmarkPhotos(name: string, district: string, count = 7): string[] {
-  const lower = (name + " " + district).toLowerCase();
+function getRelevantLandmarkPhotos(name: string, district: string, stateNameOrId?: string, count = 7): string[] {
+  const lower = (name + " " + district + " " + (stateNameOrId || '')).toLowerCase();
   
   // Check if state specific photos exist
   for (const [sKey, sPhotos] of Object.entries(stateLandmarkPhotos)) {
-    if (lower.includes(sKey.replace(/-/g, ' ')) || lower.includes(sKey)) {
+    const cleanKey = sKey.replace(/-/g, ' ');
+    if (lower.includes(cleanKey) || lower.includes(sKey)) {
       return sPhotos.map(url => optimizeImageUrl(url, 800, 80));
     }
   }
@@ -297,6 +303,15 @@ Today, ${name} remains a revered symbol of pride and historical identity for ${d
 }
 
 export const stateHubDetails: Record<string, any> = {
+  "andhra-pradesh": {
+    capital: "Amaravati",
+    language: "Telugu",
+    climate: "Tropical (warm summers, pleasant coastal breeze, seasonal monsoons)",
+    festivals: ["Ugadi (Telugu New Year)", "Sankranti (Harvest Festival)", "Tirupati Brahmotsavam", "Deccan Festival"],
+    history: "Andhra Pradesh boasts a rich historical heritage spanning the Satavahana Empire, Eastern Chalukyas, Kakatiyas, Vijayanagara Empire, and the Nawabs of Golconda. Home to legendary UNESCO heritage sites like Lepakshi and the sacred Tirumala Tirupati shrine.",
+    culture: "Birthplace of Kuchipudi classical dance form, Kalamkari textile art, Kondapalli wooden toys, and rich Carnatic musical traditions.",
+    cuisines: ["Andhra Veg Thali with Gongura Pachadi", "Hyderabadi/Andhra Biryani", "Pesarattu Dosa", "Avakai Mango Pickle", "Pootharekulu Sweet"]
+  },
   "rajasthan": {
     capital: "Jaipur (Pink City)",
     language: "Rajasthani / Hindi",
@@ -340,7 +355,7 @@ const masterVaranasiPlaces = [
     id: "varanasi_1",
     name: "Kashi Vishwanath Temple & Grand Corridor",
     image: optimizeImageUrl("https://images.unsplash.com/photo-1561361513-2d000a50f0db", 800, 80),
-    images: getRelevantLandmarkPhotos("Kashi Vishwanath Temple", "Varanasi", 8),
+    images: getRelevantLandmarkPhotos("Kashi Vishwanath Temple", "Varanasi", "uttar-pradesh", 8),
     type: "Sacred Jyotirlinga Temple & Riverfront Corridor",
     distance: "Lahori Tola, Varanasi Old City (500m from Ganga River)",
     timeRequired: "2–3 Hours",
@@ -365,7 +380,7 @@ const masterVaranasiPlaces = [
     id: "varanasi_2",
     name: "Dashashwamedh Ghat & Evening Ganga Aarti",
     image: optimizeImageUrl("https://images.unsplash.com/photo-1571536802807-30451e3955d8", 800, 80),
-    images: getRelevantLandmarkPhotos("Dashashwamedh Ghat", "Varanasi", 8),
+    images: getRelevantLandmarkPhotos("Dashashwamedh Ghat", "Varanasi", "uttar-pradesh", 8),
     type: "Sacred Riverfront Ghat & Grand Ceremony",
     distance: "Dashashwamedh Road, Old Varanasi (1.5 km from Railway Station)",
     timeRequired: "2–3 Hours",
@@ -390,7 +405,7 @@ const masterVaranasiPlaces = [
     id: "varanasi_3",
     name: "Manikarnika Ghat (Eternal Flame Cremation Ghat)",
     image: optimizeImageUrl("https://images.unsplash.com/photo-1589308078059-be1415eab4c3", 800, 80),
-    images: getRelevantLandmarkPhotos("Manikarnika Ghat", "Varanasi", 7),
+    images: getRelevantLandmarkPhotos("Manikarnika Ghat", "Varanasi", "uttar-pradesh", 7),
     type: "Historic Sacred Cremation Ghat",
     distance: "Near Scindia Ghat, Central Varanasi Waterfront",
     timeRequired: "1 Hour",
@@ -415,7 +430,7 @@ const masterVaranasiPlaces = [
     id: "varanasi_4",
     name: "Sarnath Buddhist Sacred Site & Dhamek Stupa",
     image: optimizeImageUrl("https://images.unsplash.com/photo-1604999333679-b86d54738315", 800, 80),
-    images: getRelevantLandmarkPhotos("Sarnath Stupa", "Varanasi", 8),
+    images: getRelevantLandmarkPhotos("Sarnath Stupa", "Varanasi", "uttar-pradesh", 8),
     type: "UNESCO Heritage World Buddhist Pilgrimage",
     distance: "Sarnath (10 km northeast of Varanasi City Center)",
     timeRequired: "3–4 Hours",
@@ -440,7 +455,7 @@ const masterVaranasiPlaces = [
     id: "varanasi_5",
     name: "Assi Ghat & Subah-e-Banaras Cultural Dawn",
     image: optimizeImageUrl("https://images.unsplash.com/photo-1571536802807-30451e3955d8", 800, 80),
-    images: getRelevantLandmarkPhotos("Assi Ghat", "Varanasi", 8),
+    images: getRelevantLandmarkPhotos("Assi Ghat", "Varanasi", "uttar-pradesh", 8),
     type: "Cultural Riverfront Ghat & Dawn Performance",
     distance: "Southernmost end of Varanasi Ghats (3 km from BHU)",
     timeRequired: "2 Hours",
@@ -466,7 +481,7 @@ const masterVaranasiPlaces = [
 export function getStatesData() {
   return indiaData.map((s: any) => {
     const sId = s.id.toLowerCase();
-    const photos = stateLandmarkPhotos[sId] || getRelevantLandmarkPhotos(s.name, s.name, 6);
+    const photos = stateLandmarkPhotos[sId] || getRelevantLandmarkPhotos(s.name, s.name, sId, 6);
     return {
       id: s.id,
       name: s.name,
@@ -484,7 +499,7 @@ export function getStateDetails(stateId: string) {
 
   if (!stateDataRaw) return null;
 
-  const sPhotos = stateLandmarkPhotos[sid] || getRelevantLandmarkPhotos(stateDataRaw.name, sid, 8);
+  const sPhotos = stateLandmarkPhotos[sid] || getRelevantLandmarkPhotos(stateDataRaw.name, sid, sid, 8);
 
   const stateData = {
     id: stateDataRaw.id,
@@ -493,7 +508,7 @@ export function getStateDetails(stateId: string) {
     image: optimizeImageUrl(sPhotos[0], 800, 80),
     images: sPhotos.map((img: string) => optimizeImageUrl(img, 800, 80)),
     districts: (stateDataRaw.districts || []).map((d: any) => {
-      const dPhotos = getRelevantLandmarkPhotos(d.name, sid, 6);
+      const dPhotos = getRelevantLandmarkPhotos(d.name, sid, sid, 6);
       return {
         id: d.id,
         name: d.name,
@@ -530,6 +545,10 @@ export function getDistrictPlaces(districtId: string) {
     }
   }
 
+  const sid = stateDataRaw?.id?.toLowerCase() || '';
+  const sName = stateDataRaw?.name || '';
+  const distName = districtDataRaw?.name || 'District';
+
   const cDistricts = (customDistricts as any)[did] || [];
   const kDistricts = (kaggleDistricts as any)[did] || [];
   let rawPlaces = [...cDistricts, ...kDistricts];
@@ -554,7 +573,7 @@ export function getDistrictPlaces(districtId: string) {
 
     for (let i = 0; i < needed; i++) {
       const spotName = additionalVaranasiNames[i] || `Varanasi Cultural Heritage Site #${i + 6}`;
-      const photos = getRelevantLandmarkPhotos(spotName, "Varanasi", 7);
+      const photos = getRelevantLandmarkPhotos(spotName, "Varanasi", "uttar-pradesh", 7);
       places.push({
         id: `varanasi_ext_${i + 6}`,
         name: spotName,
@@ -583,13 +602,12 @@ export function getDistrictPlaces(districtId: string) {
     }
   } else {
     places = [...rawPlaces];
-    const distName = districtDataRaw?.name || 'District';
     
     if (places.length < 15) {
       const missing = 15 - places.length;
       for (let i = 0; i < missing; i++) {
         const spotName = `${distName} Heritage Landmark #${places.length + 1}`;
-        const photos = getRelevantLandmarkPhotos(spotName, distName, 7);
+        const photos = getRelevantLandmarkPhotos(spotName, distName, sid || sName, 7);
         places.push({
           id: `${did}_auto_${i + 1}`,
           name: spotName,
@@ -618,11 +636,23 @@ export function getDistrictPlaces(districtId: string) {
       }
     }
 
+    // Forcefully sanitize ALL places so no broken local relative images (/images/places/...) remain!
     places = places.map((p: any) => {
       p.whyFamous = expandWhyFamous(p.name, distName, p.whyFamous);
       p.story = expandStory(p.name, distName, p.story);
-      p.images = getRelevantLandmarkPhotos(p.name, distName, 7);
-      p.image = p.images[0];
+      
+      const verifiedPhotos = getRelevantLandmarkPhotos(p.name, distName, sid || sName, 7);
+      
+      // If p.image is missing or broken local path (/images/places/...), overwrite with verified Unsplash photos!
+      if (!p.image || p.image.startsWith('/images/') || p.image.includes('wiki_') || !p.image.startsWith('http')) {
+        p.images = verifiedPhotos;
+        p.image = verifiedPhotos[0];
+      } else {
+        p.image = optimizeImageUrl(p.image, 800, 80);
+        if (!p.images || !Array.isArray(p.images) || p.images.some((img: string) => !img || img.startsWith('/images/'))) {
+          p.images = verifiedPhotos;
+        }
+      }
       return p;
     });
   }
@@ -637,7 +667,7 @@ export function getDistrictPlaces(districtId: string) {
     id: districtDataRaw.id,
     name: districtDataRaw.name,
     image: optimizeImageUrl(districtDataRaw.image || '', 800, 80),
-    images: getRelevantLandmarkPhotos(districtDataRaw.name || 'district', did, 8)
+    images: getRelevantLandmarkPhotos(districtDataRaw.name || 'district', did, sid || sName, 8)
   } : null;
 
   return { stateData, districtData, places };
