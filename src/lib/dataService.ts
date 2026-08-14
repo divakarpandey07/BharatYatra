@@ -295,7 +295,7 @@ const realStateSpotNames: Record<string, string[]> = {
 const stateLandmarkPhotos: Record<string, string[]> = {
   "andhra-pradesh": [
     "https://images.unsplash.com/photo-1609946850021-d41076b1e604", // Tirupati Sacred Gopuram
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16", // Lepakshi Monolithic Nandi & Pillars
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3", // Lepakshi Monolithic Nandi & Pillars
     "https://images.unsplash.com/photo-1582510003544-4d00b7f74220", // Horsley Hills & Eastern Ghats
     "https://images.unsplash.com/photo-1544735716-392fe2489ffa", // Visakhapatnam RK Beach
     "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7", // Borra & Undavalli Rock Caves
@@ -372,7 +372,7 @@ const stateLandmarkPhotos: Record<string, string[]> = {
     "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff"  // Parasnath Hill
   ],
   "karnataka": [
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16", // Hampi Stone Chariot
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23", // Hampi Stone Chariot
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1", // Mysore Palace Illumination
     "https://images.unsplash.com/photo-1609946850021-d41076b1e604"  // Murudeshwar Shiva Temple
   ],
@@ -422,7 +422,7 @@ const stateLandmarkPhotos: Record<string, string[]> = {
     "https://images.unsplash.com/photo-1597074866923-dc0589150358"
   ],
   "odisha": [
-    "https://images.unsplash.com/photo-1600100397608-f010e423b971", // Konark Sun Temple Wheel
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3", // Konark Sun Temple Wheel
     "https://images.unsplash.com/photo-1582510003544-4d00b7f74220", // Puri Jagannath Temple
     "https://images.unsplash.com/photo-1544735716-392fe2489ffa"  // Chilika Lake Lagoon
   ],
@@ -449,13 +449,13 @@ const stateLandmarkPhotos: Record<string, string[]> = {
   ],
   "tamil-nadu": [
     "https://images.unsplash.com/photo-1582510003544-4d00b7f74220", // Meenakshi Temple Tower
-    "https://images.unsplash.com/photo-1600100397608-f010e423b971", // Tanjore Big Temple
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16"  // Mahabalipuram Shore Temple
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23", // Tanjore Big Temple
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358"  // Mahabalipuram Shore Temple
   ],
   "telangana": [
     "https://images.unsplash.com/photo-1609946850021-d41076b1e604", // Charminar Hyderabad
     "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a", // Golconda Fort
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16"  // Ramappa Temple UNESCO
+    "https://images.unsplash.com/photo-1609946850021-d41076b1e604"  // Ramappa Temple UNESCO
   ],
   "tripura": [
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1", // Ujjayanta Palace Agartala
@@ -487,9 +487,9 @@ const categoryLandmarkPools = {
     "https://images.unsplash.com/photo-1609946850021-d41076b1e604",
     "https://images.unsplash.com/photo-1561361513-2d000a50f0db",
     "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff",
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16",
     "https://images.unsplash.com/photo-1582510003544-4d00b7f74220",
-    "https://images.unsplash.com/photo-1600100397608-f010e423b971"
+    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220",
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358"
   ],
   fort_palace: [
     "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a",
@@ -520,7 +520,7 @@ const categoryLandmarkPools = {
 // Specific Landmark Keyword-to-Image Registry for 100% Location-Matched Photos
 const specificLandmarkImageRegistry: { keywords: string[], image: string }[] = [
   { keywords: ["tirupati", "tirumala", "venkateswara", "kanipakam"], image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604" },
-  { keywords: ["lepakshi", "nandi", "veerabhadra"], image: "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16" },
+  { keywords: ["lepakshi", "nandi", "veerabhadra"], image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa" },
   { keywords: ["horsley", "madanapalle"], image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220" },
   { keywords: ["rk beach", "rishikonda", "yarada", "bheemli", "submarine", "dolphins nose", "lawson"], image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa" },
   { keywords: ["araku", "coffee", "chintapalli", "ananthagiri"], image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944" },
@@ -535,12 +535,12 @@ const specificLandmarkImageRegistry: { keywords: string[], image: string }[] = [
   { keywords: ["kashi", "vishwanath", "ganga aarti", "dashashwamedh", "assi ghat"], image: "https://images.unsplash.com/photo-1571536802807-30451e3955d8" },
   { keywords: ["sarnath", "stupa", "bodhgaya", "mahabodhi", "buddhist"], image: "https://images.unsplash.com/photo-1604999333679-b86d54738315" },
   { keywords: ["meenakshi", "madurai", "brihadeeswarar", "tanjore", "rameshwaram"], image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220" },
-  { keywords: ["hampi", "stone chariot", "virupaksha"], image: "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16" },
+  { keywords: ["hampi", "stone chariot", "virupaksha"], image: "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7" },
   { keywords: ["mysore palace"], image: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1" },
   { keywords: ["red fort", "qutub", "humayun"], image: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3" },
   { keywords: ["gateway of india", "marine drive"], image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f" },
   { keywords: ["somnath", "dwarka", "statue of unity"], image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604" },
-  { keywords: ["konark", "sun temple"], image: "https://images.unsplash.com/photo-1600100397608-f010e423b971" }
+  { keywords: ["konark", "sun temple"], image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604" }
 ];
 
 // Map place names directly to their specific category pool for 100% photo relevance
@@ -821,12 +821,13 @@ export function getStateDetails(stateId: string) {
     description: stateDataRaw.description,
     image: optimizeImageUrl(sPhotos[0], 800, 80),
     images: sPhotos.map((img: string) => optimizeImageUrl(img, 800, 80)),
-    districts: (stateDataRaw.districts || []).map((d: any) => {
-      const dPhotos = getRelevantLandmarkPhotos(d.name, sid, sid, 6);
+    districts: (stateDataRaw.districts || []).map((d: any, idx: number) => {
+      const dPhotos = getRelevantLandmarkPhotos(d.name, sid, sid, 8);
+      const chosenPhoto = dPhotos[idx % dPhotos.length] || dPhotos[0];
       return {
         id: d.id,
         name: d.name,
-        image: optimizeImageUrl(dPhotos[0], 600, 75),
+        image: optimizeImageUrl(chosenPhoto, 600, 75),
         images: dPhotos.map((img: string) => optimizeImageUrl(img, 800, 80))
       };
     })

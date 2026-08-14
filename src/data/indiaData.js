@@ -25,14 +25,14 @@ const stateImagesMap = {
     "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200"  // Maratha Hill Forts
   ],
   "karnataka": [
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200", // Hampi Stone Chariot
+    "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?q=80&w=1200", // Hampi Stone Chariot
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?q=80&w=1200", // Mysore Palace Illumination
     "https://images.unsplash.com/photo-1609946850021-d41076b1e604?q=80&w=1200"  // Murudeshwar Shiva Temple
   ],
   "tamil-nadu": [
     "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200", // Meenakshi Temple Tower
-    "https://images.unsplash.com/photo-1600100397608-f010e423b971?q=80&w=1200", // Tanjore Big Temple
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200"  // Mahabalipuram Shore Temple
+    "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200", // Tanjore Big Temple
+    "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200"  // Mahabalipuram Shore Temple
   ],
   "goa": [
     "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=1200", // Palolem Sunset Beach
@@ -77,10 +77,10 @@ const stateImagesMap = {
   "telangana": [
     "https://images.unsplash.com/photo-1609946850021-d41076b1e604?q=80&w=1200", // Charminar Hyderabad
     "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?q=80&w=1200", // Golconda Fort
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200"  // Ramappa Temple UNESCO
+    "https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=1200"  // Ramappa Temple UNESCO
   ],
   "odisha": [
-    "https://images.unsplash.com/photo-1600100397608-f010e423b971?q=80&w=1200", // Konark Sun Temple Wheel
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200", // Konark Sun Temple Wheel
     "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200", // Puri Jagannath Temple
     "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200"  // Chilika Lake Lagoon
   ],
@@ -96,7 +96,7 @@ const stateImagesMap = {
   ],
   "andhra-pradesh": [
     "https://images.unsplash.com/photo-1609946850021-d41076b1e604?q=80&w=1200", // Tirupati Temple Gopuram
-    "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16?q=80&w=1200", // Lepakshi Nandi & Pillars
+    "https://images.unsplash.com/photo-1609946850021-d41076b1e604?q=80&w=1200", // Lepakshi Nandi & Pillars
     "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?q=80&w=1200"  // Horsley Hills
   ],
   "arunachal-pradesh": [
