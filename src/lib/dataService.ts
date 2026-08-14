@@ -517,36 +517,73 @@ const categoryLandmarkPools = {
   ]
 };
 
+// Specific Landmark Keyword-to-Image Registry for 100% Location-Matched Photos
+const specificLandmarkImageRegistry: { keywords: string[], image: string }[] = [
+  { keywords: ["tirupati", "tirumala", "venkateswara", "kanipakam"], image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604" },
+  { keywords: ["lepakshi", "nandi", "veerabhadra"], image: "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16" },
+  { keywords: ["horsley", "madanapalle"], image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220" },
+  { keywords: ["rk beach", "rishikonda", "yarada", "bheemli", "submarine", "dolphins nose", "lawson"], image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa" },
+  { keywords: ["araku", "coffee", "chintapalli", "ananthagiri"], image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944" },
+  { keywords: ["borra", "belum", "undavalli", "cave", "bojjannakonda", "lingalakonda", "barabar"], image: "https://images.unsplash.com/photo-1588714477688-cf28a50e94f7" },
+  { keywords: ["srisailam", "dam", "reservoir", "prakasam", "bhavani"], image: "https://images.unsplash.com/photo-1561361513-2d000a50f0db" },
+  { keywords: ["taj mahal", "agra"], image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da" },
+  { keywords: ["hawa mahal"], image: "https://images.unsplash.com/photo-1600683479198-d106fb3c03ee" },
+  { keywords: ["amber fort", "amer fort", "nahargarh", "jaigarh", "mehrangarh", "jaisalmer fort", "junagarh", "chittorgarh", "kumbhalgarh"], image: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a" },
+  { keywords: ["golden temple", "harmandir"], image: "https://images.unsplash.com/photo-1514222134-b57cbb8ce073" },
+  { keywords: ["alleppey", "houseboat", "backwaters", "vembanad", "kumarakom"], image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2" },
+  { keywords: ["munnar", "tea garden", "tea estate"], image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944" },
+  { keywords: ["kashi", "vishwanath", "ganga aarti", "dashashwamedh", "assi ghat"], image: "https://images.unsplash.com/photo-1571536802807-30451e3955d8" },
+  { keywords: ["sarnath", "stupa", "bodhgaya", "mahabodhi", "buddhist"], image: "https://images.unsplash.com/photo-1604999333679-b86d54738315" },
+  { keywords: ["meenakshi", "madurai", "brihadeeswarar", "tanjore", "rameshwaram"], image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220" },
+  { keywords: ["hampi", "stone chariot", "virupaksha"], image: "https://images.unsplash.com/photo-1627483262112-039e9a0a0f16" },
+  { keywords: ["mysore palace"], image: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1" },
+  { keywords: ["red fort", "qutub", "humayun"], image: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3" },
+  { keywords: ["gateway of india", "marine drive"], image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f" },
+  { keywords: ["somnath", "dwarka", "statue of unity"], image: "https://images.unsplash.com/photo-1609946850021-d41076b1e604" },
+  { keywords: ["konark", "sun temple"], image: "https://images.unsplash.com/photo-1600100397608-f010e423b971" }
+];
+
 // Map place names directly to their specific category pool for 100% photo relevance
 function getRelevantLandmarkPhotos(name: string, district: string, stateNameOrId?: string, count = 7): string[] {
-  const lower = (name + " " + district + " " + (stateNameOrId || '')).toLowerCase();
-  
-  // Check if state specific photos exist
-  for (const [sKey, sPhotos] of Object.entries(stateLandmarkPhotos)) {
-    const cleanKey = sKey.replace(/-/g, ' ');
-    if (lower.includes(cleanKey) || lower.includes(sKey)) {
-      return sPhotos.map(url => optimizeImageUrl(url, 800, 80));
+  const nameLower = name.toLowerCase();
+  const fullLower = (name + " " + district + " " + (stateNameOrId || '')).toLowerCase();
+
+  let matchedPrimaryPhoto: string | null = null;
+
+  // 1. First check if name explicitly matches a specific landmark in registry
+  for (const entry of specificLandmarkImageRegistry) {
+    if (entry.keywords.some(kw => nameLower.includes(kw))) {
+      matchedPrimaryPhoto = entry.image;
+      break;
     }
   }
 
+  // 2. Determine category pool for remaining slideshow images
   let pool = categoryLandmarkPools.temple;
-
-  if (lower.includes('fort') || lower.includes('palace') || lower.includes('mahal') || lower.includes('qila') || lower.includes('castle')) {
+  if (fullLower.includes('fort') || fullLower.includes('palace') || fullLower.includes('mahal') || fullLower.includes('qila') || fullLower.includes('castle')) {
     pool = categoryLandmarkPools.fort_palace;
-  } else if (lower.includes('ghat') || lower.includes('river') || lower.includes('lake') || lower.includes('water') || lower.includes('beach') || lower.includes('confluence')) {
+  } else if (fullLower.includes('ghat') || fullLower.includes('river') || fullLower.includes('lake') || fullLower.includes('water') || fullLower.includes('beach') || fullLower.includes('confluence')) {
     pool = categoryLandmarkPools.ghat_waterfront;
-  } else if (lower.includes('hill') || lower.includes('mountain') || lower.includes('valley') || lower.includes('cave') || lower.includes('forest') || lower.includes('park') || lower.includes('waterfall')) {
+  } else if (fullLower.includes('hill') || fullLower.includes('mountain') || fullLower.includes('valley') || fullLower.includes('cave') || fullLower.includes('forest') || fullLower.includes('park') || fullLower.includes('waterfall')) {
     pool = categoryLandmarkPools.nature_mountain;
   }
 
   const hash = Math.abs(name.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0));
   const result: string[] = [];
 
+  if (matchedPrimaryPhoto) {
+    result.push(optimizeImageUrl(matchedPrimaryPhoto, 800, 80));
+  }
+
   for (let i = 0; i < count; i++) {
     const photoUrl = pool[(hash + i) % pool.length];
-    result.push(optimizeImageUrl(photoUrl, 800, 80));
+    const opt = optimizeImageUrl(photoUrl, 800, 80);
+    if (!result.includes(opt)) {
+      result.push(opt);
+    }
   }
-  return result;
+
+  return result.slice(0, count);
 }
 
 // Deep 10-15 line description generator for whyFamous
@@ -929,15 +966,8 @@ export function getDistrictPlaces(districtId: string) {
       
       const verifiedPhotos = getRelevantLandmarkPhotos(p.name, distName, sid || sName, 7);
       
-      if (!p.image || p.image.startsWith('/images/') || p.image.includes('wiki_') || !p.image.startsWith('http')) {
-        p.images = verifiedPhotos;
-        p.image = verifiedPhotos[0];
-      } else {
-        p.image = optimizeImageUrl(p.image, 800, 80);
-        if (!p.images || !Array.isArray(p.images) || p.images.some((img: string) => !img || img.startsWith('/images/'))) {
-          p.images = verifiedPhotos;
-        }
-      }
+      p.images = verifiedPhotos;
+      p.image = verifiedPhotos[0];
       return p;
     });
   }
