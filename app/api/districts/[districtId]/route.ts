@@ -3,7 +3,7 @@ import { validateApiKeyAndRateLimit } from '../../../../src/lib/apiKey';
 import { getDistrictPlaces } from '../../../../src/lib/dataService';
 
 export async function GET(req: NextRequest, { params }: { params: { districtId: string } }) {
-  const securityCheck = validateApiKeyAndRateLimit(req);
+  const securityCheck = await validateApiKeyAndRateLimit(req);
   if (!securityCheck.isValid && securityCheck.errorResponse) {
     return securityCheck.errorResponse;
   }

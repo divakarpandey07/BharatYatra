@@ -3,7 +3,7 @@ import { validateApiKeyAndRateLimit } from '../../../src/lib/apiKey';
 import { getStatesData } from '../../../src/lib/dataService';
 
 export async function GET(req: NextRequest) {
-  const securityCheck = validateApiKeyAndRateLimit(req);
+  const securityCheck = await validateApiKeyAndRateLimit(req);
   if (!securityCheck.isValid && securityCheck.errorResponse) {
     return securityCheck.errorResponse;
   }
