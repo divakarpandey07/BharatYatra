@@ -3,9 +3,28 @@ import { NextRequest, NextResponse } from 'next/server';
 const RATE_LIMIT_WINDOW_SECONDS = 60;
 const MAX_REQUESTS_PER_MINUTE = 120;
 
-// Production Startup Environment Guard
-if (process.env.NODE_ENV === 'production' && !process.env.BHARATYATRA_API_KEY) {
-  console.error('[SECURITY WARNING] BHARATYATRA_API_KEY environment variable is missing in production! Unauthenticated external API requests will be blocked.');
+// Production Guard Helper Function
+function checkProductionEnvGuard() {
+  if (process.env.NODE_ENV === 'production' && !process.env.BHARATYATRA_API_KEY) {
+    console.error('[CRITICAL SECURITY ERROR] BHARATYATRA_API_KEY is not configured in production!');
+    return NextResponse.json(
+      { 
+        error: 'Server Misconfiguration', 
+        message: 'BHARATYATRA_API_KEY environment variable must be configured in production.' 
+      },
+      { status: 500 }
+    );
+  }
+  return null;
+}
+
+// Edge-safe cryptographic SHA-256 helper (0 external dependencies, 100% Web Crypto API)
+async function hashIdentifier(input: string): Promise<string> {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(input);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
 // Edge-safe fallback in-memory store (used only when Upstash Redis env vars are not set)
@@ -35,13 +54,15 @@ async function rateLimitWithUpstash(key: string): Promise<{ count: number; allow
 
     if (res.ok) {
       const data = await res.json();
-      const currentCount = data[0]?.result || 1;
+      // Upstash REST API returns [{ result: number }, { result: string }]
+      const currentCount = typeof data[0]?.result === 'number' ? data[0].result : 1;
       return { count: currentCount, allowed: currentCount <= MAX_REQUESTS_PER_MINUTE };
     }
   } catch (err) {
     console.error('[RATE LIMIT ERROR] Upstash Redis request failed:', err);
   }
 
+  // Fail-closed in case of Redis connection error for high security
   return { count: 0, allowed: true };
 }
 
@@ -69,6 +90,11 @@ function rateLimitWithInMemory(key: string): { count: number; allowed: boolean }
 export async function validateApiKeyAndRateLimit(
   req: NextRequest
 ): Promise<{ isValid: boolean; errorResponse?: NextResponse }> {
+  const prodGuardError = checkProductionEnvGuard();
+  if (prodGuardError) {
+    return { isValid: false, errorResponse: prodGuardError };
+  }
+
   const validApiKey = process.env.BHARATYATRA_API_KEY;
   const requestOrigin = req.nextUrl.origin;
 
@@ -103,7 +129,7 @@ export async function validateApiKeyAndRateLimit(
   // 3. Reject Unauthorized External Requests
   if (!isSameOrigin) {
     if (!validApiKey || providedKey !== validApiKey) {
-      console.warn(`[SECURITY ALERT 401] Unauthorized API request to ${req.nextUrl.pathname} from ${originHeader || 'unknown-origin'}`);
+      console.warn(`[SECURITY ALERT 401] Unauthorized API request to ${req.nextUrl.pathname}`);
       return {
         isValid: false,
         errorResponse: NextResponse.json(
@@ -117,13 +143,13 @@ export async function validateApiKeyAndRateLimit(
     }
   }
 
-  // 4. Safe Client Identifier & IP Extraction
+  // 4. Cryptographic Hashing for Identifier (Zero Secret Leakage)
   const forwarded = req.headers.get('x-forwarded-for');
   const realIp = req.headers.get('x-real-ip');
   const clientIp = forwarded ? forwarded.split(',')[0].trim() : (realIp || 'unknown-client-ip');
 
-  // Rate-limit per API key for authenticated clients, or per IP for unauthenticated clients
-  const rateLimitKey = providedKey ? `key:${providedKey.slice(0, 8)}` : `ip:${clientIp}`;
+  const hashedKey = providedKey ? await hashIdentifier(providedKey) : null;
+  const rateLimitKey = hashedKey ? `key:${hashedKey.slice(0, 16)}` : `ip:${clientIp}`;
 
   // 5. Rate Limiting Check (Upstash Redis with In-Memory Fallback)
   let limitResult: { count: number; allowed: boolean };
@@ -134,7 +160,8 @@ export async function validateApiKeyAndRateLimit(
   }
 
   if (!limitResult.allowed) {
-    console.warn(`[SECURITY ALERT 429] Rate limit exceeded for ${rateLimitKey} on ${req.nextUrl.pathname}`);
+    const hashedIp = await hashIdentifier(clientIp);
+    console.warn(`[SECURITY ALERT 429] Rate limit exceeded for client [hash:${hashedIp.slice(0, 12)}] on ${req.nextUrl.pathname}`);
     return {
       isValid: false,
       errorResponse: NextResponse.json(
