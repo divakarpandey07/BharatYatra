@@ -12,14 +12,14 @@ export default function ThreeDScene() {
     if (!canvasRef.current) return;
 
     const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: typeof window !== 'undefined' ? window.devicePixelRatio : 2,
-      width: 1000,
-      height: 1000,
+      devicePixelRatio: typeof window !== 'undefined' ? Math.min(window.devicePixelRatio, 1.5) : 1,
+      width: 600,
+      height: 600,
       phi: 0,
       theta: 0.25,
       dark: 0, // Light modern mode
       diffuse: 1.2,
-      mapSamples: 8000,
+      mapSamples: 2000,
       mapBrightness: 6,
       baseColor: [0.95, 0.95, 0.97],
       glowColor: [0.9, 0.9, 0.95],
@@ -33,7 +33,7 @@ export default function ThreeDScene() {
       ],
       onRender: (state: any) => {
         state.phi = phi;
-        phi += 0.005;
+        phi += 0.004;
       },
     } as any);
 
